@@ -1,0 +1,130 @@
+import pandas as pd
+import pycountry
+import geopandas as gpd
+import folium
+from folium.features import GeoJsonTooltip
+from folium.plugins import AntPath, TimestampedGeoJson
+from folium import Tooltip
+
+# 1. Sample transaction data (ensure sorted by date for animation order)
+data = [
+    {"company": "AlphaCorp", "origin": "United States", "destination": "Germany",      "date": "2025-02-01", "amount": 500000},
+    {"company": "BetaInc",    "origin": "United States", "destination": "Brazil",       "date": "2025-03-15", "amount": 450000},
+    {"company": "AlphaCorp",  "origin": "India",         "destination": "United States", "date": "2025-04-10", "amount":1200000},
+    {"company": "GammaLLC",   "origin": "United Kingdom", "destination": "Australia",   "date": "2025-05-05", "amount": 980000},
+    {"company": "GammaLLC",   "origin": "India", "destination": "Australia",   "date": "2025-09-05", "amount": 1980000}
+]
+df = pd.DataFrame(data).sort_values("date")
+
+# 2. Load world GeoJSON (ISO_A3 in 'id') for country shapes and centroids
+geojson_url = 'https://raw.githubusercontent.com/python-visualization/folium/master/examples/data/world-countries.json'
+world = gpd.read_file(geojson_url)
+
+# Map ISO_A3 → ISO_A2 safely
+def iso3_to_2(code):
+    try:
+        return pycountry.countries.get(alpha_3=code).alpha_2
+    except:
+        return None
+
+world['iso2'] = world['id'].apply(iso3_to_2)
+
+# Project then compute centroids accurately
+world_proj = world.to_crs(epsg=3857)
+world_proj['centroid'] = world_proj.geometry.centroid
+centroids = gpd.GeoSeries(world_proj['centroid'], crs='epsg:3857').to_crs(epsg=4326)
+world['centroid_lat'] = centroids.y
+world['centroid_lon'] = centroids.x
+
+# Build ISO2 → (lat, lon) lookup, filtering out missing
+lookup = (
+    world.dropna(subset=['iso2'])
+         .set_index('iso2')[['centroid_lat', 'centroid_lon']]
+         .to_dict(orient='index')
+)
+
+# 3. Attach origin/destination coordinates
+for side in ['origin', 'destination']:
+    df[f'{side}_iso'] = df[side].apply(lambda x: pycountry.countries.lookup(x).alpha_2)
+    df[[f'{side}_lat', f'{side}_lon']] = df[f'{side}_iso'].apply(
+        lambda c: pd.Series(lookup.get(c, {'centroid_lat': None, 'centroid_lon': None}))
+    )
+
+# 4. Initialize map with horizontal wrapping enabled (world_copy_jump=True)
+m = folium.Map(
+    location=[20, 0],
+    zoom_start=2,
+    tiles='CartoDB_Positron',
+    world_copy_jump=True  # Enables seamless horizontal wrap
+)
+
+# 5. Add static country layer with labels
+folium.GeoJson(
+    geojson_url,
+    style_function=lambda f: {'fillColor':'#f2f2f2','color':'#444','weight':0.5,'fillOpacity':0.6}
+).add_child(
+    GeoJsonTooltip(fields=['name'], aliases=['Country:'], labels=True)
+).add_to(m)
+
+# 6. Prepare features for TimestampedGeoJson
+features = []
+for _, r in df.iterrows():
+    features.append({
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [r.origin_lon, r.origin_lat],
+                [r.destination_lon, r.destination_lat]
+            ]
+        },
+        "properties": {
+            "time": r.date,
+            "style": {
+                "color": {"AlphaCorp":"red","BetaInc":"green","GammaLLC":"blue"}.get(r.company,'gray'),
+                "weight": 3,
+                "opacity": 0.8
+            },
+            "popup": (
+                f"<b>{r.company}</b><br>"
+                f"{r.origin} → {r.destination}<br>"
+                f"Date: {r.date}<br>"
+                f"Amount: ${r.amount:,}"
+            )
+        }
+    })
+
+# 7. Add animated GeoJSON (chronological play)
+TimestampedGeoJson(
+    {"type": "FeatureCollection", "features": features},
+    period="P1D",
+    add_last_point=True,
+    auto_play=False,
+    loop=False,
+    loop_button=True,
+    max_speed=1,
+    time_slider_drag_update=True,
+    duration="P1D",
+    transition_time=500
+).add_to(m)
+
+# 8. Overlay AntPath arrows (static overlay across all routes), now with hover-tooltips
+for _, r in df.iterrows():
+    tooltip_text = (
+        f"<b>{r.company}</b><br>"
+        f"{r.origin} → {r.destination}<br>"
+        f"Date: {r.date}<br>"
+        f"Amount: ${r.amount:,}"
+    )
+    AntPath(
+        locations=[(r.origin_lat, r.origin_lon), (r.destination_lat, r.destination_lon)],
+        color={"AlphaCorp":"red","BetaInc":"green","GammaLLC":"blue"}.get(r.company,'gray'),
+        weight=3,
+        delay=1000,
+        dash_array=[10,20]
+    ).add_to(m) \
+     .add_child(Tooltip(tooltip_text, sticky=True))
+
+# 9. Save as interactive HTML
+m.save("transactions_map_final.html")
+print("Saved animated transaction map to transactions_map12.html with world wrap enabled.")
