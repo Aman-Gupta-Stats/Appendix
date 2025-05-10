@@ -1,0 +1,181 @@
+import pandas as pd
+import pycountry
+import geopandas as gpd
+import folium
+from folium.features import GeoJsonTooltip
+from folium.plugins import AntPath, TimestampedGeoJson
+from folium import Tooltip
+from branca.element import Template, MacroElement
+import itertools
+
+# 1. Sample transaction data (sorted by date for animation order)
+data = [
+    {"company": "AlphaCorp", "origin": "United States", "destination": "Germany",      "date": "2025-02-01", "amount": 500000},
+    {"company": "BetaInc",    "origin": "United States", "destination": "Brazil",       "date": "2025-03-15", "amount": 450000},
+    {"company": "Alpha",  "origin": "India",         "destination": "United States", "date": "2025-04-10", "amount":1200000},
+    {"company": "Gamma",   "origin": "United Kingdom", "destination": "Australia",   "date": "2025-05-05", "amount": 980000},
+    {"company": "GammaLLC",   "origin": "India",         "destination": "Australia",   "date": "2025-09-05", "amount":1980000}
+]
+df = pd.DataFrame(data).sort_values("date")
+
+# 2. Load world GeoJSON (ISO_A3 in 'id') for country shapes and centroids
+geojson_url = 'https://raw.githubusercontent.com/python-visualization/folium/master/examples/data/world-countries.json'
+world = gpd.read_file(geojson_url)
+
+# Helper: ISO3→ISO2
+def iso3_to_2(code):
+    try:
+        return pycountry.countries.get(alpha_3=code).alpha_2
+    except:
+        return None
+
+world['iso2'] = world['id'].apply(iso3_to_2)
+
+# Compute centroids in WGS84
+world_proj = world.to_crs(epsg=3857)
+world_proj['centroid'] = world_proj.geometry.centroid
+centroids = gpd.GeoSeries(world_proj['centroid'], crs='epsg:3857').to_crs(epsg=4326)
+world['centroid_lat'] = centroids.y
+world['centroid_lon'] = centroids.x
+
+# Build lookup: ISO2 → (lat, lon)
+lookup = (
+    world.dropna(subset=['iso2'])
+         .set_index('iso2')[['centroid_lat', 'centroid_lon']]
+         .to_dict(orient='index')
+)
+
+# 3. Attach origin/destination coordinates
+for side in ['origin', 'destination']:
+    df[f'{side}_iso'] = df[side].apply(lambda x: pycountry.countries.lookup(x).alpha_2)
+    df[[f'{side}_lat', f'{side}_lon']] = df[f'{side}_iso'].apply(
+        lambda c: pd.Series(lookup.get(c, {'centroid_lat': None, 'centroid_lon': None}))
+    )
+
+# 4. Choose a color for each company dynamically
+#    (cycle through a list of nice CSS color names)
+palette = [
+    "red", "green", "blue", "orange", "purple", "cyan", "magenta",
+    "gold", "darkgreen", "darkred", "navy", "teal"
+]
+company_list = df['company'].unique().tolist()
+color_cycle = itertools.cycle(palette)
+company_colors = {c: next(color_cycle) for c in company_list}
+
+# 5. Initialize map
+m = folium.Map(
+    location=[20, 0],
+    zoom_start=2,
+    tiles='CartoDB_Positron',
+    world_copy_jump=True
+)
+
+# 6. Add base world layer with country labels
+folium.GeoJson(
+    geojson_url,
+    style_function=lambda f: {
+        'fillColor':'#f2f2f2','color':'#444','weight':0.5,'fillOpacity':0.6
+    }
+).add_child(
+    GeoJsonTooltip(fields=['name'], aliases=['Country:'], labels=True)
+).add_to(m)
+
+# 7. Build features list for animated lines
+features = []
+for _, r in df.iterrows():
+    features.append({
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [r.origin_lon, r.origin_lat],
+                [r.destination_lon, r.destination_lat]
+            ]
+        },
+        "properties": {
+            "time": r.date,
+            "style": {
+                "color": company_colors[r.company],
+                "weight": 3,
+                "opacity": 0.8
+            },
+            "popup": (
+                f"<b>{r.company}</b><br>"
+                f"{r.origin} → {r.destination}<br>"
+                f"Date: {r.date}<br>"
+                f"Amount: ${r.amount:,}"
+            )
+        }
+    })
+
+# 8. Add TimestampedGeoJson
+TimestampedGeoJson(
+    {"type": "FeatureCollection", "features": features},
+    period="P1D",
+    add_last_point=True,
+    auto_play=False,
+    loop=False,
+    loop_button=True,
+    max_speed=1,
+    time_slider_drag_update=True,
+    duration="P365D",
+    transition_time=500
+).add_to(m)
+
+# 9. Add AntPath static arrows with tooltips
+for _, r in df.iterrows():
+    tip = (
+        f"<b>{r.company}</b><br>"
+        f"{r.origin} → {r.destination}<br>"
+        f"Date: {r.date}<br>"
+        f"Amount: ${r.amount:,}"
+    )
+    AntPath(
+        locations=[(r.origin_lat, r.origin_lon), (r.destination_lat, r.destination_lon)],
+        color=company_colors[r.company],
+        weight=3,
+        delay=1000,
+        dash_array=[10,20]
+    ).add_to(m).add_child(Tooltip(tip, sticky=True))
+
+# 10. Inject dynamic legend via Branca MacroElement
+legend_html = """
+{% macro html(this, kwargs) %}
+<div style="
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    width: 160px;
+    background-color: white;
+    border:2px solid grey;
+    z-index:9999;
+    font-size:14px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+">
+  <h4 style="margin:0 0 5px;"><b>COMPANY NAME</b></h4>
+  {% for company, color in company_colors.items() %}
+    <div style="display: flex; align-items: center; margin-bottom: 4px;">
+      <span style="
+          background: {{color}};
+          display: inline-block;
+          width: 14px;
+          height: 14px;
+          margin-right: 8px;
+          border-radius: 2px;
+      "></span>
+      <span>{{company}}</span>
+    </div>
+  {% endfor %}
+</div>
+{% endmacro %}
+"""
+template = Template(legend_html)
+template.environment.globals['company_colors'] = company_colors
+legend = MacroElement()
+legend._template = template
+m.get_root().add_child(legend)
+
+# 11. Save to HTML
+m.save("transactions_map_dynamic_color_legend_final.html")
+print("Saved map with dynamic legend as transactions_map_dynamic_legend.html")
