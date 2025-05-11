@@ -1,0 +1,2 @@
+@echo off
+streamlit run app_final_4.py
