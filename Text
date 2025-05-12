@@ -1,0 +1,23 @@
+Hi Team,
+
+Following our recent hackathon discussion, I made some progress on refining the network graph.
+
+HTML Version:
+	•	Transaction Movement: Added directional transaction lines.
+	•	Time Player: Shows cumulative transactions over time (can be adjusted to show only current-day transactions if needed).
+	•	Legend: Included for better context.
+
+[Attached: HTML file + code]
+
+However, HTML didn’t support adding a time filter effectively. Since we’re planning to present the final version in Streamlit, I tried building the same directly there. Fortunately, Streamlit supports folium out of the box.
+
+Streamlit Version:
+	•	Time Filter + Company Filter: Enabled using a slider.
+	•	Cumulative Transactions: Displayed with directional lines.
+	•	Next/Previous Transaction: Added navigation (Play button is currently non-functional).
+
+[Attached: Streamlit video demo + code]
+
+Areas for Team Alignment / Improvement:
+	•	Handling coinciding transaction lines, especially when moving in opposite directions.
+	•	Improving tooltip visibility when multiple lines overlap.
