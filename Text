@@ -1,10 +1,80 @@
-Hi Team,
+from pyspark.sql import SparkSession
+from pyspark.sql import functions as F
+from pyspark.sql.types import IntegerType
 
-I hope you’re doing well.
+# 1. Initialize Spark (you can skip this if you already have a SparkSession)
+spark = SparkSession.builder \
+    .appName("CallTranscriptAggregation") \
+    .enableHiveSupport() \
+    .getOrCreate()
 
-Due to some unavoidable family commitments, I will need to take a leave on 13th May 2025. Apologies for the short notice, and thank you for your understanding.
+# 2. Load the source table into a DataFrame
+df = spark.table("e_awsconnect_db.cl_custm_attr")
 
-Please let me know if any further information is needed.
+# 3. Filter down to only the contact IDs and tag-names you care about
+contact_ids = ["©c84deec-bc35-424b-af1a-02c3832951a0", "123"]
 
-Best regards,
-[Your Name]
+df_filt = (
+    df
+    .filter(F.col("customermetadata_contactid").isin(contact_ids))
+    .filter(
+        (F.col("tagname").like("%_Content%")) |
+        (F.col("tagname").like("%ParticipantId%"))
+    )
+    .filter(~F.col("tagname").like("Participants%"))     # exclude any tagname beginning ‘Participants’
+)
+
+# 4. Extract the “Number” for ordering out of the tagname, and bump “Participantid” to “AParticipantid”
+df_num = (
+    df_filt
+    .withColumn(
+        "Number",
+        # split on underscore, take second part, cast to int
+        F.split(F.col("tagname"), "_").getItem(1).cast(IntegerType())
+    )
+    .withColumn(
+        "new_tagname",
+        # add an “A” to any occurrence of “Participantid” so it sorts first alphabetically
+        F.regexp_replace(F.col("tagname"), "Participantid", "AParticipantid")
+    )
+)
+
+# 5. Group-and-concatenate in order
+#
+# Spark’s collect_list does not guarantee order, so we:
+#   a) collect a struct(Number, new_tagname, tagvalue)
+#   b) sort the array of structs by (Number, new_tagname)
+#   c) extract only the tagvalue field in order
+#
+df_grouped = (
+    df_num
+    .groupBy("customermetadata_contactid")
+    .agg(
+        # 5a) collect struct of (Number, new_tagname, tagvalue)
+        F.collect_list(
+            F.struct("Number", "new_tagname", "tagvalue")
+        ).alias("all_elems")
+    )
+    .withColumn(
+        # 5b) sort the array of structs
+        "sorted_elems",
+        F.expr("array_sort(all_elems, (x, y) -> case when x.Number < y.Number then -1 when x.Number > y.Number then 1 when x.new_tagname < y.new_tagname then -1 when x.new_tagname > y.new_tagname then 1 else 0 end)")
+    )
+    .withColumn(
+        # 5c) extract just the tagvalue field into a string joined by newline
+        "call_transcript",
+        F.expr("concat_ws('\n', transform(sorted_elems, x -> x.tagvalue))")
+    )
+    .select(
+        F.col("customermetadata_contactid").alias("contact_id"),
+        "call_transcript"
+    )
+)
+
+# 6. (Optional) If you want to limit to the first 150,000 rows overall
+df_result = df_grouped.limit(150000)
+
+# 7. Show or write out
+df_result.show(truncate=False)
+# — or —
+# df_result.write.mode("overwrite").saveAsTable("my_db.call_transcripts")
