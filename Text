@@ -1,10 +1,10 @@
-from pyspark.sql.functions import split, col
+Hi Team,
 
-# Split the tagname by '_', get the third element (index 2)
-df_transformed = df.withColumn("after_second_underscore", split(col("tagname"), "_")[2])
+I hope you’re doing well.
 
-# Get distinct values
-unique_values = df_transformed.select("after_second_underscore").distinct()
+Due to some unavoidable family commitments, I will need to take a leave on 13th May 2025. Apologies for the short notice, and thank you for your understanding.
 
-# Show the result
-unique_values.show()
+Please let me know if any further information is needed.
+
+Best regards,
+[Your Name]
