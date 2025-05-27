@@ -1,3 +1,23 @@
+from pyspark.sql.functions import collect_list, col, concat_ws, expr
+
+# Automatically detect all tag columns (excluding 'ColId')
+tag_columns = [c for c in df.columns if c != 'ColId']
+
+# Filter out nulls before aggregation using expr and collect_list
+aggregations = [
+    concat_ws("|", collect_list(col(c).cast("string"))).alias(c) 
+    for c in tag_columns
+]
+
+# Group by ColId and aggregate all tag columns
+df_grouped = df.where("ColId IS NOT NULL") \
+               .filter(" OR ".join([f"{c} IS NOT NULL" for c in tag_columns])) \
+               .groupBy("ColId") \
+               .agg(*aggregations)
+
+df_grouped.show(truncate=False)
+
+
 from pyspark.sql.functions import col
 
 keywords = ["card", "block"]
