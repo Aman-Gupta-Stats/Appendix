@@ -1,3 +1,16 @@
+from pyspark.sql.functions import col
+
+keywords = ["card", "block"]
+
+pattern = "|".join(keywords)  # creates "card|block" for regex
+
+for c in df.columns:
+    print(f"\nFiltered values in column: {c}")
+    df.filter(col(c).rlike(f"(?i).*({pattern}).*")) \
+      .select(c).distinct().show(10, truncate=False)
+
+
+
 from pyspark.sql import SparkSession
 
 # Assuming SparkSession is already created
