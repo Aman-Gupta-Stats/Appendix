@@ -1,15 +1,27 @@
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Embedding, LSTM, Dense
+from pyspark.sql import SparkSession
 
-# Tokenize and pad
-tokenizer = Tokenizer(num_words=10000, oov_token="<OOV>")
-tokenizer.fit_on_texts(X_train)
-train_seq = tokenizer.texts_to_sequences(X_train)
-test_seq = tokenizer.texts_to_sequences(X_test)
-maxlen = 200  # maximum sequence length
-X_train_seq = pad_sequences(train_seq, maxlen=maxlen)
+# Assuming SparkSession is already created
+spark = SparkSession.builder.getOrCreate()
+
+# Sample structure (replace these with your actual DataFrames)
+# df1 = ...
+# df2 = ...
+
+# Step 1: Select distinct values from both columns (optional but faster if values repeat)
+df1_distinct = df1.select("col1").distinct()
+df2_distinct = df2.select("col2").distinct()
+
+# Step 2: Perform an inner join on the two DataFrames
+common_values_df = df1_distinct.join(df2_distinct, df1_distinct.col1 == df2_distinct.col2, "inner")
+
+# Step 3: Count the number of common values
+common_count = common_values_df.count()
+
+print(f"Number of common values: {common_count}")
+
+
+
+
 X_test_seq = pad_sequences(test_seq, maxlen=maxlen)
 
 # Build LSTM model
