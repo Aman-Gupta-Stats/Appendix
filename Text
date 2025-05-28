@@ -1,3 +1,15 @@
+Hi everyone! Today we’re going to play a game. Welcome to Blast the Balloon! The rules are simple: we’ll ‘blow up’ some common balloons around us , balloon of myths, rumours, buzzes, trends and pop them one by one. Ready?
+
+
+Okay, first question: what’s the one thing you need to play Blast the Balloon? …Yes, a balloon, obviously! Wait… I don’t have a pack of balloons with me. Anyone? No? Great—then we’ll make our own balloons today.
+
+
+There are all kinds of balloons floating around out there: myths, sensational headlines—like ‘1500 layoffs because of GenAI’—even geo‑political ones! But hey, this isn’t an Aaj Tak studio in Noida and we’re at Barclays, so let’s focus on the balloons that matter here.
+
+
+These are the real balloons we need to pop—the rumors on our own floor. From ‘YouTube won’t load’ to ‘Gemini’s going to save us all!’—let’s burst each one and get to the facts.
+
+
 from pyspark.sql.functions import collect_list, col, concat_ws, expr
 
 # Automatically detect all tag columns (excluding 'ColId')
