@@ -1,0 +1,91 @@
+3rd Party Company Name,Origin Country,Destination Country,Date,Amount,Receipt/Payment,Nature of Business (Our Company),Nature of Business (3rd Party),Sanctioned Country Flag,Risk of Transaction
+Company_33,Canada,India,2025-07-15,4861.01,Receipt,Financial Services,Retail,No,Medium
+Company_3,USA,Syria,2025-12-24,4834.81,Payment,Financial Services,Retail,Yes,High
+Company_12,Canada,Canada,2025-08-21,3532.41,Receipt,Financial Services,Banking,No,Low
+Company_44,India,Australia,2025-04-09,2118.24,Payment,Financial Services,Construction,No,Medium
+Company_5,Australia,Canada,2025-05-24,1190.86,Payment,Financial Services,Agriculture,No,Medium
+Company_22,USA,India,2025-04-11,4290.4,Payment,Financial Services,Pharmaceuticals,No,Medium
+Company_41,Germany,Iran,2025-11-08,4848.69,Receipt,Financial Services,Retail,Yes,High
+Company_44,Australia,Syria,2025-10-10,3803.88,Payment,Financial Services,Pharmaceuticals,Yes,High
+Company_46,Australia,Australia,2025-09-21,2572.39,Payment,Financial Services,Pharmaceuticals,No,Medium
+Company_50,USA,North Korea,2025-03-31,2541.59,Payment,Financial Services,Retail,Yes,High
+Company_6,Canada,Germany,2025-12-12,2303.84,Payment,Financial Services,Banking,No,Low
+Company_17,France,Australia,2025-07-17,2881.2,Payment,Financial Services,Banking,No,Low
+Company_33,India,France,2025-06-10,2540.39,Receipt,Financial Services,Construction,No,Medium
+Company_37,USA,USA,2025-06-21,3722.82,Receipt,Financial Services,Payment Processing,No,Low
+Company_20,France,Germany,2025-01-22,2232.24,Payment,Financial Services,Construction,No,Medium
+Company_27,UK,UK,2025-10-26,3963.07,Receipt,Financial Services,Pharmaceuticals,No,Medium
+Company_47,Australia,Iran,2025-08-15,4676.46,Payment,Financial Services,Agriculture,Yes,High
+Company_1,Canada,UK,2025-10-10,4083.87,Receipt,Financial Services,Payment Processing,No,Low
+Company_39,North Korea,UK,2025-05-13,4983.72,Payment,Financial Services,Agriculture,Yes,High
+Company_9,USA,India,2025-03-22,1022.09,Receipt,Financial Services,Banking,No,Low
+Company_6,Canada,India,2025-11-04,3162.54,Receipt,Financial Services,Pharmaceuticals,No,Medium
+Company_19,Iran,USA,2025-10-11,1365.15,Receipt,Financial Services,Agriculture,Yes,High
+Company_9,Germany,Iran,2025-04-06,2650.47,Payment,Financial Services,Agriculture,Yes,High
+Company_2,Syria,India,2025-02-02,3708.67,Receipt,Financial Services,Retail,Yes,High
+Company_48,India,Iran,2025-09-07,2735.41,Receipt,Financial Services,Pharmaceuticals,Yes,High
+Company_13,USA,Germany,2025-05-17,1658.62,Receipt,Financial Services,Payment Processing,No,Low
+Company_37,USA,Germany,2025-11-11,2350.46,Receipt,Financial Services,Banking,No,Low
+Company_19,India,UK,2025-04-27,2003.44,Payment,Financial Services,Agriculture,No,Medium
+Company_19,UK,Syria,2025-01-01,1867.24,Receipt,Financial Services,Construction,Yes,High
+Company_41,Iran,Australia,2025-07-06,4305.83,Payment,Financial Services,Retail,Yes,High
+Company_40,Australia,UK,2025-05-07,3684.57,Receipt,Financial Services,Retail,No,Medium
+Company_50,Iran,USA,2025-05-25,4944.84,Payment,Financial Services,Retail,Yes,High
+Company_2,Iran,Australia,2025-11-17,3325.22,Receipt,Financial Services,Agriculture,Yes,High
+Company_28,UK,UK,2025-02-20,3313.12,Payment,Financial Services,Retail,No,Medium
+Company_45,Australia,USA,2025-04-18,4485.84,Payment,Financial Services,Payment Processing,No,Low
+Company_14,India,Syria,2025-03-10,3527.35,Receipt,Financial Services,Pharmaceuticals,Yes,High
+Company_3,UK,USA,2025-11-19,4744.62,Payment,Financial Services,Pharmaceuticals,No,Medium
+Company_35,India,Syria,2025-05-24,4009.5,Receipt,Financial Services,Construction,Yes,High
+Company_9,France,France,2025-06-28,1101.68,Receipt,Financial Services,Banking,No,Low
+Company_24,India,Germany,2025-04-14,1646.51,Payment,Financial Services,Construction,No,Medium
+Company_48,USA,India,2025-10-31,2043.32,Receipt,Financial Services,Banking,No,Low
+Company_41,India,USA,2025-10-31,1949.0,Receipt,Financial Services,Retail,No,Medium
+Company_20,Australia,Germany,2025-06-02,1405.89,Receipt,Financial Services,Retail,No,Medium
+Company_41,Canada,Canada,2025-04-09,3211.06,Receipt,Financial Services,Construction,No,Medium
+Company_24,Canada,Iran,2025-12-21,4003.48,Receipt,Financial Services,Agriculture,Yes,High
+Company_41,India,France,2025-02-02,3493.19,Payment,Financial Services,Payment Processing,No,Low
+Company_44,India,Australia,2025-12-14,3157.37,Payment,Financial Services,Banking,No,Low
+Company_48,France,Canada,2025-11-02,4237.44,Receipt,Financial Services,Pharmaceuticals,No,Medium
+Company_12,Iran,UK,2025-07-05,3587.39,Payment,Financial Services,Retail,Yes,High
+Company_25,Canada,India,2025-06-22,1020.74,Payment,Financial Services,Pharmaceuticals,No,Medium
+Company_32,France,USA,2025-08-10,3253.1,Payment,Financial Services,Banking,No,Low
+Company_25,France,Australia,2025-05-01,2088.53,Receipt,Financial Services,Payment Processing,No,Low
+Company_34,Syria,India,2025-03-16,3786.95,Receipt,Financial Services,Pharmaceuticals,Yes,High
+Company_32,USA,India,2025-02-21,1259.57,Payment,Financial Services,Payment Processing,No,Low
+Company_17,Germany,USA,2025-12-09,3010.72,Payment,Financial Services,Banking,No,Low
+Company_40,Canada,Canada,2025-07-11,4819.46,Receipt,Financial Services,Construction,No,Medium
+Company_33,North Korea,UK,2025-11-13,4911.6,Receipt,Financial Services,Retail,Yes,High
+Company_49,Australia,Australia,2025-08-06,3814.63,Payment,Financial Services,Pharmaceuticals,No,Medium
+Company_10,India,North Korea,2025-05-27,2498.45,Payment,Financial Services,Retail,Yes,High
+Company_27,Germany,UK,2025-11-13,3010.55,Payment,Financial Services,Construction,No,Medium
+Company_22,Germany,France,2025-05-04,4193.38,Receipt,Financial Services,Banking,No,Low
+Company_16,Canada,UK,2025-05-25,3858.38,Receipt,Financial Services,Retail,No,Medium
+Company_8,Germany,Germany,2025-08-19,3423.84,Payment,Financial Services,Payment Processing,No,Low
+Company_48,Germany,India,2025-01-17,4074.22,Payment,Financial Services,Agriculture,No,Medium
+Company_31,North Korea,France,2025-02-08,1994.9,Receipt,Financial Services,Agriculture,Yes,High
+Company_9,Iran,India,2025-02-04,1650.47,Payment,Financial Services,Retail,Yes,High
+Company_23,France,USA,2025-05-02,2635.81,Payment,Financial Services,Retail,No,Medium
+Company_26,Australia,France,2025-05-03,1323.41,Payment,Financial Services,Banking,No,Low
+Company_45,USA,Canada,2025-11-23,1661.07,Receipt,Financial Services,Payment Processing,No,Low
+Company_22,France,Syria,2025-03-11,3367.55,Payment,Financial Services,Construction,Yes,High
+Company_35,Germany,Syria,2025-03-15,4874.61,Receipt,Financial Services,Pharmaceuticals,Yes,High
+Company_31,Australia,UK,2025-12-12,1914.2,Payment,Financial Services,Payment Processing,No,Low
+Company_37,Australia,USA,2025-02-16,1464.29,Receipt,Financial Services,Construction,No,Medium
+Company_32,Canada,Iran,2025-09-04,3463.4,Payment,Financial Services,Retail,Yes,High
+Company_39,UK,USA,2025-05-31,2364.27,Receipt,Financial Services,Payment Processing,No,Low
+Company_13,France,Germany,2025-06-19,1644.89,Payment,Financial Services,Payment Processing,No,Low
+Company_25,UK,France,2025-02-27,2146.17,Payment,Financial Services,Pharmaceuticals,No,Medium
+Company_12,Australia,France,2025-04-23,3849.08,Receipt,Financial Services,Banking,No,Low
+Company_33,Germany,Iran,2025-06-17,2544.41,Receipt,Financial Services,Retail,Yes,High
+Company_29,UK,Australia,2025-07-27,2942.46,Receipt,Financial Services,Pharmaceuticals,No,Medium
+Company_48,France,France,2025-06-21,2300.73,Receipt,Financial Services,Banking,No,Low
+Company_35,Germany,Germany,2025-06-10,4548.35,Payment,Financial Services,Banking,No,Low
+Company_1,France,UK,2025-03-30,3196.91,Payment,Financial Services,Retail,No,Medium
+Company_37,France,France,2025-02-05,3159.36,Receipt,Financial Services,Payment Processing,No,Low
+Company_10,Iran,Canada,2025-09-10,1403.11,Payment,Financial Services,Retail,Yes,High
+Company_3,France,Germany,2025-05-08,3580.69,Payment,Financial Services,Banking,No,Low
+Company_20,USA,Australia,2025-05-23,1203.07,Receipt,Financial Services,Retail,No,Medium
+Company_29,Iran,Canada,2025-12-23,2128.14,Payment,Financial Services,Construction,Yes,High
+Company_3,North Korea,India,2025-11-13,1225.21,Payment,Financial Services,Pharmaceuticals,Yes,High
+Company_40,Australia,Germany,2025-05-11,2888.86,Receipt,Financial Services,Payment Processing,No,Low
