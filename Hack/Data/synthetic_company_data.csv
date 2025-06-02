@@ -1,0 +1,101 @@
+company,origin,destination,date,amount
+Gamma,Germany,Australia,2024-11-17,1567666
+AlphaCorp,United States,Germany,2024-09-04,1858047
+ZetaEnterprises,Australia,Canada,2024-07-13,565899
+ZetaEnterprises,Canada,United States,2024-11-27,191092
+OmegaSolutions,Canada,United Kingdom,2024-09-26,293833
+DeltaLtd,Japan,United Kingdom,2024-03-31,1329444
+BetaInc,France,United States,2024-04-23,646993
+Gamma,Japan,India,2024-08-09,1080675
+Gamma,Canada,Japan,2024-04-10,1003866
+OmegaSolutions,Canada,India,2024-07-27,1125384
+ZetaEnterprises,South Africa,Canada,2024-01-27,797020
+BetaInc,Japan,France,2024-07-11,1544819
+Gamma,Germany,South Africa,2024-05-03,1792034
+Gamma,United States,France,2024-07-13,1067986
+DeltaLtd,Brazil,India,2024-02-01,137184
+BetaInc,Germany,United Kingdom,2024-10-31,1792770
+Gamma,India,France,2024-07-18,1722721
+Gamma,South Africa,Canada,2024-02-27,717710
+DeltaLtd,South Africa,Australia,2024-07-27,1447064
+AlphaCorp,United Kingdom,United States,2024-10-07,909118
+AlphaCorp,France,Germany,2024-08-07,650074
+ZetaEnterprises,United Kingdom,Canada,2024-11-26,794122
+ZetaEnterprises,France,Brazil,2024-02-21,768304
+DeltaLtd,South Africa,France,2024-01-04,581528
+ZetaEnterprises,Australia,Brazil,2024-03-22,1310596
+Gamma,India,France,2024-12-02,1383944
+AlphaCorp,Germany,Brazil,2024-03-21,435950
+Gamma,Canada,France,2024-08-22,1869946
+DeltaLtd,Japan,South Africa,2024-04-08,1980631
+DeltaLtd,United Kingdom,Australia,2024-04-04,143967
+DeltaLtd,South Africa,India,2024-01-19,251363
+BetaInc,France,Canada,2024-01-19,774139
+Gamma,United States,Canada,2024-07-15,884912
+DeltaLtd,India,France,2024-08-18,1678494
+ZetaEnterprises,South Africa,France,2024-11-26,1004965
+ZetaEnterprises,Australia,India,2024-07-27,606985
+AlphaCorp,South Africa,India,2024-04-28,1965615
+BetaInc,Japan,Canada,2024-04-16,1415147
+DeltaLtd,South Africa,United States,2024-11-07,1336624
+BetaInc,France,Brazil,2024-04-01,1783068
+DeltaLtd,Brazil,Germany,2024-11-08,872692
+Gamma,South Africa,Australia,2024-04-01,1281464
+ZetaEnterprises,France,Japan,2024-09-03,1372795
+Gamma,Canada,Japan,2024-04-18,1814689
+DeltaLtd,France,Germany,2024-03-11,959309
+DeltaLtd,United States,United Kingdom,2024-07-30,1509560
+Gamma,United States,Japan,2024-06-17,1183038
+Gamma,France,South Africa,2024-10-04,1751471
+ZetaEnterprises,United Kingdom,Canada,2024-05-05,471197
+BetaInc,South Africa,United Kingdom,2024-11-21,1077937
+OmegaSolutions,Germany,Brazil,2024-02-16,146442
+DeltaLtd,South Africa,Brazil,2024-03-20,552703
+ZetaEnterprises,South Africa,India,2024-04-14,343012
+OmegaSolutions,India,Australia,2024-01-28,169171
+DeltaLtd,India,Germany,2024-05-27,886241
+BetaInc,Germany,United Kingdom,2024-02-07,1807519
+BetaInc,India,Brazil,2024-04-09,506815
+OmegaSolutions,South Africa,United Kingdom,2024-01-19,551799
+DeltaLtd,France,Canada,2024-01-05,1919624
+OmegaSolutions,Australia,France,2024-10-26,1109114
+ZetaEnterprises,Brazil,Japan,2024-02-28,1237518
+Gamma,Australia,South Africa,2024-10-02,719589
+ZetaEnterprises,United States,South Africa,2024-05-24,981515
+DeltaLtd,Canada,Australia,2024-11-22,215068
+AlphaCorp,Canada,Germany,2024-11-16,1698130
+DeltaLtd,Japan,Australia,2024-06-03,288603
+OmegaSolutions,United States,South Africa,2024-07-25,272078
+BetaInc,India,Brazil,2024-09-04,1758427
+Gamma,United States,India,2024-05-02,1682665
+AlphaCorp,United States,India,2024-10-31,286502
+Gamma,France,Japan,2024-12-05,619375
+ZetaEnterprises,Germany,United States,2024-02-18,1215159
+DeltaLtd,Brazil,Germany,2024-10-27,1018683
+BetaInc,United States,France,2024-11-13,1210616
+AlphaCorp,Brazil,United Kingdom,2024-07-12,444875
+BetaInc,South Africa,Japan,2024-04-14,1487253
+ZetaEnterprises,Canada,Brazil,2024-07-04,121142
+AlphaCorp,Germany,India,2024-06-03,1137964
+OmegaSolutions,Germany,Brazil,2024-01-12,1605118
+OmegaSolutions,India,United States,2024-06-11,691844
+BetaInc,Canada,India,2024-08-02,527248
+ZetaEnterprises,Japan,United States,2024-12-09,1148332
+BetaInc,India,United States,2024-12-13,1514275
+Gamma,United Kingdom,Brazil,2024-09-17,1803096
+ZetaEnterprises,Brazil,Canada,2024-12-05,1021759
+ZetaEnterprises,Brazil,Germany,2024-06-21,1191276
+BetaInc,Japan,South Africa,2024-12-13,1824432
+BetaInc,Germany,Australia,2024-07-05,1646573
+OmegaSolutions,France,Canada,2024-06-09,457776
+Gamma,United Kingdom,Canada,2024-12-16,501302
+AlphaCorp,Brazil,South Africa,2024-11-30,1183838
+DeltaLtd,India,Canada,2024-01-07,1002691
+BetaInc,Brazil,South Africa,2024-01-02,131261
+OmegaSolutions,Australia,United Kingdom,2024-06-14,1801085
+Gamma,Japan,Germany,2024-07-28,703207
+AlphaCorp,Australia,Canada,2024-03-23,787644
+ZetaEnterprises,United Kingdom,Japan,2024-05-14,1281531
+Gamma,United States,South Africa,2024-05-14,951552
+DeltaLtd,United States,Australia,2024-04-27,440566
+BetaInc,United Kingdom,Germany,2024-10-28,278891
