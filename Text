@@ -1,101 +1,51 @@
-Hi everyone! Today we’re going to play a game. Welcome to Blast the Balloon! The rules are simple: we’ll ‘blow up’ some common balloons around us , balloon of myths, rumours, buzzes, trends and pop them one by one. Ready?
-
-
-Okay, first question: what’s the one thing you need to play Blast the Balloon? …Yes, a balloon, obviously! Wait… I don’t have a pack of balloons with me. Anyone? No? Great—then we’ll make our own balloons today.
-
-
-There are all kinds of balloons floating around out there: myths, sensational headlines—like ‘1500 layoffs because of GenAI’—even geo‑political ones! But hey, this isn’t an Aaj Tak studio in Noida and we’re at Barclays, so let’s focus on the balloons that matter here.
-
-
-These are the real balloons we need to pop—the rumors on our own floor. From ‘YouTube won’t load’ to ‘Gemini’s going to save us all!’—let’s burst each one and get to the facts.
-
-
-from pyspark.sql.functions import collect_list, col, concat_ws, expr
-
-# Automatically detect all tag columns (excluding 'ColId')
-tag_columns = [c for c in df.columns if c != 'ColId']
-
-# Filter out nulls before aggregation using expr and collect_list
-aggregations = [
-    concat_ws("|", collect_list(col(c).cast("string"))).alias(c) 
-    for c in tag_columns
-]
-
-# Group by ColId and aggregate all tag columns
-df_grouped = df.where("ColId IS NOT NULL") \
-               .filter(" OR ".join([f"{c} IS NOT NULL" for c in tag_columns])) \
-               .groupBy("ColId") \
-               .agg(*aggregations)
-
-df_grouped.show(truncate=False)
-
-
-from pyspark.sql.functions import col
-
-keywords = ["card", "block"]
-
-pattern = "|".join(keywords)  # creates "card|block" for regex
-
-for c in df.columns:
-    print(f"\nFiltered values in column: {c}")
-    df.filter(col(c).rlike(f"(?i).*({pattern}).*")) \
-      .select(c).distinct().show(10, truncate=False)
-
-
-
-from pyspark.sql import SparkSession
-
-# Assuming SparkSession is already created
-spark = SparkSession.builder.getOrCreate()
-
-# Sample structure (replace these with your actual DataFrames)
-# df1 = ...
-# df2 = ...
-
-# Step 1: Select distinct values from both columns (optional but faster if values repeat)
-df1_distinct = df1.select("col1").distinct()
-df2_distinct = df2.select("col2").distinct()
-
-# Step 2: Perform an inner join on the two DataFrames
-common_values_df = df1_distinct.join(df2_distinct, df1_distinct.col1 == df2_distinct.col2, "inner")
-
-# Step 3: Count the number of common values
-common_count = common_values_df.count()
-
-print(f"Number of common values: {common_count}")
-
-
-
-
-X_test_seq = pad_sequences(test_seq, maxlen=maxlen)
-
-# Build LSTM model
-model = Sequential()
-model.add(Embedding(input_dim=10000, output_dim=128, input_length=maxlen))
-model.add(LSTM(64, dropout=0.2, recurrent_dropout=0.2))
-model.add(Dense(1, activation='sigmoid'))
-model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
-model.summary()
-
-# Train
-model.fit(X_train_seq, y_train, epochs=5, batch_size=32, validation_split=
-
-
-model = Sequential()
-model.add(Embedding(input_dim=vocab_size, output_dim=128))
-model.add(Bidirectional(LSTM(128, return_sequences=True)))
-model.add(Dropout(0.3))
-model.add(BatchNormalization())
-
-model.add(LSTM(64))
-model.add(Dropout(0.3))
-model.add(BatchNormalization())
-
-model.add(Dense(32, activation=‘relu’))
-model.add(Dropout(0.3))
-model.add(Dense(1, activation=‘sigmoid’))
-
-
-
-
-
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Example Config",
+  "type": "object",
+  "properties": {
+    "report_name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "A human-readable name for the report."
+    },
+    "run_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date to run, in YYYY-MM-DD."
+    },
+    "database": {
+      "type": "object",
+      "description": "DB connection settings",
+      "properties": {
+        "host": { "type": "string" },
+        "port": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 65535,
+          "description": "TCP port for DB."
+        }
+      },
+      "required": ["host", "port"],
+      "additionalProperties": false
+    },
+    "countries": {
+      "type": "array",
+      "description": "List of ISO codes (uppercase).",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z]{2}$"
+      }
+    },
+    "env": {
+      "type": "array",
+      "description": "Deployment environments allowed.",
+      "items": {
+        "type": "string",
+        "enum": ["dev", "staging", "prod"]
+      }
+    }
+  },
+  "required": ["report_name", "run_date", "database", "countries", "env"],
+  "additionalProperties": false
+}
