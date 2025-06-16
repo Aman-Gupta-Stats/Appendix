@@ -90,3 +90,11 @@
   "additionalProperties": false
 }
 
+
+
+{
+  "type": "string",
+  "pattern": "^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)’\\d{2}-(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)’\\d{2}$",
+  "description": "String must be in the format Mon’YY-Mon’YY (e.g., Sep’22-Nov’22)"
+}
+
