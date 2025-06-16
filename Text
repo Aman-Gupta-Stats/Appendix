@@ -49,3 +49,44 @@
   "required": ["report_name", "run_date", "database", "countries", "env"],
   "additionalProperties": false
 }
+
+
+
+
+
+
+{
+  "type": "object",
+  "properties": {
+    "CurrentVintage": {
+      "type": "array",
+      "minItems": 1,
+      "description": "A list of vintage periods with start/end date and frequency.",
+      "items": {
+        "type": "object",
+        "required": ["starttime", "endtime", "frequency"],
+        "properties": {
+          "starttime": {
+            "type": "string",
+            "pattern": "^(19|20)\\d{2}(0[1-9]|1[0-2])(0[1-9]|[12]\\d|3[01])$",
+            "description": "Start date in valid yyyymmdd format"
+          },
+          "endtime": {
+            "type": "string",
+            "pattern": "^(19|20)\\d{2}(0[1-9]|1[0-2])(0[1-9]|[12]\\d|3[01])$",
+            "description": "End date in valid yyyymmdd format"
+          },
+          "frequency": {
+            "type": "string",
+            "enum": ["daily", "weekly", "monthly", "quarterly"],
+            "description": "Aggregation frequency."
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["CurrentVintage"],
+  "additionalProperties": false
+}
+
