@@ -1,72 +1,16 @@
-import pandas as pd
-from datetime import datetime
-
-def multi_period_metrics(
-    df: pd.DataFrame,
-    vintages: list[int],
-    value_cols: list[str],
-    cols_name: dict[str, str] | None = None
-) -> pd.DataFrame:
-    """
-    Build a MultiIndex DataFrame of your specified metrics for Benchmark + each vintage.
-
-    Parameters
-    ----------
-    df : pd.DataFrame
-        Must contain ['bench_monit_tag','vintage','score_band', *value_cols].
-    vintages : list[int]
-        e.g. [20220630, 20220730]
-    value_cols : list of str
-        Column names to aggregate and display under each period.
-    cols_name : dict (optional)
-        Mapping from each value_col to its display name. 
-        If a col not in this dict, its raw name is used.
-
-    Returns
-    -------
-    pd.DataFrame
-        Indexed by score_band, columns a MultiIndex:
-        Level 0 = ['Benchmark', <Mon’YY>, …]
-        Level 1 = your display names for each metric.
-    """
-    cols_name = cols_name or {}
-
-    def _make_block(df_slice: pd.DataFrame, lvl0: str) -> pd.DataFrame:
-        # 1) sum each metric by score_band
-        grp = (
-            df_slice
-            .groupby("score_band", sort=True)[value_cols]
-            .sum()
-            .rename(columns=lambda c: cols_name.get(c, c))
-        )
-        # 2) build MultiIndex columns
-        mi = pd.MultiIndex.from_product([[lvl0], grp.columns])
-        grp.columns = mi
-        return grp
-
-    blocks = []
-
-    # --- Benchmark block ---
-    bench_df = df[df["bench_monit_tag"] == "Benchmark"]
-    blocks.append(_make_block(bench_df, "Benchmark"))
-
-    # --- Monitoring blocks ---
-    for v in vintages:
-        mon_df = df[
-            (df["bench_monit_tag"] == "Monitoring") &
-            (df["vintage"] == v)
-        ]
-        # infer label from YYYYMM… → Mon'YY
-        s = str(v)
-        label = (
-            datetime.strptime(s[:6], "%Y%m")
-            .strftime("%b'%y")
-            if len(s) >= 6 else
-            s
-        )
-        blocks.append(_make_block(mon_df, label))
-
-    # --- concat everything ---
-    result = pd.concat(blocks, axis=1)
-    result.index.name = "score_band"
-    return result
+     # --- concat everything ---
+     result = pd.concat(blocks, axis=1)
+-    result.index.name = "score_band"
+-    return result
++    # 1) move the index into a column
++    result = result.reset_index()  
++
++    # 2) build a new MultiIndex for columns,
++    #    inserting ("", "score_band") as the first tuple
++    #    and then tacking on all the existing (period,metric) pairs
++    existing = list(result.columns[1:])  # these are already tuples
++    new_cols = pd.MultiIndex.from_tuples(
++        [("", result.columns[0])] + existing
++    )
++    result.columns = new_cols
++    return result
