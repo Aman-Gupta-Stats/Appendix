@@ -1,100 +1,16 @@
-{
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Example Config",
-  "type": "object",
-  "properties": {
-    "report_name": {
-      "type": "string",
-      "minLength": 1,
-      "description": "A human-readable name for the report."
-    },
-    "run_date": {
-      "type": "string",
-      "format": "date",
-      "description": "Date to run, in YYYY-MM-DD."
-    },
-    "database": {
-      "type": "object",
-      "description": "DB connection settings",
-      "properties": {
-        "host": { "type": "string" },
-        "port": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 65535,
-          "description": "TCP port for DB."
-        }
-      },
-      "required": ["host", "port"],
-      "additionalProperties": false
-    },
-    "countries": {
-      "type": "array",
-      "description": "List of ISO codes (uppercase).",
-      "minItems": 1,
-      "items": {
-        "type": "string",
-        "pattern": "^[A-Z]{2}$"
-      }
-    },
-    "env": {
-      "type": "array",
-      "description": "Deployment environments allowed.",
-      "items": {
-        "type": "string",
-        "enum": ["dev", "staging", "prod"]
-      }
-    }
-  },
-  "required": ["report_name", "run_date", "database", "countries", "env"],
-  "additionalProperties": false
-}
+import pandas as pd
+import json
 
+# Step 1: Load the Excel file
+df = pd.read_excel('your_file.xlsx')  # Replace with your actual file path
 
+# Step 2: Set 'gmdid' column as the key, and row values as dicts
+result = {}
+for _, row in df.iterrows():
+    key = row['gmdid']  # this becomes the key
+    value = row.drop(labels='gmdid').to_dict()  # rest of the row is the value
+    result[key] = value
 
-
-
-
-{
-  "type": "object",
-  "properties": {
-    "CurrentVintage": {
-      "type": "array",
-      "minItems": 1,
-      "description": "A list of vintage periods with start/end date and frequency.",
-      "items": {
-        "type": "object",
-        "required": ["starttime", "endtime", "frequency"],
-        "properties": {
-          "starttime": {
-            "type": "string",
-            "pattern": "^(19|20)\\d{2}(0[1-9]|1[0-2])(0[1-9]|[12]\\d|3[01])$",
-            "description": "Start date in valid yyyymmdd format"
-          },
-          "endtime": {
-            "type": "string",
-            "pattern": "^(19|20)\\d{2}(0[1-9]|1[0-2])(0[1-9]|[12]\\d|3[01])$",
-            "description": "End date in valid yyyymmdd format"
-          },
-          "frequency": {
-            "type": "string",
-            "enum": ["daily", "weekly", "monthly", "quarterly"],
-            "description": "Aggregation frequency."
-          }
-        },
-        "additionalProperties": false
-      }
-    }
-  },
-  "required": ["CurrentVintage"],
-  "additionalProperties": false
-}
-
-
-
-{
-  "type": "string",
-  "pattern": "^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)’\\d{2}-(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)’\\d{2}$",
-  "description": "String must be in the format Mon’YY-Mon’YY (e.g., Sep’22-Nov’22)"
-}
-
+# Step 3: Save to JSON
+with open('output.json', 'w') as f:
+    json.dump(result, f, indent=4)
