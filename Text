@@ -1,44 +1,41 @@
 import pandas as pd
+from xlsxwriter.utility import xl_rowcol_to_cell
 
-def to_excel_with_multi_header(df: pd.DataFrame, path: str, sheet_name: str = "Sheet1"):
+def to_excel_with_multi_header_manual(df: pd.DataFrame, path: str, sheet_name: str = "Sheet1"):
     """
-    Writes a DataFrame whose columns are a 2-level MultiIndex as a true two-row
-    header in Excel, without writing Pandas' default index.
+    Write a 2-level MultiIndex-column DataFrame to Excel, 
+    WITHOUT using pandas' to_excel(index=False) on a MultiIndex.
     """
-    # 1) pull out our two header-rows
+    # 1) extract header levels
     lvl0 = list(df.columns.get_level_values(0))
     lvl1 = list(df.columns.get_level_values(1))
 
-    # 2) start the writer
+    # 2) launch writer & sheet
     with pd.ExcelWriter(path, engine="xlsxwriter") as writer:
         workbook  = writer.book
         worksheet = workbook.add_worksheet(sheet_name)
-        writer.sheets[sheet_name] = worksheet
 
-        # 3) write the data at row 2, no headers or index
-        df.to_excel(
-            writer,
-            sheet_name=sheet_name,
-            startrow=2,
-            header=False,
-            index=False
-        )
-
-        # 4) super-columns (level-0) on row 0, merging spans
+        # 3) draw super-columns (lvl0) on row 0, merging spans
         col = 0
         n = len(lvl0)
         while col < n:
             text = lvl0[col]
-            # count how many in a row share this super-col
+            # find how many consecutive columns share this super-header
             span = 1
             while col + span < n and lvl0[col + span] == text:
                 span += 1
-            # merge from (row0, col) to (row0, col+span−1)
             worksheet.merge_range(0, col, 0, col + span - 1, text)
             col += span
 
-        # 5) sub-columns (level-1) on row 1
+        # 4) draw sub-columns (lvl1) on row 1
         worksheet.write_row(1, 0, lvl1)
 
-        # 6) freeze panes so headers stay in view
+        # 5) write data rows manually from row 2 onward
+        #    drop any index entirely and just take pure values
+        data = df.to_numpy()
+        for r, row in enumerate(data, start=2):
+            # `row` is a 1-d numpy array of scalars
+            worksheet.write_row(r, 0, row.tolist())
+
+        # 6) optional: freeze panes so headers stay in view
         worksheet.freeze_panes(2, 0)
