@@ -1,16 +1,66 @@
 import pandas as pd
-import json
 
-# Step 1: Load the Excel file
-df = pd.read_excel('your_file.xlsx')  # Replace with your actual file path
+def get_value_distribution_mi(
+    df: pd.DataFrame,
+    tag: str = "Benchmark",
+    vintage: int | None = None,
+    value_col: str = "txn_units",
+    period_name: str | None = None
+) -> pd.DataFrame:
+    """
+    Returns a MultiIndex-column DataFrame of distribution by score_band.
 
-# Step 2: Set 'gmdid' column as the key, and row values as dicts
-result = {}
-for _, row in df.iterrows():
-    key = row['gmdid']  # this becomes the key
-    value = row.drop(labels='gmdid').to_dict()  # rest of the row is the value
-    result[key] = value
+    - First level of columns is the period_name (e.g. "Benchmark" or "Nov'24").
+    - Second level is ["Txn Amount", "%Txn Amt."].
 
-# Step 3: Save to JSON
-with open('output.json', 'w') as f:
-    json.dump(result, f, indent=4)
+    Parameters
+    ----------
+    df : pd.DataFrame
+        Must contain ['bench_monit_tag', 'vintage', 'score_band', value_col].
+    tag : str
+        "Benchmark" or "Monitoring".  If "Monitoring", vintage must be provided.
+    vintage : int, optional
+        e.g. 20240630 — only used when tag == "Monitoring".
+    value_col : str
+        Name of the numeric column to sum.
+    period_name : str, optional
+        Label for the first-level column. Defaults to tag or vintage.
+
+    Returns
+    -------
+    pd.DataFrame
+        Indexed by score_band, with MultiIndex columns.
+    """
+
+    # 1) filter
+    tag = tag.capitalize()
+    if tag == "Benchmark":
+        df_f = df[df["bench_monit_tag"] == "Benchmark"]
+        lvl0 = period_name or "Benchmark"
+    else:
+        if vintage is None:
+            raise ValueError("vintage required for Monitoring")
+        df_f = df[
+            (df["bench_monit_tag"] == "Monitoring") &
+            (df["vintage"] == vintage)
+        ]
+        lvl0 = period_name or str(vintage)
+
+    # 2) aggregate
+    grp = df_f.groupby("score_band", sort=True)[value_col].sum()
+    total = grp.sum()
+    pct = (grp / total * 100).round(2)
+
+    # 3) build DataFrame with MultiIndex columns
+    cols = pd.MultiIndex.from_product(
+        [ [lvl0], ["Txn Amount", "%Txn Amt."] ],
+        names=[None, None]
+    )
+    out = pd.DataFrame(
+        { (lvl0, "Txn Amount"): grp,
+          (lvl0, "%Txn Amt."): pct },
+        index=grp.index
+    )
+    out.columns = cols
+    out.index.name = "score_band"
+    return out
