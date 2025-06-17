@@ -1,16 +1,50 @@
-     # --- concat everything ---
-     result = pd.concat(blocks, axis=1)
--    result.index.name = "score_band"
--    return result
-+    # 1) move the index into a column
-+    result = result.reset_index()  
-+
-+    # 2) build a new MultiIndex for columns,
-+    #    inserting ("", "score_band") as the first tuple
-+    #    and then tacking on all the existing (period,metric) pairs
-+    existing = list(result.columns[1:])  # these are already tuples
-+    new_cols = pd.MultiIndex.from_tuples(
-+        [("", result.columns[0])] + existing
-+    )
-+    result.columns = new_cols
-+    return result
+     import pandas as pd
+
+def to_excel_with_multi_header(df: pd.DataFrame, path: str):
+    """
+    Writes a DataFrame whose columns are a MultiIndex (2 levels)  
+    as a true two-row header in Excel, without writing Pandas'
+    default index.
+    """
+    # 1) extract the two levels of the column index
+    lvl0 = df.columns.get_level_values(0)
+    lvl1 = df.columns.get_level_values(1)
+
+    # 2) start an ExcelWriter with XlsxWriter
+    with pd.ExcelWriter(path, engine="xlsxwriter") as writer:
+        workbook  = writer.book
+        # you can pick a nicer sheet name if you like
+        sheet_name = "Sheet1"
+        worksheet = workbook.add_worksheet(sheet_name)
+        writer.sheets[sheet_name] = worksheet
+
+        # 3) write the data *without* headers or index,
+        #    starting two rows down (row=2)
+        df.to_numpy()  # ensure values only
+        worksheet.write_row(2, 0, df.columns)  # dummy to size cols
+        df.to_excel(
+            writer,
+            sheet_name=sheet_name,
+            startrow=2,
+            header=False,
+            index=False
+        )
+
+        # 4) draw the two header rows yourself
+        #    Level-0 row (super-columns)
+        col = 0
+        while col < len(lvl0):
+            this = lvl0[col]
+            # how many consecutive cols share the same lvl0?
+            span = (lvl0 == this).sum() if isinstance(lvl0, pd.Index) else 1
+            # merge_range(row, first_col, row, last_col, text)
+            worksheet.merge_range(0, col, 0, col+span-1, this)
+            col += span
+
+        #    Level-1 row (sub-columns)
+        for col, sub in enumerate(lvl1):
+            worksheet.write(1, col, sub)
+
+        # 5) (optional) freeze panes so header stays visible
+        worksheet.freeze_panes(2, 0)
+     
