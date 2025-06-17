@@ -1,49 +1,7 @@
-import pandas as pd
-from xlsxwriter.utility import xl_rowcol_to_cell
+from openpyxl.utils import range_boundaries
 
-def to_excel_with_multi_header_manual(df: pd.DataFrame, path: str, sheet_name: str = "Sheet1"):
-    """
-    Write a 2-level MultiIndex-column DataFrame to Excel,
-    including index name like 'score_band' as first column,
-    and avoiding pandas' to_excel() multi-index export issues.
-    """
-    # 0) Move index into columns if it has a name (e.g., score_band)
-    if df.index.name:
-        df = df.reset_index()
-
-    # 1) extract header levels
-    cols = df.columns
-    if isinstance(cols, pd.MultiIndex):
-        lvl0 = list(cols.get_level_values(0))
-        lvl1 = list(cols.get_level_values(1))
-    else:
-        # fallback if columns are flat (shouldn't happen in your case)
-        lvl0 = [""] * len(cols)
-        lvl1 = list(cols)
-
-    # 2) launch writer & sheet
-    with pd.ExcelWriter(path, engine="xlsxwriter") as writer:
-        workbook  = writer.book
-        worksheet = workbook.add_worksheet(sheet_name)
-
-        # 3) draw super-columns (lvl0) on row 0, merging spans
-        col = 0
-        n = len(lvl0)
-        while col < n:
-            text = lvl0[col]
-            # find how many consecutive columns share this super-header
-            span = 1
-            while col + span < n and lvl0[col + span] == text:
-                span += 1
-            worksheet.merge_range(0, col, 0, col + span - 1, text)
-            col += span
-
-        # 4) draw sub-columns (lvl1) on row 1
-        worksheet.write_row(1, 0, lvl1)
-
-        # 5) write data rows from row 2
-        for r, row in enumerate(df.to_numpy(), start=2):
-            worksheet.write_row(r, 0, row.tolist())
-
-        # 6) optional: freeze top two rows
-        worksheet.freeze_panes(2, 1)  # freeze both headers and 1st column if needed
+for merged_range in ws.merged_cells.ranges:
+    min_col, min_row, max_col, max_row = range_boundaries(str(merged_range))
+    for row in ws.iter_rows(min_row=min_row, max_row=max_row, min_col=min_col, max_col=max_col):
+        for cell in row:
+            cell.border = thin_border
