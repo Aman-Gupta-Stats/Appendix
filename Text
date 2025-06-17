@@ -62,3 +62,27 @@ def multi_period_distribution(
     result = pd.concat(blocks, axis=1)
     result.index.name = "score_band"
     return result
+
+
+
+
+
+
+    # --- new extra-cols logic -----------------------------------------------
+    if extra:
+        # grab one row per score_band for each extra col
+        meta = (
+            df_slice
+            .loc[:, ["score_band"] + extra]
+            .drop_duplicates(subset="score_band")
+            .set_index("score_band")
+        )
+        # turn meta’s columns into the same MultiIndex level structure
+        meta.columns = pd.MultiIndex.from_product(
+            [[lvl0], extra],
+            names=[None, None]
+        )
+        # join it onto our block
+        block = block.join(meta, how="left")
+    # ------------------------------------------------------------------------
+
