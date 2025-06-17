@@ -1,27 +1,21 @@
-     import pandas as pd
+import pandas as pd
 
-def to_excel_with_multi_header(df: pd.DataFrame, path: str):
+def to_excel_with_multi_header(df: pd.DataFrame, path: str, sheet_name: str = "Sheet1"):
     """
-    Writes a DataFrame whose columns are a MultiIndex (2 levels)  
-    as a true two-row header in Excel, without writing Pandas'
-    default index.
+    Writes a DataFrame whose columns are a 2-level MultiIndex as a true two-row
+    header in Excel, without writing Pandas' default index.
     """
-    # 1) extract the two levels of the column index
-    lvl0 = df.columns.get_level_values(0)
-    lvl1 = df.columns.get_level_values(1)
+    # 1) pull out our two header-rows
+    lvl0 = list(df.columns.get_level_values(0))
+    lvl1 = list(df.columns.get_level_values(1))
 
-    # 2) start an ExcelWriter with XlsxWriter
+    # 2) start the writer
     with pd.ExcelWriter(path, engine="xlsxwriter") as writer:
         workbook  = writer.book
-        # you can pick a nicer sheet name if you like
-        sheet_name = "Sheet1"
         worksheet = workbook.add_worksheet(sheet_name)
         writer.sheets[sheet_name] = worksheet
 
-        # 3) write the data *without* headers or index,
-        #    starting two rows down (row=2)
-        df.to_numpy()  # ensure values only
-        worksheet.write_row(2, 0, df.columns)  # dummy to size cols
+        # 3) write the data at row 2, no headers or index
         df.to_excel(
             writer,
             sheet_name=sheet_name,
@@ -30,21 +24,21 @@ def to_excel_with_multi_header(df: pd.DataFrame, path: str):
             index=False
         )
 
-        # 4) draw the two header rows yourself
-        #    Level-0 row (super-columns)
+        # 4) super-columns (level-0) on row 0, merging spans
         col = 0
-        while col < len(lvl0):
-            this = lvl0[col]
-            # how many consecutive cols share the same lvl0?
-            span = (lvl0 == this).sum() if isinstance(lvl0, pd.Index) else 1
-            # merge_range(row, first_col, row, last_col, text)
-            worksheet.merge_range(0, col, 0, col+span-1, this)
+        n = len(lvl0)
+        while col < n:
+            text = lvl0[col]
+            # count how many in a row share this super-col
+            span = 1
+            while col + span < n and lvl0[col + span] == text:
+                span += 1
+            # merge from (row0, col) to (row0, col+span−1)
+            worksheet.merge_range(0, col, 0, col + span - 1, text)
             col += span
 
-        #    Level-1 row (sub-columns)
-        for col, sub in enumerate(lvl1):
-            worksheet.write(1, col, sub)
+        # 5) sub-columns (level-1) on row 1
+        worksheet.write_row(1, 0, lvl1)
 
-        # 5) (optional) freeze panes so header stays visible
+        # 6) freeze panes so headers stay in view
         worksheet.freeze_panes(2, 0)
-     
