@@ -1,36 +1,23 @@
 import pandas as pd
 from openpyxl import load_workbook
-from openpyxl.utils.dataframe import dataframe_to_rows
-from openpyxl.styles import Alignment
-from openpyxl import Workbook
 
-# Save your df to Excel without index
-file_path = "styled_output.xlsx"
-wb = Workbook()
+# 1) Write your DataFrame without merging:
+temp.to_excel('tm_unmerged.xlsx', merge_cells=False)
+
+# 2) Re-open, drop row 3 & col 1, then merge A1:A2:
+wb = load_workbook('tm_unmerged.xlsx')
 ws = wb.active
 
-# Write DataFrame with headers
-for r_idx, row in enumerate(dataframe_to_rows(temp, index=False, header=True), 1):
-    ws.append(row)
+# delete the now-unwanted row and column
+ws.delete_rows(3)    # drops the entire third row
+ws.delete_cols(1)    # drops the first column (pandas auto-index)
 
-# Merge the first column header ("Band") over two rows
+# merge the top two cells in column A
 ws.merge_cells(start_row=1, start_column=1, end_row=2, end_column=1)
-ws.cell(row=1, column=1).alignment = Alignment(horizontal='center', vertical='center')
 
-# Delete second header cell under "Band" to avoid duplication
-ws.cell(row=2, column=1).value = None
+# re-center the header text
+cell = ws.cell(row=1, column=1)
+cell.value = "Band"
+cell.alignment = cell.alignment.copy(horizontal="center", vertical="center")
 
-# Optional: auto adjust column widths
-for col in ws.columns:
-    max_length = 0
-    column = col[0].column_letter
-    for cell in col:
-        try:
-            if cell.value:
-                max_length = max(max_length, len(str(cell.value)))
-        except:
-            pass
-    ws.column_dimensions[column].width = max_length + 2
-
-# Save workbook
-wb.save(file_path)
+wb.save('tm_final.xlsx')
