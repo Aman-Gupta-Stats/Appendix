@@ -1,88 +1,72 @@
 import pandas as pd
 from datetime import datetime
 
-def multi_period_distribution(
+def multi_period_metrics(
     df: pd.DataFrame,
     vintages: list[int],
-    value_col: str = "txn_units"
+    value_cols: list[str],
+    cols_name: dict[str, str] | None = None
 ) -> pd.DataFrame:
     """
-    Returns a MultiIndex-column DataFrame with Benchmark + all requested vintage months.
+    Build a MultiIndex DataFrame of your specified metrics for Benchmark + each vintage.
 
     Parameters
     ----------
     df : pd.DataFrame
-        Must contain columns ['bench_monit_tag','vintage','score_band',value_col].
-    vintages : list of int
-        List of vintage codes (e.g. [20220630, 20220730]) to pull Monitoring for.
-    value_col : str
-        Numeric column to sum (e.g. 'txn_units', 'txn_amt').
+        Must contain ['bench_monit_tag','vintage','score_band', *value_cols].
+    vintages : list[int]
+        e.g. [20220630, 20220730]
+    value_cols : list of str
+        Column names to aggregate and display under each period.
+    cols_name : dict (optional)
+        Mapping from each value_col to its display name. 
+        If a col not in this dict, its raw name is used.
 
     Returns
     -------
     pd.DataFrame
-        Indexed by score_band, with first-level cols = ['Benchmark', <Mon’YY>…],
-        second-level = ['Txn Amount','%Txn Amt.'].
+        Indexed by score_band, columns a MultiIndex:
+        Level 0 = ['Benchmark', <Mon’YY>, …]
+        Level 1 = your display names for each metric.
     """
+    cols_name = cols_name or {}
+
     def _make_block(df_slice: pd.DataFrame, lvl0: str) -> pd.DataFrame:
-        grp = df_slice.groupby("score_band", sort=True)[value_col].sum()
-        total = grp.sum()
-        pct  = (grp / total * 100).round(2)
-        # build block with MultiIndex cols
-        cols = pd.MultiIndex.from_product([[lvl0], ["Txn Amount", "%Txn Amt."]])
-        block = pd.DataFrame(
-            { (lvl0, "Txn Amount"): grp,
-              (lvl0, "%Txn Amt."): pct },
-            index=grp.index
+        # 1) sum each metric by score_band
+        grp = (
+            df_slice
+            .groupby("score_band", sort=True)[value_cols]
+            .sum()
+            .rename(columns=lambda c: cols_name.get(c, c))
         )
-        block.columns = cols
-        return block
+        # 2) build MultiIndex columns
+        mi = pd.MultiIndex.from_product([[lvl0], grp.columns])
+        grp.columns = mi
+        return grp
 
     blocks = []
-    # 1) Benchmark block
+
+    # --- Benchmark block ---
     bench_df = df[df["bench_monit_tag"] == "Benchmark"]
     blocks.append(_make_block(bench_df, "Benchmark"))
 
-    # 2) One block per vintage
+    # --- Monitoring blocks ---
     for v in vintages:
         mon_df = df[
             (df["bench_monit_tag"] == "Monitoring") &
             (df["vintage"] == v)
         ]
+        # infer label from YYYYMM… → Mon'YY
         s = str(v)
-        # Infer month-year label: take first 6 digits (YYYYMM) if available
-        if len(s) >= 6:
-            dt = datetime.strptime(s[:6], "%Y%m")
-            label = dt.strftime("%b'%y")
-        else:
-            label = s
+        label = (
+            datetime.strptime(s[:6], "%Y%m")
+            .strftime("%b'%y")
+            if len(s) >= 6 else
+            s
+        )
         blocks.append(_make_block(mon_df, label))
 
-    # 3) Concatenate all blocks side by side
+    # --- concat everything ---
     result = pd.concat(blocks, axis=1)
     result.index.name = "score_band"
     return result
-
-
-
-
-
-
-    # --- new extra-cols logic -----------------------------------------------
-    if extra:
-        # grab one row per score_band for each extra col
-        meta = (
-            df_slice
-            .loc[:, ["score_band"] + extra]
-            .drop_duplicates(subset="score_band")
-            .set_index("score_band")
-        )
-        # turn meta’s columns into the same MultiIndex level structure
-        meta.columns = pd.MultiIndex.from_product(
-            [[lvl0], extra],
-            names=[None, None]
-        )
-        # join it onto our block
-        block = block.join(meta, how="left")
-    # ------------------------------------------------------------------------
-
