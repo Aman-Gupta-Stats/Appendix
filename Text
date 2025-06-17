@@ -1,66 +1,64 @@
 import pandas as pd
+from datetime import datetime
 
-def get_value_distribution_mi(
+def multi_period_distribution(
     df: pd.DataFrame,
-    tag: str = "Benchmark",
-    vintage: int | None = None,
-    value_col: str = "txn_units",
-    period_name: str | None = None
+    vintages: list[int],
+    value_col: str = "txn_units"
 ) -> pd.DataFrame:
     """
-    Returns a MultiIndex-column DataFrame of distribution by score_band.
-
-    - First level of columns is the period_name (e.g. "Benchmark" or "Nov'24").
-    - Second level is ["Txn Amount", "%Txn Amt."].
+    Returns a MultiIndex-column DataFrame with Benchmark + all requested vintage months.
 
     Parameters
     ----------
     df : pd.DataFrame
-        Must contain ['bench_monit_tag', 'vintage', 'score_band', value_col].
-    tag : str
-        "Benchmark" or "Monitoring".  If "Monitoring", vintage must be provided.
-    vintage : int, optional
-        e.g. 20240630 — only used when tag == "Monitoring".
+        Must contain columns ['bench_monit_tag','vintage','score_band',value_col].
+    vintages : list of int
+        List of vintage codes (e.g. [20220630, 20220730]) to pull Monitoring for.
     value_col : str
-        Name of the numeric column to sum.
-    period_name : str, optional
-        Label for the first-level column. Defaults to tag or vintage.
+        Numeric column to sum (e.g. 'txn_units', 'txn_amt').
 
     Returns
     -------
     pd.DataFrame
-        Indexed by score_band, with MultiIndex columns.
+        Indexed by score_band, with first-level cols = ['Benchmark', <Mon’YY>…],
+        second-level = ['Txn Amount','%Txn Amt.'].
     """
+    def _make_block(df_slice: pd.DataFrame, lvl0: str) -> pd.DataFrame:
+        grp = df_slice.groupby("score_band", sort=True)[value_col].sum()
+        total = grp.sum()
+        pct  = (grp / total * 100).round(2)
+        # build block with MultiIndex cols
+        cols = pd.MultiIndex.from_product([[lvl0], ["Txn Amount", "%Txn Amt."]])
+        block = pd.DataFrame(
+            { (lvl0, "Txn Amount"): grp,
+              (lvl0, "%Txn Amt."): pct },
+            index=grp.index
+        )
+        block.columns = cols
+        return block
 
-    # 1) filter
-    tag = tag.capitalize()
-    if tag == "Benchmark":
-        df_f = df[df["bench_monit_tag"] == "Benchmark"]
-        lvl0 = period_name or "Benchmark"
-    else:
-        if vintage is None:
-            raise ValueError("vintage required for Monitoring")
-        df_f = df[
+    blocks = []
+    # 1) Benchmark block
+    bench_df = df[df["bench_monit_tag"] == "Benchmark"]
+    blocks.append(_make_block(bench_df, "Benchmark"))
+
+    # 2) One block per vintage
+    for v in vintages:
+        mon_df = df[
             (df["bench_monit_tag"] == "Monitoring") &
-            (df["vintage"] == vintage)
+            (df["vintage"] == v)
         ]
-        lvl0 = period_name or str(vintage)
+        s = str(v)
+        # Infer month-year label: take first 6 digits (YYYYMM) if available
+        if len(s) >= 6:
+            dt = datetime.strptime(s[:6], "%Y%m")
+            label = dt.strftime("%b'%y")
+        else:
+            label = s
+        blocks.append(_make_block(mon_df, label))
 
-    # 2) aggregate
-    grp = df_f.groupby("score_band", sort=True)[value_col].sum()
-    total = grp.sum()
-    pct = (grp / total * 100).round(2)
-
-    # 3) build DataFrame with MultiIndex columns
-    cols = pd.MultiIndex.from_product(
-        [ [lvl0], ["Txn Amount", "%Txn Amt."] ],
-        names=[None, None]
-    )
-    out = pd.DataFrame(
-        { (lvl0, "Txn Amount"): grp,
-          (lvl0, "%Txn Amt."): pct },
-        index=grp.index
-    )
-    out.columns = cols
-    out.index.name = "score_band"
-    return out
+    # 3) Concatenate all blocks side by side
+    result = pd.concat(blocks, axis=1)
+    result.index.name = "score_band"
+    return result
