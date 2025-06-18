@@ -1,24 +1,43 @@
 from io import BytesIO
 import pandas as pd
+from openpyxl import load_workbook
+from openpyxl.utils import get_column_letter
 
-# sample DF
+# 1) Your df
 df = pd.DataFrame({
     "name": ["A","B","C"],
     "rate_pct": [0.1234, 0.5, 0.9876],
     "amt_amt": [1234.567, 89.1, 5.0]
 })
 
-# formatters
-formatters = {
-    "rate_pct": "{:.2%}",
-    "amt_amt": "{:,.2f}"
-}
-
+# 2) Write raw numbers to a buffer
 buf = BytesIO()
 with pd.ExcelWriter(buf, engine="openpyxl") as writer:
-    df.style.format(formatters)\
-           .to_excel(writer, sheet_name="Test", index=False)
+    df.to_excel(writer, sheet_name="Sheet1", index=False)
 buf.seek(0)
 
-with open("test_styled.xlsx","wb") as f:
-    f.write(buf.read())
+# 3) Reopen and set Excel number_formats by column
+wb = load_workbook(buf)
+ws = wb["Sheet1"]
+
+# map your column names → Excel format codes
+excel_formats = {
+    "rate_pct": "0.00%",    # two decimals + % sign
+    "amt_amt": "#,##0.00"   # two decimals + thousand separators
+}
+
+# loop through data cells (skip header row)
+for col_idx, col_name in enumerate(df.columns, start=1):
+    if col_name in excel_formats:
+        fmt = excel_formats[col_name]
+        letter = get_column_letter(col_idx)
+        for cell in ws[letter][1:]:
+            cell.number_format = fmt
+
+# 4) (Optional) do your merges/deletes
+ws["A1"] = ws["A3"].value
+ws.delete_rows(3)
+ws.merge_cells(start_row=1, start_column=1, end_row=2, end_column=1)
+
+# 5) Save
+wb.save("final_report.xlsx")
