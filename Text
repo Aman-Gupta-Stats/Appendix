@@ -1,82 +1,24 @@
-import json
+from io import BytesIO
 import pandas as pd
 
-# 1. Load your JSON config
-#    Put your JSON in a file named 'config.json' alongside this script.
-#    Example contents of config.json:
-#    {
-#      "foo": {"format": "percent", "precision": 1},
-#      "bar": {"format": "int"},
-#      "baz": {"format": "percent", "precision": 2}
-#    }
-with open('config.json', 'r') as f:
-    fmt_cfg = json.load(f)
-
-# 2. Build a sample MultiIndex DataFrame
+# sample DF
 df = pd.DataFrame({
-    ('A', 'foo'): [0.1234, 0.5678],
-    ('A', 'bar'): [1000, 2000000],
-    ('B', 'baz'): [0.3333, 0.6667],
+    "name": ["A","B","C"],
+    "rate_pct": [0.1234, 0.5, 0.9876],
+    "amt_amt": [1234.567, 89.1, 5.0]
 })
-df.columns = pd.MultiIndex.from_tuples(df.columns, names=['lvl0','lvl1'])
-print("Original DataFrame:")
-print(df)
 
-# 3. Define a helper to pick up per-column formatters
-def make_formatter(col_tuple):
-    lvl1 = col_tuple[1]
-    cfg = fmt_cfg.get(lvl1)
-    if not cfg:
-        return None
-
-    if cfg["format"] == "percent":
-        prec = cfg.get("precision", 2)
-        return lambda x: f"{100 * x:.{prec}f}%"
-
-    if cfg["format"] == "int":
-        # comma as thousands separator, no decimals
-        return "{:,.0f}".format
-
-    # add more formats here if needed
-    return None
-
-# 4. Build the Styler.format mapping
+# formatters
 formatters = {
-    col: make_formatter(col)
-    for col in df.columns
-    if make_formatter(col) is not None
+    "rate_pct": "{:.2%}",
+    "amt_amt": "{:,.2f}"
 }
 
-# 5a. Display nicely in a Jupyter notebook / HTML
-styled = df.style.format(formatters)
-# In a notebook, just do:
-# styled
+buf = BytesIO()
+with pd.ExcelWriter(buf, engine="openpyxl") as writer:
+    df.style.format(formatters)\
+           .to_excel(writer, sheet_name="Test", index=False)
+buf.seek(0)
 
-# 5b. Or write to an Excel file with real number formats preserved
-with pd.ExcelWriter("formatted_output.xlsx", engine="xlsxwriter") as writer:
-    df.to_excel(writer, sheet_name="Sheet1", index=False)
-    wb = writer.book
-    ws = writer.sheets["Sheet1"]
-
-    # pandas writes two header rows for a 2‐level MultiIndex
-    # so data starts at row 2 (0-based), and first column is 0
-    for col_idx, col in enumerate(df.columns):
-        lvl1 = col[1]
-        cfg = fmt_cfg.get(lvl1)
-        if not cfg:
-            continue
-
-        if cfg["format"] == "percent":
-            prec = cfg.get("precision", 2)
-            # Excel percent format: e.g. "0.0%" or "0.00%"
-            num_fmt = f"0.{''.join('0' for _ in range(prec))}%"
-        elif cfg["format"] == "int":
-            # Excel integer with comma separator
-            num_fmt = "#,##0"
-        else:
-            continue
-
-        excel_fmt = wb.add_format({"num_format": num_fmt})
-        ws.set_column(col_idx, col_idx, None, excel_fmt)
-
-print("Done! See 'formatted_output.xlsx'.")
+with open("test_styled.xlsx","wb") as f:
+    f.write(buf.read())
