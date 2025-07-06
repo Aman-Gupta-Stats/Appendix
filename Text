@@ -1,1 +1,52 @@
-For the Relationship Director (RD), we eliminate back-and-forth. The system auto-pulls transaction data and creates a dynamic network graph with filters for company, country, and transaction risk—allowing the RD to explore transactions effortlessly. Additionally, CAR templates are prefilled using GenAI, significantly reducing manual effort.”
+from pdfminer.high_level import extract_pages
+from pdfminer.layout import LTTextContainer, LTChar
+
+# iterate pages
+for page_layout in extract_pages("your.pdf"):
+    for element in page_layout:
+        if isinstance(element, LTTextContainer):
+            # for each line of text
+            for text_line in element:
+                # collect the font sizes (and colors, if available)
+                sizes = []
+                colors = []
+                for char in text_line:
+                    if isinstance(char, LTChar):
+                        sizes.append(char.size)
+                        # PDFMiner doesn’t expose color by default;
+                        # you’d have to hook into PDFGraphicState via a custom device
+                        # so we’ll skip color here
+                # assume the entire line is uniform
+                if sizes:
+                    font_size = sum(sizes) / len(sizes)
+                else:
+                    font_size = None
+                text = text_line.get_text().strip()
+                # record (text, font_size, y0, x0, x1) for later merging
+                print(font_size, text, text_line.bbox)
+
+
+
+
+
+
+def merge_split_cells(df, layout_info, tol=0.2):
+    # layout_info: list of dicts { 'col': i, 'row': j, 'font_size': s, 'y0': y0, 'y1': y1 }
+    to_drop = []
+    for col in df.columns:
+        for row in range(len(df)-1):
+            cell1 = df.at[row, col]
+            cell2 = df.at[row+1, col]
+            info1 = layout_info[(row, col)]
+            info2 = layout_info[(row+1, col)]
+            # contiguous vertically?
+            if abs(info1['y0'] - info2['y1']) < 2.0:
+                # same font size?
+                if abs(info1['font_size'] - info2['font_size']) < tol:
+                    df.at[row, col] = cell1 + "\n" + cell2
+                    to_drop.append((row+1, col))
+    # drop the merged-into rows entirely (you may need to drop full DataFrame rows)
+    rows_to_drop = sorted({r for r, c in to_drop}, reverse=True)
+    df = df.drop(rows_to_drop).reset_index(drop=True)
+    return df
+
