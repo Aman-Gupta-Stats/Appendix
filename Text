@@ -50,3 +50,139 @@ def merge_split_cells(df, layout_info, tol=0.2):
     df = df.drop(rows_to_drop).reset_index(drop=True)
     return df
 
+
+
+
+
+
+
+import tabula
+import pandas as pd
+from pdfminer.high_level import extract_pages
+from pdfminer.layout import LTTextContainer, LTChar
+
+PDF_PATH   = "your.pdf"
+TARGET_PAGE = 3       # 1-based for Tabula, we’ll subtract 1 for PDFMiner
+SIZE_TOL    = 0.2     # pt tolerance for “same” font size
+VERT_TOL    = 2.0     # pt tolerance for vertical contiguity
+
+def extract_layout_info(pdf_path, page_number):
+    """
+    Returns a list of dicts, one per text‐line, with:
+      - text    : the stripped text
+      - font_size: average char size
+      - color   : average non‐stroking color (RGB tuple) or None
+      - y0, y1  : bottom and top y‐coords of the line
+    """
+    layout = []
+    # PDFMiner is zero-based pages
+    for element in extract_pages(pdf_path, page_numbers=[page_number-1]):
+        if not isinstance(element, LTTextContainer):
+            continue
+        for line in element:
+            sizes, colors = [], []
+            for char in line:
+                if isinstance(char, LTChar):
+                    sizes.append(char.size)
+                    gs = char.graphicstate
+                    # pdfminer.six >=20201018: non_stroking_color may be a tuple
+                    col = getattr(gs, "non_stroking_color", None)
+                    if col:
+                        colors.append(tuple(col))
+            if not sizes:
+                continue
+            avg_size = sum(sizes) / len(sizes)
+            avg_color = None
+            if colors:
+                # average each channel
+                channels = list(zip(*colors))
+                avg_color = tuple(sum(ch)/len(ch) for ch in channels)
+            y0, y1 = line.bbox[1], line.bbox[3]
+            layout.append({
+                "text":      line.get_text().strip(),
+                "font_size": avg_size,
+                "color":     avg_color,
+                "y0":        y0,
+                "y1":        y1
+            })
+    return layout
+
+def merge_split_cells(df, layout_info, size_tol=SIZE_TOL, vert_tol=VERT_TOL, use_color=False):
+    """
+    Merges df cells in-place when two adjacent rows in the same column
+    have matching font_size (±size_tol) (and matching color if use_color=True)
+    and their bounding boxes are vertically contiguous (gap ≤ vert_tol).
+    """
+    # We need to map each df cell (row i, col j) back to one of the layout_info lines.
+    # For simplicity we assume Tabula preserves the top‐down order of lines in layout_info.
+    # If your real tables are more complex, you may need a better spatial join.
+    nrows, ncols = df.shape
+    # assign the first nrows*ncols layout entries in reading order
+    assert len(layout_info) >= nrows * ncols, \
+        "Not enough layout lines captured—try adjusting your extraction."
+    # build matrix of layout entries
+    info_matrix = [
+        layout_info[i * ncols:(i + 1) * ncols]
+        for i in range(nrows)
+    ]
+
+    rows_to_drop = set()
+    for col in range(ncols):
+        for row in range(nrows - 1):
+            cell1 = df.iat[row, col]
+            cell2 = df.iat[row+1, col]
+            info1 = info_matrix[row][col]
+            info2 = info_matrix[row+1][col]
+
+            # 1) vertical contiguity?
+            if abs(info1["y0"] - info2["y1"]) > vert_tol:
+                continue
+            # 2) font size match?
+            if abs(info1["font_size"] - info2["font_size"]) > size_tol:
+                continue
+            # 3) (optional) color match?
+            if use_color:
+                c1, c2 = info1["color"], info2["color"]
+                if c1 is None or c2 is None or any(abs(a-b) > 1e-3 for a,b in zip(c1,c2)):
+                    continue
+
+            # merge
+            df.iat[row, col] = f"{cell1}\n{cell2}"
+            rows_to_drop.add(row+1)
+
+    # drop merged‐into rows (note: drop by index and then reset)
+    if rows_to_drop:
+        df = df.drop(df.index[list(rows_to_drop)]).reset_index(drop=True)
+    return df
+
+def main():
+    # 1) layout info from PDFMiner
+    layout_info = extract_layout_info(PDF_PATH, TARGET_PAGE)
+    # 2) raw table from Tabula
+    dfs = tabula.read_pdf(PDF_PATH, pages=TARGET_PAGE, lattice=True)
+    if not dfs:
+        print("No tables found on page", TARGET_PAGE)
+        return
+    df = dfs[0]  # take the first table
+    print("Before merging:")
+    print(df)
+
+    # 3) Merge on font size only:
+    df_merged = merge_split_cells(df.copy(), layout_info, use_color=False)
+    print("\nAfter merging on font size only:")
+    print(df_merged)
+
+    # 4) Merge on both font size + color:
+    df_merged_color = merge_split_cells(df.copy(), layout_info, use_color=True)
+    print("\nAfter merging on font size + color:")
+    print(df_merged_color)
+
+    # 5) (Optional) write out
+    df_merged.to_csv("merged_by_size.csv", index=False)
+    df_merged_color.to_csv("merged_by_size_and_color.csv", index=False)
+    print("\n→ Outputs saved as merged_by_size.csv and merged_by_size_and_color.csv")
+
+if __name__ == "__main__":
+    main()
+
+
