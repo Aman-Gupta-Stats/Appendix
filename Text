@@ -1,40 +1,17 @@
-<details>
-  <summary>▶ Click here to reveal cell 1</summary>
-
-  ```python
-  # This code stays hidden until you click
-  import numpy as np
-  print("Hidden until clicked!")
+We’ll begin by revisiting Python’s fundamental data types, learning how to represent and manipulate different kinds of data. With that foundation in place, we’ll move on to loops, which let you automate repetitive tasks and traverse collections effortlessly. Next, we’ll explore list comprehensions, a concise way to transform and filter lists in a single, readable line. Building on that, if-else statements will introduce decision-making logic into your programs. Afterward, we’ll bundle code into reusable functions, improving modularity and clarity. Finally, we’ll cover exception handling so you can anticipate errors and keep your programs running smoothly.
 
 
-
-<details>
-  <summary>▶ First click to show explanation</summary>
-  
-  Here’s step 1 of the reveal.
-
-  <details>
-    <summary>▶ Second click to show code</summary>
-
-    ```python
-    # Step 2 hidden until that second click
-    print("Hello again!")
-    ```
-  </details>
-</details>
-
-
-
-import ipywidgets as widgets
-from IPython.display  import display
-
-# create a collapsible region
-coll = widgets.Accordion(children=[
-    widgets.HTML(
-        '<pre style="font-family:monospace">\n'
-        'print("This is hidden until you expand!")\n'
-        '</pre>'
-    )
-])
-coll.set_title(0, '▶ Click to expand code')
-display(coll)
+Topic
+Use
+Data Types
+Define and manipulate different kinds of data (e.g., strings, numbers, lists, dictionaries).
+Loops
+Automate repetitive operations and iterate over sequences and collections.
+List Comprehension
+Write concise, readable expressions for creating or filtering lists.
+If-Else
+Implement conditional logic to make your programs respond differently under varying conditions.
+Functions
+Encapsulate blocks of code for reuse, better organization, and clearer program structure.
+Exception Handling
+Anticipate and manage runtime errors gracefully, improving robustness and user experience.
