@@ -1,17 +1,1 @@
-We’ll begin by revisiting Python’s fundamental data types, learning how to represent and manipulate different kinds of data. With that foundation in place, we’ll move on to loops, which let you automate repetitive tasks and traverse collections effortlessly. Next, we’ll explore list comprehensions, a concise way to transform and filter lists in a single, readable line. Building on that, if-else statements will introduce decision-making logic into your programs. Afterward, we’ll bundle code into reusable functions, improving modularity and clarity. Finally, we’ll cover exception handling so you can anticipate errors and keep your programs running smoothly.
-
-
-Topic
-Use
-Data Types
-Define and manipulate different kinds of data (e.g., strings, numbers, lists, dictionaries).
-Loops
-Automate repetitive operations and iterate over sequences and collections.
-List Comprehension
-Write concise, readable expressions for creating or filtering lists.
-If-Else
-Implement conditional logic to make your programs respond differently under varying conditions.
-Functions
-Encapsulate blocks of code for reuse, better organization, and clearer program structure.
-Exception Handling
-Anticipate and manage runtime errors gracefully, improving robustness and user experience.
+https://drive.google.com/file/d/1J216gLwVk1oFXuvJt9XKW1cV2wMZzGPN/view?usp=drivesdk
