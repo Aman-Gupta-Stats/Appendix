@@ -1,0 +1,1700 @@
+BPL_ID,BPL_tag,Name,Gender,Age,Pincode,address,District,state,past_enrolled_in_magic_bus,last_govt_data_updated_on,no_of_family_members,relation_to_head,is_head_of_family,current_age
+BPL200000,yes,Pooja Patil,Female,23,700001,"H.No. 924, Ward 18",Kolkata,West Bengal,no,4/21/2021,4,Brother,no,28
+BPL200001,yes,Lakshmi Das,Female,21,700001,"H.No. 323, Ward 19",Kolkata,West Bengal,yes,4/21/2021,3,Daughter,no,26
+BPL200002,yes,Kavya Kumar,Female,23,700001,"H.No. 790, Ward 11",Kolkata,West Bengal,yes,4/21/2021,3,Brother,no,28
+BPL200003,yes,Anil Kumar,Male,20,700001,"H.No. 82, Ward 4",Kolkata,West Bengal,yes,4/21/2021,3,Brother,no,25
+BPL200004,yes,Manoj Singh,Male,21,700001,"H.No. 224, Ward 19",Kolkata,West Bengal,no,4/21/2021,4,Daughter,no,26
+BPL200005,yes,Rohit Kumar,Male,21,700001,"H.No. 712, Ward 4",Kolkata,West Bengal,yes,4/21/2021,4,Son,no,26
+BPL200006,yes,Rahul Kumar,Male,25,700001,"H.No. 857, Ward 2",Kolkata,West Bengal,yes,4/21/2021,3,Brother,no,30
+BPL200007,yes,Meena Singh,Female,19,700001,"H.No. 542, Ward 13",Kolkata,West Bengal,yes,4/21/2021,4,Son,no,24
+BPL200008,yes,Anita Reddy,Female,20,700001,"H.No. 62, Ward 21",Kolkata,West Bengal,no,4/21/2021,3,Sister,no,25
+BPL200009,yes,Manoj Reddy,Male,23,700001,"H.No. 116, Ward 24",Kolkata,West Bengal,no,4/21/2021,4,Brother,no,28
+BPL200010,yes,Asha Singh,Female,24,700001,"H.No. 556, Ward 23",Kolkata,West Bengal,yes,4/21/2021,3,Brother,no,29
+BPL200011,yes,Divya Iyer,Female,21,700001,"H.No. 279, Ward 20",Kolkata,West Bengal,yes,4/21/2021,3,Son,no,26
+BPL200012,yes,Deepak Das,Male,20,700001,"H.No. 399, Ward 23",Kolkata,West Bengal,no,4/21/2021,5,Sister,no,25
+BPL200013,yes,Kavya Das,Female,21,700001,"H.No. 645, Ward 2",Kolkata,West Bengal,yes,4/21/2021,4,Daughter,no,26
+BPL200014,yes,Divya Das,Female,24,700001,"H.No. 941, Ward 19",Kolkata,West Bengal,no,4/21/2021,4,Brother,no,29
+BPL200015,yes,Deepak Naidu,Male,21,700001,"H.No. 90, Ward 19",Kolkata,West Bengal,no,4/21/2021,5,Daughter,no,26
+BPL200016,yes,Divya Das,Female,22,700001,"H.No. 502, Ward 3",Kolkata,West Bengal,no,4/21/2021,5,Daughter,no,27
+BPL200017,yes,Arjun Reddy,Male,21,700001,"H.No. 186, Ward 4",Kolkata,West Bengal,yes,4/21/2021,5,Sister,no,26
+BPL200018,yes,Lakshmi Verma,Female,21,700001,"H.No. 706, Ward 23",Kolkata,West Bengal,yes,4/21/2021,5,Sister,no,26
+BPL200019,yes,Meena Gowda,Female,18,700001,"H.No. 749, Ward 9",Kolkata,West Bengal,no,4/21/2021,4,Son,no,23
+BPL200020,yes,Ritu Gowda,Female,19,700001,"H.No. 253, Ward 21",Kolkata,West Bengal,no,4/21/2021,6,Brother,no,24
+BPL200021,yes,Sunita Gowda,Female,23,700001,"H.No. 10, Ward 17",Kolkata,West Bengal,yes,4/21/2021,3,Sister,no,28
+BPL200022,yes,Vikas Verma,Male,19,700001,"H.No. 819, Ward 13",Kolkata,West Bengal,no,4/21/2021,4,Son,no,24
+BPL200023,yes,Lakshmi Verma,Female,22,700001,"H.No. 868, Ward 24",Kolkata,West Bengal,yes,4/21/2021,4,Son,no,27
+BPL200024,yes,Deepak Sharma,Male,19,700001,"H.No. 333, Ward 6",Kolkata,West Bengal,no,4/21/2021,6,Son,no,24
+BPL200025,yes,Rahul Sharma,Male,22,700001,"H.No. 258, Ward 1",Kolkata,West Bengal,no,4/21/2021,3,Brother,no,27
+BPL200026,yes,Anil Verma,Male,23,700001,"H.No. 29, Ward 21",Kolkata,West Bengal,no,4/21/2021,4,Brother,no,28
+BPL200027,yes,Rohit Reddy,Male,25,700001,"H.No. 892, Ward 15",Kolkata,West Bengal,yes,4/21/2021,5,Sister,no,30
+BPL200028,yes,Pooja Verma,Female,21,700001,"H.No. 430, Ward 6",Kolkata,West Bengal,no,4/21/2021,5,Daughter,no,26
+BPL200029,yes,Prakash Singh,Male,23,700001,"H.No. 15, Ward 9",Kolkata,West Bengal,yes,4/21/2021,4,Sister,no,28
+BPL200030,yes,Amit Verma,Male,22,700001,"H.No. 926, Ward 18",Kolkata,West Bengal,no,4/21/2021,3,Son,no,27
+BPL200031,yes,Lakshmi Verma,Female,22,700001,"H.No. 477, Ward 12",Kolkata,West Bengal,yes,4/21/2021,4,Son,no,27
+BPL200032,yes,Neha Iyer,Female,18,700001,"H.No. 776, Ward 7",Kolkata,West Bengal,yes,4/21/2021,4,Daughter,no,23
+BPL200033,yes,Kavya Iyer,Female,24,700001,"H.No. 864, Ward 22",Kolkata,West Bengal,yes,4/21/2021,6,Sister,no,29
+BPL200034,yes,Neha Kumar,Female,22,700001,"H.No. 786, Ward 13",Kolkata,West Bengal,no,4/21/2021,6,Son,no,27
+BPL200035,yes,Suresh Iyer,Male,19,700001,"H.No. 524, Ward 15",Kolkata,West Bengal,yes,4/21/2021,4,Daughter,no,24
+BPL200036,yes,Vikas Patil,Male,19,700001,"H.No. 858, Ward 2",Kolkata,West Bengal,no,4/21/2021,4,Sister,no,24
+BPL200037,yes,Vikas Iyer,Male,22,700001,"H.No. 288, Ward 24",Kolkata,West Bengal,no,4/21/2021,4,Brother,no,27
+BPL200038,yes,Prakash Naidu,Male,24,700001,"H.No. 191, Ward 25",Kolkata,West Bengal,no,4/21/2021,4,Brother,no,29
+BPL200039,yes,Asha Verma,Female,25,700001,"H.No. 647, Ward 25",Kolkata,West Bengal,no,4/21/2021,3,Daughter,no,30
+BPL200040,yes,Suresh Sharma,Male,24,700001,"H.No. 245, Ward 23",Kolkata,West Bengal,yes,4/21/2021,4,Sister,no,29
+BPL200041,yes,Amit Reddy,Male,23,700001,"H.No. 440, Ward 6",Kolkata,West Bengal,yes,4/21/2021,6,Daughter,no,28
+BPL200042,yes,Suresh Naidu,Male,19,700001,"H.No. 271, Ward 11",Kolkata,West Bengal,no,4/21/2021,6,Sister,no,24
+BPL200043,yes,Rahul Das,Male,24,700001,"H.No. 227, Ward 11",Kolkata,West Bengal,yes,4/21/2021,6,Daughter,no,29
+BPL200044,yes,Ritu Das,Female,22,700001,"H.No. 236, Ward 18",Kolkata,West Bengal,yes,4/21/2021,5,Son,no,27
+BPL200045,yes,Suresh Singh,Male,22,700001,"H.No. 528, Ward 23",Kolkata,West Bengal,no,4/21/2021,5,Brother,no,27
+BPL200046,yes,Arjun Reddy,Male,24,700001,"H.No. 717, Ward 22",Kolkata,West Bengal,no,4/21/2021,6,Daughter,no,29
+BPL200047,yes,Suresh Patil,Male,25,700001,"H.No. 539, Ward 4",Kolkata,West Bengal,no,4/21/2021,5,Son,no,30
+BPL200048,yes,Asha Verma,Female,25,700001,"H.No. 669, Ward 10",Kolkata,West Bengal,no,4/21/2021,6,Brother,no,30
+BPL200049,yes,Anil Naidu,Male,19,700001,"H.No. 150, Ward 19",Kolkata,West Bengal,no,4/21/2021,5,Daughter,no,24
+BPL200050,yes,Prakash Patil,Male,25,700001,"H.No. 797, Ward 23",Kolkata,West Bengal,no,4/21/2021,5,Daughter,no,30
+BPL200051,yes,Amit Reddy,Male,20,700001,"H.No. 479, Ward 23",Kolkata,West Bengal,no,4/21/2021,6,Daughter,no,25
+BPL200052,yes,Suresh Reddy,Male,18,700001,"H.No. 352, Ward 17",Kolkata,West Bengal,yes,4/21/2021,3,Daughter,no,23
+BPL200053,yes,Asha Iyer,Female,25,700001,"H.No. 902, Ward 11",Kolkata,West Bengal,no,4/21/2021,6,Daughter,no,30
+BPL200054,yes,Prakash Reddy,Male,24,700001,"H.No. 306, Ward 17",Kolkata,West Bengal,no,4/21/2021,4,Daughter,no,29
+BPL200055,yes,Asha Sharma,Female,21,700001,"H.No. 18, Ward 14",Kolkata,West Bengal,yes,4/21/2021,4,Daughter,no,26
+BPL200056,yes,Rohit Iyer,Male,19,700001,"H.No. 744, Ward 22",Kolkata,West Bengal,no,4/21/2021,3,Sister,no,24
+BPL200057,yes,Asha Patil,Female,24,700001,"H.No. 694, Ward 3",Kolkata,West Bengal,no,4/21/2021,3,Sister,no,29
+BPL200058,yes,Sunita Iyer,Female,21,700001,"H.No. 414, Ward 8",Kolkata,West Bengal,no,4/21/2021,3,Sister,no,26
+BPL200059,yes,Divya Das,Female,20,700001,"H.No. 253, Ward 3",Kolkata,West Bengal,no,4/21/2021,3,Daughter,no,25
+BPL200060,yes,Amit Naidu,Male,24,700001,"H.No. 262, Ward 9",Kolkata,West Bengal,no,4/21/2021,3,Sister,no,29
+BPL200061,yes,Kavya Reddy,Female,18,700001,"H.No. 558, Ward 17",Kolkata,West Bengal,no,4/21/2021,5,Son,no,23
+BPL200062,yes,Kavya Sharma,Female,19,700001,"H.No. 635, Ward 1",Kolkata,West Bengal,no,4/21/2021,6,Daughter,no,24
+BPL200063,yes,Neha Das,Female,25,700001,"H.No. 699, Ward 18",Kolkata,West Bengal,no,4/21/2021,5,Son,no,30
+BPL200064,yes,Arjun Iyer,Male,18,700001,"H.No. 739, Ward 21",Kolkata,West Bengal,no,4/21/2021,6,Sister,no,23
+BPL200065,yes,Neha Iyer,Female,19,700001,"H.No. 806, Ward 19",Kolkata,West Bengal,no,4/21/2021,5,Son,no,24
+BPL200066,yes,Manoj Singh,Male,18,700001,"H.No. 45, Ward 14",Kolkata,West Bengal,no,4/21/2021,5,Daughter,no,23
+BPL200067,yes,Divya Das,Female,18,700001,"H.No. 35, Ward 6",Kolkata,West Bengal,no,4/21/2021,5,Daughter,no,23
+BPL200068,yes,Rohit Das,Male,22,700001,"H.No. 758, Ward 6",Kolkata,West Bengal,yes,4/21/2021,6,Daughter,no,27
+BPL200069,yes,Asha Naidu,Female,23,700001,"H.No. 348, Ward 9",Kolkata,West Bengal,yes,4/21/2021,5,Son,no,28
+BPL200070,yes,Manoj Verma,Male,21,700001,"H.No. 687, Ward 3",Kolkata,West Bengal,no,4/21/2021,3,Sister,no,26
+BPL200071,yes,Prakash Patil,Male,22,700001,"H.No. 231, Ward 14",Kolkata,West Bengal,no,4/21/2021,5,Son,no,27
+BPL200072,yes,Kavya Kumar,Female,24,700001,"H.No. 797, Ward 6",Kolkata,West Bengal,no,4/21/2021,5,Daughter,no,29
+BPL200073,yes,Lakshmi Das,Female,25,700001,"H.No. 980, Ward 14",Kolkata,West Bengal,yes,4/21/2021,6,Brother,no,30
+BPL200074,yes,Kavya Kumar,Female,22,700001,"H.No. 905, Ward 18",Kolkata,West Bengal,yes,4/21/2021,5,Sister,no,27
+BPL200075,yes,Lakshmi Singh,Female,25,700001,"H.No. 36, Ward 12",Kolkata,West Bengal,no,4/21/2021,6,Brother,no,30
+BPL200076,yes,Deepak Naidu,Male,25,700001,"H.No. 755, Ward 1",Kolkata,West Bengal,no,4/21/2021,4,Brother,no,30
+BPL200077,yes,Suresh Naidu,Male,21,700001,"H.No. 546, Ward 8",Kolkata,West Bengal,no,4/21/2021,5,Sister,no,26
+BPL200078,yes,Lakshmi Singh,Female,24,700001,"H.No. 98, Ward 24",Kolkata,West Bengal,no,4/21/2021,4,Daughter,no,29
+BPL200079,yes,Vikas Naidu,Male,22,700001,"H.No. 909, Ward 8",Kolkata,West Bengal,yes,4/21/2021,6,Son,no,27
+BPL200080,yes,Meena Gowda,Female,18,700001,"H.No. 882, Ward 4",Kolkata,West Bengal,no,4/21/2021,6,Sister,no,23
+BPL200081,yes,Sunita Naidu,Female,18,700001,"H.No. 240, Ward 10",Kolkata,West Bengal,yes,4/21/2021,4,Daughter,no,23
+BPL200082,yes,Meena Sharma,Female,23,700001,"H.No. 281, Ward 22",Kolkata,West Bengal,yes,4/21/2021,4,Son,no,28
+BPL200083,yes,Pooja Das,Female,24,700001,"H.No. 41, Ward 10",Kolkata,West Bengal,yes,4/21/2021,4,Son,no,29
+BPL200084,yes,Manoj Reddy,Male,18,700001,"H.No. 567, Ward 19",Kolkata,West Bengal,no,4/21/2021,5,Sister,no,23
+BPL200085,yes,Neha Das,Female,25,700001,"H.No. 114, Ward 5",Kolkata,West Bengal,yes,4/21/2021,3,Brother,no,30
+BPL200086,yes,Arjun Verma,Male,19,700001,"H.No. 715, Ward 19",Kolkata,West Bengal,no,4/21/2021,3,Son,no,24
+BPL200087,yes,Rahul Singh,Male,25,700001,"H.No. 146, Ward 17",Kolkata,West Bengal,yes,4/21/2021,4,Son,no,30
+BPL200088,yes,Anil Verma,Male,18,700001,"H.No. 398, Ward 20",Kolkata,West Bengal,yes,4/21/2021,6,Brother,no,23
+BPL200089,yes,Rohit Iyer,Male,19,700001,"H.No. 171, Ward 25",Kolkata,West Bengal,yes,4/21/2021,5,Brother,no,24
+BPL200090,yes,Kavya Reddy,Female,19,700001,"H.No. 338, Ward 19",Kolkata,West Bengal,yes,4/21/2021,6,Sister,no,24
+BPL200091,yes,Amit Iyer,Male,25,700001,"H.No. 891, Ward 15",Kolkata,West Bengal,no,4/21/2021,3,Son,no,30
+BPL200092,yes,Ritu Reddy,Female,18,700001,"H.No. 894, Ward 22",Kolkata,West Bengal,no,4/21/2021,4,Son,no,23
+BPL200093,yes,Anita Kumar,Female,25,700001,"H.No. 638, Ward 16",Kolkata,West Bengal,no,4/21/2021,6,Son,no,30
+BPL200094,yes,Pooja Sharma,Female,20,700001,"H.No. 270, Ward 2",Kolkata,West Bengal,no,4/21/2021,4,Brother,no,25
+BPL200095,yes,Pooja Iyer,Female,18,700001,"H.No. 150, Ward 7",Kolkata,West Bengal,yes,4/21/2021,5,Brother,no,23
+BPL200096,yes,Asha Verma,Female,25,700001,"H.No. 292, Ward 20",Kolkata,West Bengal,yes,4/21/2021,5,Son,no,30
+BPL200097,yes,Manoj Patil,Male,23,700001,"H.No. 798, Ward 13",Kolkata,West Bengal,yes,4/21/2021,6,Daughter,no,28
+BPL200098,yes,Divya Naidu,Female,21,700001,"H.No. 242, Ward 15",Kolkata,West Bengal,yes,4/21/2021,6,Brother,no,26
+BPL200099,yes,Arjun Patil,Male,22,700001,"H.No. 555, Ward 18",Kolkata,West Bengal,no,4/21/2021,4,Sister,no,27
+BPL200100,yes,Manoj Sharma,Male,25,700001,"H.No. 573, Ward 7",Kolkata,West Bengal,yes,4/21/2021,4,Sister,no,30
+BPL200101,yes,Meena Sharma,Female,24,700001,"H.No. 640, Ward 20",Kolkata,West Bengal,no,4/21/2021,5,Sister,no,29
+BPL200102,yes,Anil Iyer,Male,19,700001,"H.No. 920, Ward 10",Kolkata,West Bengal,yes,4/21/2021,5,Son,no,24
+BPL200103,yes,Anil Singh,Male,25,700001,"H.No. 66, Ward 1",Kolkata,West Bengal,yes,4/21/2021,6,Daughter,no,30
+BPL200104,yes,Kavya Verma,Female,19,700001,"H.No. 890, Ward 20",Kolkata,West Bengal,no,4/21/2021,6,Brother,no,24
+BPL200105,yes,Deepak Das,Male,18,700001,"H.No. 375, Ward 25",Kolkata,West Bengal,yes,4/21/2021,6,Son,no,23
+BPL200106,yes,Asha Verma,Female,25,700001,"H.No. 485, Ward 3",Kolkata,West Bengal,yes,4/21/2021,4,Sister,no,30
+BPL200107,yes,Neha Singh,Female,18,700001,"H.No. 831, Ward 7",Kolkata,West Bengal,yes,4/21/2021,6,Brother,no,23
+BPL200108,yes,Sunita Gowda,Female,19,700001,"H.No. 828, Ward 14",Kolkata,West Bengal,yes,4/21/2021,5,Daughter,no,24
+BPL200109,yes,Meena Reddy,Female,25,700001,"H.No. 483, Ward 17",Kolkata,West Bengal,no,4/21/2021,6,Sister,no,30
+BPL200110,yes,Rohit Singh,Male,18,700001,"H.No. 904, Ward 3",Kolkata,West Bengal,yes,4/21/2021,3,Daughter,no,23
+BPL200111,yes,Meena Reddy,Female,25,700001,"H.No. 94, Ward 7",Kolkata,West Bengal,yes,4/21/2021,4,Sister,no,30
+BPL200112,yes,Manoj Reddy,Male,22,700001,"H.No. 165, Ward 21",Kolkata,West Bengal,yes,4/21/2021,4,Sister,no,27
+BPL200113,yes,Asha Patil,Female,25,700001,"H.No. 156, Ward 4",Kolkata,West Bengal,no,4/21/2021,4,Son,no,30
+BPL200114,yes,Asha Gowda,Female,22,700001,"H.No. 121, Ward 7",Kolkata,West Bengal,yes,4/21/2021,6,Son,no,27
+BPL200115,yes,Ritu Kumar,Female,22,700001,"H.No. 303, Ward 9",Kolkata,West Bengal,yes,4/21/2021,6,Son,no,27
+BPL200116,yes,Manoj Singh,Male,22,700001,"H.No. 206, Ward 16",Kolkata,West Bengal,no,4/21/2021,3,Sister,no,27
+BPL200117,yes,Vikas Iyer,Male,18,700001,"H.No. 5, Ward 22",Kolkata,West Bengal,yes,4/21/2021,5,Sister,no,23
+BPL200118,yes,Meena Kumar,Female,24,700001,"H.No. 169, Ward 7",Kolkata,West Bengal,yes,4/21/2021,4,Son,no,29
+BPL200119,yes,Asha Das,Female,25,700001,"H.No. 319, Ward 13",Kolkata,West Bengal,yes,4/21/2021,5,Brother,no,30
+BPL200120,yes,Neha Verma,Female,20,700001,"H.No. 921, Ward 10",Kolkata,West Bengal,no,4/21/2021,3,Daughter,no,25
+BPL200121,yes,Pooja Iyer,Female,24,700001,"H.No. 774, Ward 20",Kolkata,West Bengal,yes,4/21/2021,4,Sister,no,29
+BPL200122,yes,Asha Singh,Female,24,700001,"H.No. 893, Ward 10",Kolkata,West Bengal,yes,4/21/2021,5,Son,no,29
+BPL200123,yes,Deepak Gowda,Male,23,700001,"H.No. 190, Ward 13",Kolkata,West Bengal,yes,4/21/2021,6,Brother,no,28
+BPL200124,yes,Ritu Das,Female,23,700001,"H.No. 854, Ward 12",Kolkata,West Bengal,yes,4/21/2021,3,Son,no,28
+BPL200125,yes,Anil Gowda,Male,19,700001,"H.No. 541, Ward 13",Kolkata,West Bengal,yes,4/21/2021,5,Daughter,no,24
+BPL200126,yes,Pooja Sharma,Female,20,700001,"H.No. 661, Ward 25",Kolkata,West Bengal,yes,4/21/2021,5,Daughter,no,25
+BPL200127,yes,Asha Singh,Female,18,700001,"H.No. 327, Ward 23",Kolkata,West Bengal,no,4/21/2021,6,Daughter,no,23
+BPL200128,yes,Asha Verma,Female,19,700001,"H.No. 345, Ward 17",Kolkata,West Bengal,yes,4/21/2021,3,Son,no,24
+BPL200129,yes,Arjun Gowda,Male,21,700001,"H.No. 563, Ward 3",Kolkata,West Bengal,yes,4/21/2021,5,Son,no,26
+BPL200130,yes,Manoj Das,Male,10,700001,"H.No. 831, Ward 2",Kolkata,West Bengal,yes,4/21/2021,7,Mother,yes,15
+BPL200131,yes,Sunita Sharma,Female,56,700001,"H.No. 127, Ward 25",Kolkata,West Bengal,no,4/21/2021,6,Spouse,no,61
+BPL200132,yes,Vikas Verma,Male,33,700001,"H.No. 518, Ward 1",Kolkata,West Bengal,no,4/21/2021,3,Mother,yes,38
+BPL200133,yes,Sunita Gowda,Female,6,700001,"H.No. 410, Ward 23",Kolkata,West Bengal,no,4/21/2021,6,Spouse,yes,11
+BPL200134,yes,Pooja Gowda,Female,11,700001,"H.No. 485, Ward 13",Kolkata,West Bengal,no,4/21/2021,6,Head,yes,16
+BPL200135,yes,Manoj Das,Male,15,700001,"H.No. 992, Ward 8",Kolkata,West Bengal,yes,4/21/2021,4,Mother,yes,20
+BPL200136,yes,Amit Kumar,Male,13,700001,"H.No. 412, Ward 4",Kolkata,West Bengal,no,4/21/2021,7,Mother,no,18
+BPL200137,yes,Sunita Singh,Female,27,700001,"H.No. 250, Ward 25",Kolkata,West Bengal,yes,4/21/2021,6,Mother,no,32
+BPL200138,yes,Meena Kumar,Female,49,700001,"H.No. 332, Ward 11",Kolkata,West Bengal,no,4/21/2021,3,Spouse,yes,54
+BPL200139,yes,Amit Reddy,Male,6,700001,"H.No. 348, Ward 16",Kolkata,West Bengal,yes,4/21/2021,3,Spouse,yes,11
+BPL200140,yes,Lakshmi Sharma,Female,51,700001,"H.No. 699, Ward 24",Kolkata,West Bengal,no,4/21/2021,3,Father,no,56
+BPL200141,yes,Ritu Patil,Female,34,700001,"H.No. 590, Ward 15",Kolkata,West Bengal,yes,4/21/2021,4,Spouse,no,39
+BPL200142,yes,Arjun Patil,Male,43,700001,"H.No. 192, Ward 19",Kolkata,West Bengal,no,4/21/2021,3,Father,yes,48
+BPL200143,yes,Amit Verma,Male,9,700001,"H.No. 545, Ward 11",Kolkata,West Bengal,yes,4/21/2021,4,Head,yes,14
+BPL200144,yes,Anita Sharma,Female,8,700001,"H.No. 356, Ward 10",Kolkata,West Bengal,no,4/21/2021,6,Spouse,yes,13
+BPL200145,yes,Ritu Gowda,Female,59,700001,"H.No. 473, Ward 23",Kolkata,West Bengal,no,4/21/2021,5,Mother,yes,64
+BPL200146,yes,Anil Iyer,Male,9,700001,"H.No. 130, Ward 5",Kolkata,West Bengal,yes,4/21/2021,4,Spouse,yes,14
+BPL200147,yes,Neha Reddy,Female,45,700001,"H.No. 809, Ward 8",Kolkata,West Bengal,no,4/21/2021,6,Father,yes,50
+BPL200148,yes,Prakash Verma,Male,41,700001,"H.No. 211, Ward 9",Kolkata,West Bengal,yes,4/21/2021,6,Mother,yes,46
+BPL200149,yes,Rohit Naidu,Male,62,700001,"H.No. 292, Ward 9",Kolkata,West Bengal,no,4/21/2021,6,Spouse,no,67
+BPL200150,yes,Lakshmi Iyer,Female,30,700001,"H.No. 876, Ward 14",Kolkata,West Bengal,yes,4/21/2021,6,Head,no,35
+BPL200151,yes,Vikas Kumar,Male,31,700001,"H.No. 275, Ward 24",Kolkata,West Bengal,yes,4/21/2021,7,Father,yes,36
+BPL200152,yes,Pooja Kumar,Female,47,700001,"H.No. 714, Ward 20",Kolkata,West Bengal,no,4/21/2021,7,Mother,yes,52
+BPL200153,yes,Meena Sharma,Female,35,700001,"H.No. 329, Ward 7",Kolkata,West Bengal,no,4/21/2021,5,Mother,no,40
+BPL200154,yes,Vikas Das,Male,51,700001,"H.No. 656, Ward 3",Kolkata,West Bengal,yes,4/21/2021,4,Spouse,no,56
+BPL200155,yes,Anita Gowda,Female,17,700001,"H.No. 80, Ward 9",Kolkata,West Bengal,no,4/21/2021,3,Head,yes,22
+BPL200156,yes,Prakash Singh,Male,27,700001,"H.No. 213, Ward 15",Kolkata,West Bengal,no,4/21/2021,3,Head,no,32
+BPL200157,yes,Meena Verma,Female,49,700001,"H.No. 765, Ward 23",Kolkata,West Bengal,no,4/21/2021,7,Spouse,no,54
+BPL200158,yes,Lakshmi Sharma,Female,70,700001,"H.No. 577, Ward 22",Kolkata,West Bengal,no,4/21/2021,3,Mother,no,75
+BPL200159,yes,Asha Singh,Female,32,700001,"H.No. 715, Ward 2",Kolkata,West Bengal,yes,4/21/2021,5,Father,yes,37
+BPL200160,yes,Amit Singh,Male,50,700001,"H.No. 676, Ward 17",Kolkata,West Bengal,no,4/21/2021,3,Head,no,55
+BPL200161,yes,Vikas Singh,Male,13,700001,"H.No. 420, Ward 25",Kolkata,West Bengal,yes,4/21/2021,4,Mother,yes,18
+BPL200162,yes,Ritu Patil,Female,63,700001,"H.No. 701, Ward 22",Kolkata,West Bengal,yes,4/21/2021,7,Mother,no,68
+BPL200163,yes,Lakshmi Singh,Female,27,700001,"H.No. 368, Ward 19",Kolkata,West Bengal,no,4/21/2021,3,Mother,no,32
+BPL200164,yes,Rohit Singh,Male,54,700001,"H.No. 259, Ward 12",Kolkata,West Bengal,no,4/21/2021,7,Father,yes,59
+BPL200165,yes,Prakash Naidu,Male,66,700001,"H.No. 803, Ward 14",Kolkata,West Bengal,yes,4/21/2021,4,Father,yes,71
+BPL200166,yes,Suresh Gowda,Male,49,700001,"H.No. 61, Ward 4",Kolkata,West Bengal,no,4/21/2021,6,Head,yes,54
+BPL200167,yes,Rohit Naidu,Male,69,700001,"H.No. 719, Ward 5",Kolkata,West Bengal,yes,4/21/2021,6,Mother,no,74
+BPL200168,yes,Kavya Kumar,Female,48,700001,"H.No. 181, Ward 15",Kolkata,West Bengal,yes,4/21/2021,7,Spouse,no,53
+BPL200169,yes,Anil Sharma,Male,9,700001,"H.No. 111, Ward 23",Kolkata,West Bengal,no,4/21/2021,7,Spouse,yes,14
+BPL200170,yes,Pooja Das,Female,13,700001,"H.No. 367, Ward 16",Kolkata,West Bengal,no,4/21/2021,4,Father,yes,18
+BPL200171,yes,Anita Sharma,Female,49,700001,"H.No. 189, Ward 17",Kolkata,West Bengal,no,4/21/2021,5,Head,yes,54
+BPL200172,yes,Lakshmi Singh,Female,7,700001,"H.No. 856, Ward 25",Kolkata,West Bengal,no,4/21/2021,6,Head,yes,12
+BPL200173,yes,Anita Verma,Female,12,700001,"H.No. 443, Ward 22",Kolkata,West Bengal,no,4/21/2021,5,Mother,no,17
+BPL200174,yes,Vikas Verma,Male,67,700001,"H.No. 942, Ward 5",Kolkata,West Bengal,yes,4/21/2021,7,Head,yes,72
+BPL200175,yes,Arjun Singh,Male,10,700001,"H.No. 383, Ward 5",Kolkata,West Bengal,yes,4/21/2021,7,Spouse,no,15
+BPL200176,yes,Kavya Sharma,Female,15,700001,"H.No. 904, Ward 8",Kolkata,West Bengal,no,4/21/2021,4,Head,no,20
+BPL200177,yes,Kavya Das,Female,5,700001,"H.No. 304, Ward 24",Kolkata,West Bengal,yes,4/21/2021,5,Mother,no,10
+BPL200178,yes,Meena Gowda,Female,57,700001,"H.No. 32, Ward 14",Kolkata,West Bengal,yes,4/21/2021,6,Spouse,yes,62
+BPL200179,yes,Rahul Verma,Male,6,700001,"H.No. 375, Ward 9",Kolkata,West Bengal,no,4/21/2021,4,Spouse,no,11
+BPL200180,yes,Asha Verma,Female,18,560001,"H.No. 940, Ward 12",Bengaluru,Karnataka,yes,4/21/2021,5,Sister,no,23
+BPL200181,yes,Asha Patil,Female,20,560001,"H.No. 5, Ward 23",Bengaluru,Karnataka,no,4/21/2021,6,Daughter,no,25
+BPL200182,yes,Vikas Reddy,Male,19,560001,"H.No. 820, Ward 11",Bengaluru,Karnataka,no,4/21/2021,4,Sister,no,24
+BPL200183,yes,Divya Sharma,Female,18,560001,"H.No. 677, Ward 21",Bengaluru,Karnataka,yes,4/21/2021,6,Son,no,23
+BPL200184,yes,Pooja Iyer,Female,18,560001,"H.No. 648, Ward 10",Bengaluru,Karnataka,yes,4/21/2021,4,Son,no,23
+BPL200185,yes,Lakshmi Reddy,Female,19,560001,"H.No. 185, Ward 12",Bengaluru,Karnataka,yes,4/21/2021,4,Brother,no,24
+BPL200186,yes,Asha Patil,Female,24,560001,"H.No. 325, Ward 8",Bengaluru,Karnataka,yes,4/21/2021,3,Brother,no,29
+BPL200187,yes,Neha Reddy,Female,21,560001,"H.No. 719, Ward 5",Bengaluru,Karnataka,no,4/21/2021,3,Brother,no,26
+BPL200188,yes,Asha Gowda,Female,22,560001,"H.No. 442, Ward 10",Bengaluru,Karnataka,no,4/21/2021,6,Sister,no,27
+BPL200189,yes,Arjun Patil,Male,20,560001,"H.No. 337, Ward 8",Bengaluru,Karnataka,yes,4/21/2021,3,Brother,no,25
+BPL200190,yes,Vikas Kumar,Male,19,560001,"H.No. 191, Ward 9",Bengaluru,Karnataka,no,4/21/2021,6,Daughter,no,24
+BPL200191,yes,Rahul Naidu,Male,19,560001,"H.No. 355, Ward 13",Bengaluru,Karnataka,yes,4/21/2021,6,Son,no,24
+BPL200192,yes,Lakshmi Iyer,Female,20,560001,"H.No. 234, Ward 12",Bengaluru,Karnataka,yes,4/21/2021,3,Sister,no,25
+BPL200193,yes,Pooja Verma,Female,18,560001,"H.No. 524, Ward 22",Bengaluru,Karnataka,no,4/21/2021,4,Brother,no,23
+BPL200194,yes,Ritu Kumar,Female,23,560001,"H.No. 58, Ward 18",Bengaluru,Karnataka,no,4/21/2021,4,Son,no,28
+BPL200195,yes,Divya Sharma,Female,21,560001,"H.No. 817, Ward 18",Bengaluru,Karnataka,yes,4/21/2021,6,Sister,no,26
+BPL200196,yes,Vikas Verma,Male,20,560001,"H.No. 171, Ward 15",Bengaluru,Karnataka,yes,4/21/2021,5,Brother,no,25
+BPL200197,yes,Meena Iyer,Female,21,560001,"H.No. 683, Ward 4",Bengaluru,Karnataka,yes,4/21/2021,6,Sister,no,26
+BPL200198,yes,Ritu Kumar,Female,23,560001,"H.No. 173, Ward 20",Bengaluru,Karnataka,no,4/21/2021,4,Daughter,no,28
+BPL200199,yes,Suresh Iyer,Male,21,560001,"H.No. 130, Ward 3",Bengaluru,Karnataka,yes,4/21/2021,4,Sister,no,26
+BPL200200,yes,Deepak Gowda,Male,25,560001,"H.No. 154, Ward 10",Bengaluru,Karnataka,yes,4/21/2021,6,Daughter,no,30
+BPL200201,yes,Anita Naidu,Female,25,560001,"H.No. 925, Ward 20",Bengaluru,Karnataka,yes,4/21/2021,3,Sister,no,30
+BPL200202,yes,Anita Verma,Female,20,560001,"H.No. 859, Ward 18",Bengaluru,Karnataka,yes,4/21/2021,5,Sister,no,25
+BPL200203,yes,Amit Naidu,Male,19,560001,"H.No. 830, Ward 3",Bengaluru,Karnataka,yes,4/21/2021,3,Daughter,no,24
+BPL200204,yes,Prakash Kumar,Male,21,560001,"H.No. 298, Ward 16",Bengaluru,Karnataka,yes,4/21/2021,3,Son,no,26
+BPL200205,yes,Manoj Verma,Male,23,560001,"H.No. 596, Ward 20",Bengaluru,Karnataka,no,4/21/2021,5,Son,no,28
+BPL200206,yes,Deepak Das,Male,24,560001,"H.No. 641, Ward 7",Bengaluru,Karnataka,yes,4/21/2021,5,Daughter,no,29
+BPL200207,yes,Divya Sharma,Female,18,560001,"H.No. 559, Ward 2",Bengaluru,Karnataka,no,4/21/2021,4,Sister,no,23
+BPL200208,yes,Lakshmi Gowda,Female,25,560001,"H.No. 459, Ward 10",Bengaluru,Karnataka,yes,4/21/2021,4,Daughter,no,30
+BPL200209,yes,Suresh Kumar,Male,22,560001,"H.No. 536, Ward 8",Bengaluru,Karnataka,yes,4/21/2021,6,Brother,no,27
+BPL200210,yes,Arjun Naidu,Male,22,560001,"H.No. 963, Ward 18",Bengaluru,Karnataka,yes,4/21/2021,5,Son,no,27
+BPL200211,yes,Neha Reddy,Female,23,560001,"H.No. 153, Ward 3",Bengaluru,Karnataka,no,4/21/2021,5,Daughter,no,28
+BPL200212,yes,Anita Patil,Female,24,560001,"H.No. 767, Ward 21",Bengaluru,Karnataka,no,4/21/2021,5,Daughter,no,29
+BPL200213,yes,Rahul Kumar,Male,24,560001,"H.No. 529, Ward 16",Bengaluru,Karnataka,no,4/21/2021,5,Brother,no,29
+BPL200214,yes,Vikas Verma,Male,19,560001,"H.No. 485, Ward 16",Bengaluru,Karnataka,no,4/21/2021,6,Brother,no,24
+BPL200215,yes,Prakash Das,Male,19,560001,"H.No. 491, Ward 2",Bengaluru,Karnataka,yes,4/21/2021,5,Brother,no,24
+BPL200216,yes,Suresh Patil,Male,19,560001,"H.No. 894, Ward 16",Bengaluru,Karnataka,yes,4/21/2021,3,Daughter,no,24
+BPL200217,yes,Neha Gowda,Female,22,560001,"H.No. 351, Ward 12",Bengaluru,Karnataka,yes,4/21/2021,6,Brother,no,27
+BPL200218,yes,Meena Iyer,Female,24,560001,"H.No. 704, Ward 1",Bengaluru,Karnataka,no,4/21/2021,5,Son,no,29
+BPL200219,yes,Lakshmi Verma,Female,20,560001,"H.No. 379, Ward 2",Bengaluru,Karnataka,no,4/21/2021,5,Sister,no,25
+BPL200220,yes,Anita Verma,Female,19,560001,"H.No. 46, Ward 1",Bengaluru,Karnataka,yes,4/21/2021,3,Sister,no,24
+BPL200221,yes,Meena Gowda,Female,22,560001,"H.No. 508, Ward 7",Bengaluru,Karnataka,yes,4/21/2021,3,Daughter,no,27
+BPL200222,yes,Amit Iyer,Male,19,560001,"H.No. 401, Ward 15",Bengaluru,Karnataka,yes,4/21/2021,5,Daughter,no,24
+BPL200223,yes,Arjun Naidu,Male,23,560001,"H.No. 898, Ward 16",Bengaluru,Karnataka,yes,4/21/2021,4,Son,no,28
+BPL200224,yes,Lakshmi Kumar,Female,19,560001,"H.No. 123, Ward 25",Bengaluru,Karnataka,yes,4/21/2021,6,Brother,no,24
+BPL200225,yes,Neha Naidu,Female,21,560001,"H.No. 161, Ward 12",Bengaluru,Karnataka,no,4/21/2021,6,Sister,no,26
+BPL200226,yes,Pooja Naidu,Female,20,560001,"H.No. 233, Ward 3",Bengaluru,Karnataka,yes,4/21/2021,3,Brother,no,25
+BPL200227,yes,Anil Reddy,Male,25,560001,"H.No. 833, Ward 4",Bengaluru,Karnataka,no,4/21/2021,3,Brother,no,30
+BPL200228,yes,Lakshmi Gowda,Female,18,560001,"H.No. 368, Ward 9",Bengaluru,Karnataka,yes,4/21/2021,4,Sister,no,23
+BPL200229,yes,Vikas Naidu,Male,22,560001,"H.No. 502, Ward 20",Bengaluru,Karnataka,yes,4/21/2021,4,Sister,no,27
+BPL200230,yes,Ritu Reddy,Female,20,560001,"H.No. 239, Ward 4",Bengaluru,Karnataka,yes,4/21/2021,6,Son,no,25
+BPL200231,yes,Sunita Sharma,Female,18,560001,"H.No. 262, Ward 24",Bengaluru,Karnataka,yes,4/21/2021,5,Daughter,no,23
+BPL200232,yes,Rohit Reddy,Male,23,560001,"H.No. 320, Ward 21",Bengaluru,Karnataka,no,4/21/2021,4,Brother,no,28
+BPL200233,yes,Lakshmi Sharma,Female,25,560001,"H.No. 927, Ward 8",Bengaluru,Karnataka,no,4/21/2021,5,Brother,no,30
+BPL200234,yes,Arjun Reddy,Male,19,560001,"H.No. 875, Ward 5",Bengaluru,Karnataka,yes,4/21/2021,4,Son,no,24
+BPL200235,yes,Divya Verma,Female,22,560001,"H.No. 111, Ward 2",Bengaluru,Karnataka,no,4/21/2021,5,Daughter,no,27
+BPL200236,yes,Sunita Reddy,Female,24,560001,"H.No. 434, Ward 3",Bengaluru,Karnataka,yes,4/21/2021,3,Son,no,29
+BPL200237,yes,Rahul Reddy,Male,22,560001,"H.No. 974, Ward 13",Bengaluru,Karnataka,yes,4/21/2021,3,Brother,no,27
+BPL200238,yes,Asha Patil,Female,21,560001,"H.No. 435, Ward 5",Bengaluru,Karnataka,yes,4/21/2021,5,Brother,no,26
+BPL200239,yes,Anil Reddy,Male,24,560001,"H.No. 234, Ward 22",Bengaluru,Karnataka,no,4/21/2021,6,Son,no,29
+BPL200240,yes,Manoj Iyer,Male,23,560001,"H.No. 14, Ward 21",Bengaluru,Karnataka,yes,4/21/2021,6,Sister,no,28
+BPL200241,yes,Pooja Kumar,Female,22,560001,"H.No. 155, Ward 24",Bengaluru,Karnataka,no,4/21/2021,4,Sister,no,27
+BPL200242,yes,Amit Naidu,Male,19,560001,"H.No. 107, Ward 20",Bengaluru,Karnataka,no,4/21/2021,4,Son,no,24
+BPL200243,yes,Divya Kumar,Female,19,560001,"H.No. 361, Ward 16",Bengaluru,Karnataka,yes,4/21/2021,6,Sister,no,24
+BPL200244,yes,Prakash Kumar,Male,24,560001,"H.No. 16, Ward 24",Bengaluru,Karnataka,no,4/21/2021,3,Son,no,29
+BPL200245,yes,Prakash Singh,Male,21,560001,"H.No. 840, Ward 11",Bengaluru,Karnataka,no,4/21/2021,5,Sister,no,26
+BPL200246,yes,Anil Kumar,Male,18,560001,"H.No. 314, Ward 22",Bengaluru,Karnataka,no,4/21/2021,6,Son,no,23
+BPL200247,yes,Rahul Gowda,Male,23,560001,"H.No. 793, Ward 2",Bengaluru,Karnataka,yes,4/21/2021,6,Sister,no,28
+BPL200248,yes,Deepak Kumar,Male,25,560001,"H.No. 408, Ward 18",Bengaluru,Karnataka,no,4/21/2021,4,Son,no,30
+BPL200249,yes,Meena Reddy,Female,20,560001,"H.No. 81, Ward 12",Bengaluru,Karnataka,yes,4/21/2021,4,Daughter,no,25
+BPL200250,yes,Anil Reddy,Male,23,560001,"H.No. 565, Ward 25",Bengaluru,Karnataka,no,4/21/2021,4,Brother,no,28
+BPL200251,yes,Sunita Reddy,Female,22,560001,"H.No. 158, Ward 18",Bengaluru,Karnataka,no,4/21/2021,5,Brother,no,27
+BPL200252,yes,Divya Das,Female,21,560001,"H.No. 332, Ward 3",Bengaluru,Karnataka,yes,4/21/2021,6,Daughter,no,26
+BPL200253,yes,Sunita Singh,Female,23,560001,"H.No. 70, Ward 10",Bengaluru,Karnataka,yes,4/21/2021,5,Sister,no,28
+BPL200254,yes,Meena Kumar,Female,21,560001,"H.No. 361, Ward 14",Bengaluru,Karnataka,no,4/21/2021,3,Sister,no,26
+BPL200255,yes,Lakshmi Singh,Female,22,560001,"H.No. 209, Ward 6",Bengaluru,Karnataka,no,4/21/2021,4,Brother,no,27
+BPL200256,yes,Deepak Singh,Male,18,560001,"H.No. 994, Ward 23",Bengaluru,Karnataka,no,4/21/2021,5,Brother,no,23
+BPL200257,yes,Rohit Gowda,Male,24,560001,"H.No. 290, Ward 5",Bengaluru,Karnataka,yes,4/21/2021,3,Sister,no,29
+BPL200258,yes,Amit Gowda,Male,19,560001,"H.No. 220, Ward 15",Bengaluru,Karnataka,yes,4/21/2021,4,Son,no,24
+BPL200259,yes,Pooja Naidu,Female,21,560001,"H.No. 858, Ward 15",Bengaluru,Karnataka,yes,4/21/2021,3,Daughter,no,26
+BPL200260,yes,Kavya Gowda,Female,19,560001,"H.No. 964, Ward 24",Bengaluru,Karnataka,no,4/21/2021,3,Sister,no,24
+BPL200261,yes,Prakash Naidu,Male,22,560001,"H.No. 984, Ward 22",Bengaluru,Karnataka,no,4/21/2021,3,Daughter,no,27
+BPL200262,yes,Vikas Reddy,Male,24,560001,"H.No. 568, Ward 10",Bengaluru,Karnataka,no,4/21/2021,4,Daughter,no,29
+BPL200263,yes,Suresh Das,Male,20,560001,"H.No. 216, Ward 2",Bengaluru,Karnataka,yes,4/21/2021,4,Sister,no,25
+BPL200264,yes,Kavya Patil,Female,22,560001,"H.No. 801, Ward 1",Bengaluru,Karnataka,yes,4/21/2021,5,Sister,no,27
+BPL200265,yes,Neha Patil,Female,21,560001,"H.No. 865, Ward 11",Bengaluru,Karnataka,yes,4/21/2021,3,Son,no,26
+BPL200266,yes,Asha Kumar,Female,19,560001,"H.No. 632, Ward 21",Bengaluru,Karnataka,yes,4/21/2021,6,Daughter,no,24
+BPL200267,yes,Anil Singh,Male,22,560001,"H.No. 781, Ward 23",Bengaluru,Karnataka,no,4/21/2021,3,Sister,no,27
+BPL200268,yes,Rahul Gowda,Male,25,560001,"H.No. 633, Ward 21",Bengaluru,Karnataka,yes,4/21/2021,3,Daughter,no,30
+BPL200269,yes,Rohit Das,Male,21,560001,"H.No. 46, Ward 1",Bengaluru,Karnataka,no,4/21/2021,5,Son,no,26
+BPL200270,yes,Lakshmi Singh,Female,24,560001,"H.No. 382, Ward 18",Bengaluru,Karnataka,no,4/21/2021,6,Brother,no,29
+BPL200271,yes,Manoj Sharma,Male,20,560001,"H.No. 234, Ward 2",Bengaluru,Karnataka,yes,4/21/2021,3,Son,no,25
+BPL200272,yes,Pooja Kumar,Female,21,560001,"H.No. 247, Ward 24",Bengaluru,Karnataka,yes,4/21/2021,4,Daughter,no,26
+BPL200273,yes,Ritu Iyer,Female,25,560001,"H.No. 956, Ward 8",Bengaluru,Karnataka,no,4/21/2021,5,Son,no,30
+BPL200274,yes,Arjun Singh,Male,23,560001,"H.No. 120, Ward 12",Bengaluru,Karnataka,no,4/21/2021,3,Son,no,28
+BPL200275,yes,Divya Sharma,Female,20,560001,"H.No. 656, Ward 1",Bengaluru,Karnataka,yes,4/21/2021,3,Brother,no,25
+BPL200276,yes,Manoj Singh,Male,23,560001,"H.No. 66, Ward 7",Bengaluru,Karnataka,yes,4/21/2021,4,Sister,no,28
+BPL200277,yes,Anil Patil,Male,22,560001,"H.No. 104, Ward 3",Bengaluru,Karnataka,no,4/21/2021,4,Son,no,27
+BPL200278,yes,Anil Sharma,Male,22,560001,"H.No. 781, Ward 15",Bengaluru,Karnataka,no,4/21/2021,6,Son,no,27
+BPL200279,yes,Rahul Iyer,Male,24,560001,"H.No. 630, Ward 4",Bengaluru,Karnataka,no,4/21/2021,3,Daughter,no,29
+BPL200280,yes,Prakash Iyer,Male,21,560001,"H.No. 338, Ward 9",Bengaluru,Karnataka,no,4/21/2021,3,Brother,no,26
+BPL200281,yes,Ritu Patil,Female,18,560001,"H.No. 669, Ward 10",Bengaluru,Karnataka,yes,4/21/2021,3,Son,no,23
+BPL200282,yes,Suresh Das,Male,24,560001,"H.No. 986, Ward 16",Bengaluru,Karnataka,no,4/21/2021,3,Son,no,29
+BPL200283,yes,Rahul Gowda,Male,22,560001,"H.No. 675, Ward 1",Bengaluru,Karnataka,yes,4/21/2021,6,Son,no,27
+BPL200284,yes,Divya Das,Female,19,560001,"H.No. 43, Ward 23",Bengaluru,Karnataka,no,4/21/2021,4,Son,no,24
+BPL200285,yes,Rohit Sharma,Male,23,560001,"H.No. 164, Ward 8",Bengaluru,Karnataka,no,4/21/2021,6,Son,no,28
+BPL200286,yes,Anita Sharma,Female,20,560001,"H.No. 16, Ward 8",Bengaluru,Karnataka,yes,4/21/2021,3,Sister,no,25
+BPL200287,yes,Prakash Gowda,Male,20,560001,"H.No. 740, Ward 5",Bengaluru,Karnataka,no,4/21/2021,5,Son,no,25
+BPL200288,yes,Divya Gowda,Female,24,560001,"H.No. 674, Ward 20",Bengaluru,Karnataka,no,4/21/2021,4,Sister,no,29
+BPL200289,yes,Lakshmi Patil,Female,25,560001,"H.No. 354, Ward 25",Bengaluru,Karnataka,no,4/21/2021,5,Brother,no,30
+BPL200290,yes,Sunita Kumar,Female,18,560001,"H.No. 72, Ward 15",Bengaluru,Karnataka,no,4/21/2021,4,Daughter,no,23
+BPL200291,yes,Neha Das,Female,24,560001,"H.No. 329, Ward 21",Bengaluru,Karnataka,yes,4/21/2021,6,Brother,no,29
+BPL200292,yes,Rohit Verma,Male,20,560001,"H.No. 99, Ward 10",Bengaluru,Karnataka,yes,4/21/2021,5,Son,no,25
+BPL200293,yes,Prakash Singh,Male,19,560001,"H.No. 46, Ward 4",Bengaluru,Karnataka,yes,4/21/2021,3,Daughter,no,24
+BPL200294,yes,Vikas Gowda,Male,23,560001,"H.No. 503, Ward 5",Bengaluru,Karnataka,yes,4/21/2021,4,Sister,no,28
+BPL200295,yes,Vikas Patil,Male,23,560001,"H.No. 890, Ward 14",Bengaluru,Karnataka,yes,4/21/2021,6,Daughter,no,28
+BPL200296,yes,Pooja Verma,Female,22,560001,"H.No. 151, Ward 3",Bengaluru,Karnataka,no,4/21/2021,6,Sister,no,27
+BPL200297,yes,Divya Gowda,Female,19,560001,"H.No. 15, Ward 19",Bengaluru,Karnataka,yes,4/21/2021,4,Sister,no,24
+BPL200298,yes,Kavya Singh,Female,23,560001,"H.No. 916, Ward 23",Bengaluru,Karnataka,yes,4/21/2021,6,Daughter,no,28
+BPL200299,yes,Divya Verma,Female,19,560001,"H.No. 91, Ward 20",Bengaluru,Karnataka,yes,4/21/2021,4,Brother,no,24
+BPL200300,yes,Asha Naidu,Female,19,560001,"H.No. 881, Ward 22",Bengaluru,Karnataka,yes,4/21/2021,6,Sister,no,24
+BPL200301,yes,Prakash Naidu,Male,19,560001,"H.No. 748, Ward 1",Bengaluru,Karnataka,no,4/21/2021,5,Daughter,no,24
+BPL200302,yes,Pooja Kumar,Female,23,560001,"H.No. 756, Ward 5",Bengaluru,Karnataka,no,4/21/2021,4,Son,no,28
+BPL200303,yes,Suresh Das,Male,19,560001,"H.No. 275, Ward 16",Bengaluru,Karnataka,no,4/21/2021,5,Daughter,no,24
+BPL200304,yes,Prakash Naidu,Male,21,560001,"H.No. 87, Ward 5",Bengaluru,Karnataka,no,4/21/2021,5,Sister,no,26
+BPL200305,yes,Neha Kumar,Female,25,560001,"H.No. 853, Ward 15",Bengaluru,Karnataka,yes,4/21/2021,5,Daughter,no,30
+BPL200306,yes,Anil Naidu,Male,24,560001,"H.No. 604, Ward 5",Bengaluru,Karnataka,yes,4/21/2021,3,Son,no,29
+BPL200307,yes,Divya Verma,Female,22,560001,"H.No. 707, Ward 4",Bengaluru,Karnataka,no,4/21/2021,6,Brother,no,27
+BPL200308,yes,Deepak Kumar,Male,23,560001,"H.No. 982, Ward 11",Bengaluru,Karnataka,no,4/21/2021,4,Daughter,no,28
+BPL200309,yes,Amit Naidu,Male,24,560001,"H.No. 239, Ward 13",Bengaluru,Karnataka,yes,4/21/2021,3,Daughter,no,29
+BPL200310,yes,Neha Verma,Female,19,560001,"H.No. 769, Ward 6",Bengaluru,Karnataka,yes,4/21/2021,3,Daughter,no,24
+BPL200311,yes,Kavya Patil,Female,20,560001,"H.No. 322, Ward 14",Bengaluru,Karnataka,yes,4/21/2021,4,Son,no,25
+BPL200312,yes,Ritu Sharma,Female,23,560001,"H.No. 271, Ward 3",Bengaluru,Karnataka,no,4/21/2021,5,Sister,no,28
+BPL200313,yes,Divya Verma,Female,25,560001,"H.No. 299, Ward 9",Bengaluru,Karnataka,yes,4/21/2021,5,Brother,no,30
+BPL200314,yes,Prakash Verma,Male,19,560001,"H.No. 579, Ward 24",Bengaluru,Karnataka,no,4/21/2021,6,Son,no,24
+BPL200315,yes,Anil Verma,Male,21,560001,"H.No. 270, Ward 4",Bengaluru,Karnataka,yes,4/21/2021,3,Daughter,no,26
+BPL200316,yes,Lakshmi Naidu,Female,23,560001,"H.No. 537, Ward 25",Bengaluru,Karnataka,no,4/21/2021,4,Son,no,28
+BPL200317,yes,Sunita Iyer,Female,21,560001,"H.No. 813, Ward 22",Bengaluru,Karnataka,no,4/21/2021,4,Brother,no,26
+BPL200318,yes,Meena Das,Female,24,560001,"H.No. 551, Ward 15",Bengaluru,Karnataka,yes,4/21/2021,6,Brother,no,29
+BPL200319,yes,Divya Patil,Female,24,560001,"H.No. 406, Ward 6",Bengaluru,Karnataka,no,4/21/2021,5,Sister,no,29
+BPL200320,yes,Amit Verma,Male,15,560001,"H.No. 137, Ward 2",Bengaluru,Karnataka,yes,4/21/2021,6,Spouse,no,20
+BPL200321,yes,Sunita Naidu,Female,61,560001,"H.No. 163, Ward 22",Bengaluru,Karnataka,no,4/21/2021,5,Head,no,66
+BPL200322,yes,Kavya Iyer,Female,7,560001,"H.No. 676, Ward 6",Bengaluru,Karnataka,yes,4/21/2021,5,Spouse,no,12
+BPL200323,yes,Sunita Das,Female,13,560001,"H.No. 480, Ward 8",Bengaluru,Karnataka,no,4/21/2021,5,Head,no,18
+BPL200324,yes,Rohit Patil,Male,11,560001,"H.No. 365, Ward 2",Bengaluru,Karnataka,yes,4/21/2021,3,Mother,no,16
+BPL200325,yes,Rohit Kumar,Male,27,560001,"H.No. 201, Ward 15",Bengaluru,Karnataka,no,4/21/2021,7,Head,no,32
+BPL200326,yes,Rohit Sharma,Male,64,560001,"H.No. 565, Ward 24",Bengaluru,Karnataka,no,4/21/2021,6,Mother,yes,69
+BPL200327,yes,Asha Das,Female,6,560001,"H.No. 204, Ward 8",Bengaluru,Karnataka,no,4/21/2021,4,Father,no,11
+BPL200328,yes,Arjun Sharma,Male,11,560001,"H.No. 232, Ward 25",Bengaluru,Karnataka,no,4/21/2021,7,Head,no,16
+BPL200329,yes,Arjun Naidu,Male,17,560001,"H.No. 628, Ward 3",Bengaluru,Karnataka,no,4/21/2021,5,Spouse,yes,22
+BPL200330,yes,Divya Naidu,Female,11,560001,"H.No. 819, Ward 2",Bengaluru,Karnataka,yes,4/21/2021,3,Head,no,16
+BPL200331,yes,Ritu Patil,Female,44,560001,"H.No. 25, Ward 25",Bengaluru,Karnataka,no,4/21/2021,5,Mother,yes,49
+BPL200332,yes,Vikas Verma,Male,12,560001,"H.No. 576, Ward 7",Bengaluru,Karnataka,yes,4/21/2021,5,Mother,no,17
+BPL200333,yes,Kavya Gowda,Female,17,560001,"H.No. 363, Ward 25",Bengaluru,Karnataka,yes,4/21/2021,4,Spouse,yes,22
+BPL200334,yes,Amit Iyer,Male,16,560001,"H.No. 307, Ward 3",Bengaluru,Karnataka,no,4/21/2021,6,Head,no,21
+BPL200335,yes,Sunita Naidu,Female,14,560001,"H.No. 927, Ward 22",Bengaluru,Karnataka,no,4/21/2021,6,Mother,yes,19
+BPL200336,yes,Pooja Verma,Female,13,560001,"H.No. 618, Ward 21",Bengaluru,Karnataka,yes,4/21/2021,4,Father,no,18
+BPL200337,yes,Amit Singh,Male,53,560001,"H.No. 574, Ward 16",Bengaluru,Karnataka,yes,4/21/2021,6,Mother,no,58
+BPL200338,yes,Anita Naidu,Female,45,560001,"H.No. 599, Ward 11",Bengaluru,Karnataka,no,4/21/2021,7,Mother,no,50
+BPL200339,yes,Divya Patil,Female,48,560001,"H.No. 794, Ward 6",Bengaluru,Karnataka,no,4/21/2021,6,Head,no,53
+BPL200340,yes,Divya Iyer,Female,12,560001,"H.No. 17, Ward 21",Bengaluru,Karnataka,no,4/21/2021,5,Father,no,17
+BPL200341,yes,Asha Das,Female,11,560001,"H.No. 431, Ward 3",Bengaluru,Karnataka,no,4/21/2021,6,Spouse,no,16
+BPL200342,yes,Asha Singh,Female,38,560001,"H.No. 299, Ward 14",Bengaluru,Karnataka,yes,4/21/2021,6,Father,no,43
+BPL200343,yes,Anita Verma,Female,5,560001,"H.No. 712, Ward 16",Bengaluru,Karnataka,yes,4/21/2021,3,Mother,yes,10
+BPL200344,yes,Meena Singh,Female,7,560001,"H.No. 377, Ward 23",Bengaluru,Karnataka,yes,4/21/2021,3,Head,yes,12
+BPL200345,yes,Pooja Verma,Female,31,560001,"H.No. 546, Ward 2",Bengaluru,Karnataka,no,4/21/2021,6,Mother,no,36
+BPL200346,yes,Pooja Naidu,Female,11,560001,"H.No. 342, Ward 18",Bengaluru,Karnataka,yes,4/21/2021,5,Spouse,yes,16
+BPL200347,yes,Divya Reddy,Female,12,560001,"H.No. 488, Ward 16",Bengaluru,Karnataka,no,4/21/2021,5,Father,no,17
+BPL200348,yes,Vikas Sharma,Male,14,560001,"H.No. 716, Ward 14",Bengaluru,Karnataka,no,4/21/2021,4,Head,no,19
+BPL200349,yes,Rohit Gowda,Male,16,560001,"H.No. 771, Ward 17",Bengaluru,Karnataka,no,4/21/2021,7,Mother,no,21
+BPL200350,yes,Suresh Naidu,Male,14,560001,"H.No. 538, Ward 19",Bengaluru,Karnataka,yes,4/21/2021,7,Head,yes,19
+BPL200351,yes,Lakshmi Patil,Female,5,560001,"H.No. 639, Ward 23",Bengaluru,Karnataka,no,4/21/2021,4,Mother,yes,10
+BPL200352,yes,Sunita Verma,Female,39,560001,"H.No. 257, Ward 10",Bengaluru,Karnataka,no,4/21/2021,4,Mother,no,44
+BPL200353,yes,Ritu Sharma,Female,43,560001,"H.No. 996, Ward 11",Bengaluru,Karnataka,no,4/21/2021,3,Head,no,48
+BPL200354,yes,Asha Naidu,Female,13,560001,"H.No. 789, Ward 15",Bengaluru,Karnataka,yes,4/21/2021,5,Spouse,yes,18
+BPL200355,yes,Kavya Reddy,Female,5,560001,"H.No. 410, Ward 16",Bengaluru,Karnataka,no,4/21/2021,6,Head,no,10
+BPL200356,yes,Anil Singh,Male,31,560001,"H.No. 477, Ward 12",Bengaluru,Karnataka,yes,4/21/2021,5,Head,no,36
+BPL200357,yes,Anil Naidu,Male,15,560001,"H.No. 555, Ward 1",Bengaluru,Karnataka,yes,4/21/2021,6,Father,yes,20
+BPL200358,yes,Asha Sharma,Female,38,560001,"H.No. 829, Ward 1",Bengaluru,Karnataka,yes,4/21/2021,4,Spouse,yes,43
+BPL200359,yes,Kavya Naidu,Female,49,560001,"H.No. 6, Ward 3",Bengaluru,Karnataka,no,4/21/2021,7,Spouse,no,54
+BPL200360,yes,Rahul Patil,Male,10,560001,"H.No. 458, Ward 11",Bengaluru,Karnataka,no,4/21/2021,5,Father,no,15
+BPL200361,yes,Manoj Verma,Male,56,560001,"H.No. 962, Ward 25",Bengaluru,Karnataka,no,4/21/2021,7,Mother,yes,61
+BPL200362,yes,Lakshmi Gowda,Female,8,560001,"H.No. 34, Ward 22",Bengaluru,Karnataka,yes,4/21/2021,7,Spouse,yes,13
+BPL200363,yes,Ritu Reddy,Female,10,560001,"H.No. 792, Ward 3",Bengaluru,Karnataka,yes,4/21/2021,6,Mother,yes,15
+BPL200364,yes,Rohit Verma,Male,58,560001,"H.No. 384, Ward 1",Bengaluru,Karnataka,yes,4/21/2021,5,Spouse,no,63
+BPL200365,yes,Prakash Singh,Male,44,560001,"H.No. 262, Ward 20",Bengaluru,Karnataka,yes,4/21/2021,7,Mother,no,49
+BPL200366,yes,Sunita Sharma,Female,7,560001,"H.No. 111, Ward 16",Bengaluru,Karnataka,no,4/21/2021,6,Father,yes,12
+BPL200367,yes,Lakshmi Gowda,Female,13,560001,"H.No. 841, Ward 22",Bengaluru,Karnataka,yes,4/21/2021,7,Head,no,18
+BPL200368,yes,Ritu Sharma,Female,6,560001,"H.No. 348, Ward 1",Bengaluru,Karnataka,no,4/21/2021,4,Mother,yes,11
+BPL200369,yes,Ritu Verma,Female,11,560001,"H.No. 810, Ward 3",Bengaluru,Karnataka,no,4/21/2021,6,Mother,yes,16
+BPL200370,yes,Amit Reddy,Male,21,110001,"H.No. 253, Ward 13",New Delhi,Delhi,no,4/21/2021,3,Sister,no,26
+BPL200371,yes,Rahul Kumar,Male,20,110001,"H.No. 809, Ward 2",New Delhi,Delhi,no,4/21/2021,3,Son,no,25
+BPL200372,yes,Rohit Patil,Male,23,110001,"H.No. 37, Ward 5",New Delhi,Delhi,no,4/21/2021,5,Son,no,28
+BPL200373,yes,Arjun Sharma,Male,24,110001,"H.No. 108, Ward 16",New Delhi,Delhi,yes,4/21/2021,4,Daughter,no,29
+BPL200374,yes,Divya Naidu,Female,21,110001,"H.No. 558, Ward 9",New Delhi,Delhi,yes,4/21/2021,6,Daughter,no,26
+BPL200375,yes,Lakshmi Gowda,Female,18,110001,"H.No. 591, Ward 7",New Delhi,Delhi,no,4/21/2021,3,Sister,no,23
+BPL200376,yes,Anita Iyer,Female,22,110001,"H.No. 367, Ward 3",New Delhi,Delhi,no,4/21/2021,6,Brother,no,27
+BPL200377,yes,Anil Sharma,Male,25,110001,"H.No. 638, Ward 20",New Delhi,Delhi,no,4/21/2021,5,Daughter,no,30
+BPL200378,yes,Suresh Naidu,Male,22,110001,"H.No. 70, Ward 17",New Delhi,Delhi,no,4/21/2021,5,Son,no,27
+BPL200379,yes,Pooja Iyer,Female,21,110001,"H.No. 250, Ward 22",New Delhi,Delhi,yes,4/21/2021,3,Son,no,26
+BPL200380,yes,Asha Naidu,Female,23,110001,"H.No. 413, Ward 18",New Delhi,Delhi,no,4/21/2021,3,Daughter,no,28
+BPL200381,yes,Pooja Reddy,Female,18,110001,"H.No. 472, Ward 5",New Delhi,Delhi,no,4/21/2021,3,Daughter,no,23
+BPL200382,yes,Manoj Singh,Male,23,110001,"H.No. 949, Ward 2",New Delhi,Delhi,no,4/21/2021,5,Son,no,28
+BPL200383,yes,Lakshmi Verma,Female,25,110001,"H.No. 504, Ward 13",New Delhi,Delhi,yes,4/21/2021,6,Brother,no,30
+BPL200384,yes,Lakshmi Patil,Female,22,110001,"H.No. 996, Ward 9",New Delhi,Delhi,no,4/21/2021,5,Daughter,no,27
+BPL200385,yes,Manoj Naidu,Male,19,110001,"H.No. 422, Ward 2",New Delhi,Delhi,no,4/21/2021,6,Brother,no,24
+BPL200386,yes,Rahul Das,Male,22,110001,"H.No. 920, Ward 11",New Delhi,Delhi,no,4/21/2021,5,Daughter,no,27
+BPL200387,yes,Ritu Gowda,Female,25,110001,"H.No. 977, Ward 24",New Delhi,Delhi,no,4/21/2021,5,Brother,no,30
+BPL200388,yes,Suresh Das,Male,23,110001,"H.No. 541, Ward 8",New Delhi,Delhi,yes,4/21/2021,4,Brother,no,28
+BPL200389,yes,Manoj Kumar,Male,18,110001,"H.No. 490, Ward 7",New Delhi,Delhi,no,4/21/2021,3,Son,no,23
+BPL200390,yes,Ritu Gowda,Female,23,110001,"H.No. 901, Ward 21",New Delhi,Delhi,no,4/21/2021,4,Son,no,28
+BPL200391,yes,Ritu Kumar,Female,22,110001,"H.No. 695, Ward 6",New Delhi,Delhi,no,4/21/2021,5,Son,no,27
+BPL200392,yes,Anil Gowda,Male,18,110001,"H.No. 288, Ward 6",New Delhi,Delhi,yes,4/21/2021,6,Daughter,no,23
+BPL200393,yes,Ritu Iyer,Female,18,110001,"H.No. 757, Ward 17",New Delhi,Delhi,no,4/21/2021,4,Daughter,no,23
+BPL200394,yes,Deepak Sharma,Male,25,110001,"H.No. 650, Ward 1",New Delhi,Delhi,yes,4/21/2021,6,Brother,no,30
+BPL200395,yes,Deepak Naidu,Male,23,110001,"H.No. 837, Ward 5",New Delhi,Delhi,no,4/21/2021,3,Brother,no,28
+BPL200396,yes,Amit Verma,Male,24,110001,"H.No. 787, Ward 3",New Delhi,Delhi,no,4/21/2021,6,Brother,no,29
+BPL200397,yes,Neha Verma,Female,19,110001,"H.No. 527, Ward 13",New Delhi,Delhi,yes,4/21/2021,6,Daughter,no,24
+BPL200398,yes,Rahul Patil,Male,24,110001,"H.No. 245, Ward 21",New Delhi,Delhi,yes,4/21/2021,4,Daughter,no,29
+BPL200399,yes,Arjun Das,Male,24,110001,"H.No. 116, Ward 19",New Delhi,Delhi,yes,4/21/2021,4,Daughter,no,29
+BPL200400,yes,Divya Singh,Female,21,110001,"H.No. 339, Ward 10",New Delhi,Delhi,yes,4/21/2021,5,Brother,no,26
+BPL200401,yes,Meena Singh,Female,18,110001,"H.No. 749, Ward 12",New Delhi,Delhi,yes,4/21/2021,4,Brother,no,23
+BPL200402,yes,Anil Patil,Male,22,110001,"H.No. 906, Ward 19",New Delhi,Delhi,no,4/21/2021,3,Sister,no,27
+BPL200403,yes,Manoj Kumar,Male,18,110001,"H.No. 43, Ward 7",New Delhi,Delhi,yes,4/21/2021,6,Sister,no,23
+BPL200404,yes,Asha Sharma,Female,25,110001,"H.No. 709, Ward 8",New Delhi,Delhi,yes,4/21/2021,5,Brother,no,30
+BPL200405,yes,Arjun Sharma,Male,21,110001,"H.No. 797, Ward 23",New Delhi,Delhi,yes,4/21/2021,4,Son,no,26
+BPL200406,yes,Asha Das,Female,25,110001,"H.No. 757, Ward 1",New Delhi,Delhi,no,4/21/2021,3,Sister,no,30
+BPL200407,yes,Deepak Kumar,Male,25,110001,"H.No. 231, Ward 21",New Delhi,Delhi,yes,4/21/2021,4,Son,no,30
+BPL200408,yes,Anita Patil,Female,21,110001,"H.No. 175, Ward 13",New Delhi,Delhi,yes,4/21/2021,3,Sister,no,26
+BPL200409,yes,Arjun Naidu,Male,23,110001,"H.No. 238, Ward 16",New Delhi,Delhi,yes,4/21/2021,6,Sister,no,28
+BPL200410,yes,Vikas Patil,Male,22,110001,"H.No. 124, Ward 4",New Delhi,Delhi,no,4/21/2021,6,Sister,no,27
+BPL200411,yes,Anil Iyer,Male,20,110001,"H.No. 880, Ward 24",New Delhi,Delhi,no,4/21/2021,4,Daughter,no,25
+BPL200412,yes,Arjun Sharma,Male,21,110001,"H.No. 144, Ward 18",New Delhi,Delhi,yes,4/21/2021,3,Brother,no,26
+BPL200413,yes,Kavya Naidu,Female,21,110001,"H.No. 147, Ward 7",New Delhi,Delhi,no,4/21/2021,3,Sister,no,26
+BPL200414,yes,Amit Singh,Male,24,110001,"H.No. 272, Ward 8",New Delhi,Delhi,no,4/21/2021,5,Sister,no,29
+BPL200415,yes,Ritu Reddy,Female,23,110001,"H.No. 585, Ward 23",New Delhi,Delhi,no,4/21/2021,3,Daughter,no,28
+BPL200416,yes,Anil Sharma,Male,21,110001,"H.No. 776, Ward 12",New Delhi,Delhi,yes,4/21/2021,5,Sister,no,26
+BPL200417,yes,Anita Singh,Female,22,110001,"H.No. 304, Ward 16",New Delhi,Delhi,yes,4/21/2021,5,Son,no,27
+BPL200418,yes,Deepak Sharma,Male,24,110001,"H.No. 789, Ward 8",New Delhi,Delhi,yes,4/21/2021,5,Brother,no,29
+BPL200419,yes,Anil Sharma,Male,20,110001,"H.No. 278, Ward 16",New Delhi,Delhi,yes,4/21/2021,4,Daughter,no,25
+BPL200420,yes,Deepak Kumar,Male,24,110001,"H.No. 941, Ward 21",New Delhi,Delhi,yes,4/21/2021,3,Sister,no,29
+BPL200421,yes,Pooja Reddy,Female,24,110001,"H.No. 653, Ward 6",New Delhi,Delhi,no,4/21/2021,5,Sister,no,29
+BPL200422,yes,Lakshmi Das,Female,24,110001,"H.No. 752, Ward 9",New Delhi,Delhi,no,4/21/2021,3,Daughter,no,29
+BPL200423,yes,Divya Verma,Female,20,110001,"H.No. 196, Ward 21",New Delhi,Delhi,no,4/21/2021,6,Daughter,no,25
+BPL200424,yes,Neha Iyer,Female,19,110001,"H.No. 741, Ward 18",New Delhi,Delhi,no,4/21/2021,5,Brother,no,24
+BPL200425,yes,Anil Patil,Male,18,110001,"H.No. 722, Ward 20",New Delhi,Delhi,no,4/21/2021,4,Brother,no,23
+BPL200426,yes,Manoj Naidu,Male,22,110001,"H.No. 305, Ward 6",New Delhi,Delhi,yes,4/21/2021,4,Son,no,27
+BPL200427,yes,Anil Verma,Male,21,110001,"H.No. 167, Ward 20",New Delhi,Delhi,no,4/21/2021,4,Brother,no,26
+BPL200428,yes,Ritu Patil,Female,23,110001,"H.No. 205, Ward 12",New Delhi,Delhi,no,4/21/2021,5,Daughter,no,28
+BPL200429,yes,Arjun Iyer,Male,19,110001,"H.No. 508, Ward 20",New Delhi,Delhi,no,4/21/2021,4,Sister,no,24
+BPL200430,yes,Neha Verma,Female,18,110001,"H.No. 9, Ward 16",New Delhi,Delhi,no,4/21/2021,5,Brother,no,23
+BPL200431,yes,Anita Naidu,Female,25,110001,"H.No. 917, Ward 13",New Delhi,Delhi,no,4/21/2021,5,Son,no,30
+BPL200432,yes,Neha Patil,Female,19,110001,"H.No. 48, Ward 7",New Delhi,Delhi,yes,4/21/2021,6,Sister,no,24
+BPL200433,yes,Suresh Gowda,Male,22,110001,"H.No. 450, Ward 6",New Delhi,Delhi,yes,4/21/2021,4,Son,no,27
+BPL200434,yes,Amit Patil,Male,23,110001,"H.No. 63, Ward 25",New Delhi,Delhi,no,4/21/2021,6,Son,no,28
+BPL200435,yes,Amit Iyer,Male,23,110001,"H.No. 493, Ward 13",New Delhi,Delhi,no,4/21/2021,3,Sister,no,28
+BPL200436,yes,Deepak Sharma,Male,22,110001,"H.No. 256, Ward 9",New Delhi,Delhi,no,4/21/2021,4,Daughter,no,27
+BPL200437,yes,Rahul Singh,Male,24,110001,"H.No. 99, Ward 3",New Delhi,Delhi,yes,4/21/2021,3,Sister,no,29
+BPL200438,yes,Neha Kumar,Female,18,110001,"H.No. 939, Ward 14",New Delhi,Delhi,yes,4/21/2021,4,Son,no,23
+BPL200439,yes,Rohit Iyer,Male,22,110001,"H.No. 209, Ward 15",New Delhi,Delhi,yes,4/21/2021,4,Daughter,no,27
+BPL200440,yes,Prakash Singh,Male,22,110001,"H.No. 249, Ward 23",New Delhi,Delhi,yes,4/21/2021,6,Daughter,no,27
+BPL200441,yes,Neha Singh,Female,23,110001,"H.No. 725, Ward 1",New Delhi,Delhi,no,4/21/2021,5,Son,no,28
+BPL200442,yes,Divya Kumar,Female,18,110001,"H.No. 908, Ward 11",New Delhi,Delhi,no,4/21/2021,4,Sister,no,23
+BPL200443,yes,Amit Das,Male,25,110001,"H.No. 731, Ward 18",New Delhi,Delhi,yes,4/21/2021,4,Son,no,30
+BPL200444,yes,Anita Singh,Female,21,110001,"H.No. 305, Ward 9",New Delhi,Delhi,no,4/21/2021,4,Sister,no,26
+BPL200445,yes,Kavya Das,Female,20,110001,"H.No. 989, Ward 9",New Delhi,Delhi,no,4/21/2021,4,Brother,no,25
+BPL200446,yes,Suresh Singh,Male,19,110001,"H.No. 808, Ward 10",New Delhi,Delhi,yes,4/21/2021,5,Son,no,24
+BPL200447,yes,Meena Kumar,Female,24,110001,"H.No. 8, Ward 6",New Delhi,Delhi,yes,4/21/2021,6,Son,no,29
+BPL200448,yes,Asha Reddy,Female,23,110001,"H.No. 64, Ward 12",New Delhi,Delhi,no,4/21/2021,4,Sister,no,28
+BPL200449,yes,Rohit Das,Male,18,110001,"H.No. 991, Ward 17",New Delhi,Delhi,no,4/21/2021,6,Son,no,23
+BPL200450,yes,Vikas Patil,Male,23,110001,"H.No. 529, Ward 15",New Delhi,Delhi,yes,4/21/2021,5,Son,no,28
+BPL200451,yes,Rohit Verma,Male,19,110001,"H.No. 838, Ward 9",New Delhi,Delhi,yes,4/21/2021,4,Brother,no,24
+BPL200452,yes,Sunita Kumar,Female,22,110001,"H.No. 383, Ward 23",New Delhi,Delhi,no,4/21/2021,6,Sister,no,27
+BPL200453,yes,Suresh Naidu,Male,22,110001,"H.No. 20, Ward 17",New Delhi,Delhi,yes,4/21/2021,5,Brother,no,27
+BPL200454,yes,Vikas Das,Male,22,110001,"H.No. 242, Ward 11",New Delhi,Delhi,yes,4/21/2021,5,Son,no,27
+BPL200455,yes,Divya Das,Female,25,110001,"H.No. 640, Ward 16",New Delhi,Delhi,no,4/21/2021,5,Sister,no,30
+BPL200456,yes,Vikas Iyer,Male,25,110001,"H.No. 577, Ward 23",New Delhi,Delhi,yes,4/21/2021,3,Son,no,30
+BPL200457,yes,Arjun Iyer,Male,21,110001,"H.No. 965, Ward 24",New Delhi,Delhi,no,4/21/2021,4,Son,no,26
+BPL200458,yes,Rohit Patil,Male,18,110001,"H.No. 491, Ward 17",New Delhi,Delhi,yes,4/21/2021,4,Daughter,no,23
+BPL200459,yes,Manoj Naidu,Male,18,110001,"H.No. 492, Ward 24",New Delhi,Delhi,yes,4/21/2021,3,Daughter,no,23
+BPL200460,yes,Suresh Das,Male,22,110001,"H.No. 294, Ward 6",New Delhi,Delhi,yes,4/21/2021,4,Son,no,27
+BPL200461,yes,Deepak Iyer,Male,24,110001,"H.No. 492, Ward 4",New Delhi,Delhi,no,4/21/2021,3,Daughter,no,29
+BPL200462,yes,Anil Das,Male,22,110001,"H.No. 714, Ward 10",New Delhi,Delhi,yes,4/21/2021,4,Brother,no,27
+BPL200463,yes,Vikas Kumar,Male,22,110001,"H.No. 581, Ward 4",New Delhi,Delhi,no,4/21/2021,6,Son,no,27
+BPL200464,yes,Arjun Reddy,Male,23,110001,"H.No. 828, Ward 14",New Delhi,Delhi,yes,4/21/2021,4,Son,no,28
+BPL200465,yes,Amit Verma,Male,23,110001,"H.No. 102, Ward 6",New Delhi,Delhi,yes,4/21/2021,4,Daughter,no,28
+BPL200466,yes,Manoj Naidu,Male,24,110001,"H.No. 545, Ward 13",New Delhi,Delhi,yes,4/21/2021,6,Sister,no,29
+BPL200467,yes,Anita Reddy,Female,21,110001,"H.No. 504, Ward 21",New Delhi,Delhi,no,4/21/2021,3,Daughter,no,26
+BPL200468,yes,Amit Verma,Male,18,110001,"H.No. 109, Ward 7",New Delhi,Delhi,yes,4/21/2021,4,Daughter,no,23
+BPL200469,yes,Amit Sharma,Male,19,110001,"H.No. 3, Ward 23",New Delhi,Delhi,yes,4/21/2021,4,Brother,no,24
+BPL200470,yes,Manoj Iyer,Male,20,110001,"H.No. 265, Ward 8",New Delhi,Delhi,no,4/21/2021,3,Sister,no,25
+BPL200471,yes,Arjun Verma,Male,19,110001,"H.No. 136, Ward 23",New Delhi,Delhi,yes,4/21/2021,3,Son,no,24
+BPL200472,yes,Neha Reddy,Female,24,110001,"H.No. 353, Ward 16",New Delhi,Delhi,yes,4/21/2021,6,Son,no,29
+BPL200473,yes,Kavya Das,Female,23,110001,"H.No. 765, Ward 23",New Delhi,Delhi,yes,4/21/2021,5,Sister,no,28
+BPL200474,yes,Manoj Iyer,Male,22,110001,"H.No. 531, Ward 21",New Delhi,Delhi,no,4/21/2021,3,Daughter,no,27
+BPL200475,yes,Deepak Kumar,Male,25,110001,"H.No. 841, Ward 20",New Delhi,Delhi,no,4/21/2021,6,Brother,no,30
+BPL200476,yes,Ritu Verma,Female,22,110001,"H.No. 864, Ward 1",New Delhi,Delhi,no,4/21/2021,5,Son,no,27
+BPL200477,yes,Anita Patil,Female,24,110001,"H.No. 604, Ward 11",New Delhi,Delhi,yes,4/21/2021,5,Brother,no,29
+BPL200478,yes,Vikas Gowda,Male,18,110001,"H.No. 801, Ward 13",New Delhi,Delhi,no,4/21/2021,3,Daughter,no,23
+BPL200479,yes,Pooja Kumar,Female,18,110001,"H.No. 68, Ward 6",New Delhi,Delhi,yes,4/21/2021,6,Brother,no,23
+BPL200480,yes,Pooja Patil,Female,18,110001,"H.No. 285, Ward 13",New Delhi,Delhi,no,4/21/2021,4,Daughter,no,23
+BPL200481,yes,Deepak Sharma,Male,22,110001,"H.No. 202, Ward 18",New Delhi,Delhi,yes,4/21/2021,5,Sister,no,27
+BPL200482,yes,Arjun Verma,Male,19,110001,"H.No. 762, Ward 22",New Delhi,Delhi,no,4/21/2021,5,Daughter,no,24
+BPL200483,yes,Deepak Verma,Male,18,110001,"H.No. 956, Ward 8",New Delhi,Delhi,no,4/21/2021,6,Daughter,no,23
+BPL200484,yes,Manoj Sharma,Male,18,110001,"H.No. 352, Ward 14",New Delhi,Delhi,no,4/21/2021,3,Sister,no,23
+BPL200485,yes,Kavya Sharma,Female,22,110001,"H.No. 488, Ward 20",New Delhi,Delhi,no,4/21/2021,4,Brother,no,27
+BPL200486,yes,Kavya Das,Female,22,110001,"H.No. 135, Ward 23",New Delhi,Delhi,no,4/21/2021,3,Daughter,no,27
+BPL200487,yes,Divya Iyer,Female,21,110001,"H.No. 8, Ward 13",New Delhi,Delhi,no,4/21/2021,6,Sister,no,26
+BPL200488,yes,Pooja Kumar,Female,19,110001,"H.No. 807, Ward 18",New Delhi,Delhi,no,4/21/2021,5,Sister,no,24
+BPL200489,yes,Pooja Iyer,Female,19,110001,"H.No. 918, Ward 22",New Delhi,Delhi,no,4/21/2021,6,Daughter,no,24
+BPL200490,yes,Amit Sharma,Male,19,110001,"H.No. 244, Ward 8",New Delhi,Delhi,yes,4/21/2021,4,Daughter,no,24
+BPL200491,yes,Rahul Sharma,Male,21,110001,"H.No. 866, Ward 8",New Delhi,Delhi,yes,4/21/2021,6,Brother,no,26
+BPL200492,yes,Rahul Sharma,Male,18,110001,"H.No. 66, Ward 18",New Delhi,Delhi,yes,4/21/2021,3,Brother,no,23
+BPL200493,yes,Ritu Gowda,Female,22,110001,"H.No. 558, Ward 9",New Delhi,Delhi,no,4/21/2021,3,Daughter,no,27
+BPL200494,yes,Amit Gowda,Male,19,110001,"H.No. 398, Ward 4",New Delhi,Delhi,no,4/21/2021,5,Daughter,no,24
+BPL200495,yes,Pooja Patil,Female,23,110001,"H.No. 725, Ward 3",New Delhi,Delhi,no,4/21/2021,4,Son,no,28
+BPL200496,yes,Amit Patil,Male,24,110001,"H.No. 952, Ward 6",New Delhi,Delhi,no,4/21/2021,4,Sister,no,29
+BPL200497,yes,Pooja Iyer,Female,22,110001,"H.No. 16, Ward 6",New Delhi,Delhi,no,4/21/2021,4,Sister,no,27
+BPL200498,yes,Pooja Patil,Female,23,110001,"H.No. 856, Ward 12",New Delhi,Delhi,yes,4/21/2021,4,Son,no,28
+BPL200499,yes,Manoj Sharma,Male,18,110001,"H.No. 850, Ward 11",New Delhi,Delhi,no,4/21/2021,4,Daughter,no,23
+BPL200500,yes,Vikas Naidu,Male,21,110001,"H.No. 299, Ward 12",New Delhi,Delhi,yes,4/21/2021,6,Daughter,no,26
+BPL200501,yes,Anita Kumar,Female,18,110001,"H.No. 222, Ward 22",New Delhi,Delhi,yes,4/21/2021,6,Sister,no,23
+BPL200502,yes,Pooja Verma,Female,20,110001,"H.No. 730, Ward 11",New Delhi,Delhi,yes,4/21/2021,5,Son,no,25
+BPL200503,yes,Asha Reddy,Female,22,110001,"H.No. 778, Ward 5",New Delhi,Delhi,yes,4/21/2021,3,Brother,no,27
+BPL200504,yes,Prakash Iyer,Male,19,110001,"H.No. 830, Ward 22",New Delhi,Delhi,no,4/21/2021,6,Son,no,24
+BPL200505,yes,Deepak Das,Male,20,110001,"H.No. 396, Ward 12",New Delhi,Delhi,yes,4/21/2021,3,Brother,no,25
+BPL200506,yes,Deepak Patil,Male,20,110001,"H.No. 610, Ward 7",New Delhi,Delhi,no,4/21/2021,5,Sister,no,25
+BPL200507,yes,Anil Gowda,Male,23,110001,"H.No. 454, Ward 15",New Delhi,Delhi,yes,4/21/2021,3,Son,no,28
+BPL200508,yes,Amit Gowda,Male,21,110001,"H.No. 801, Ward 3",New Delhi,Delhi,yes,4/21/2021,4,Sister,no,26
+BPL200509,yes,Pooja Verma,Female,23,110001,"H.No. 498, Ward 16",New Delhi,Delhi,yes,4/21/2021,5,Daughter,no,28
+BPL200510,yes,Sunita Verma,Female,18,110001,"H.No. 379, Ward 15",New Delhi,Delhi,no,4/21/2021,5,Son,no,23
+BPL200511,yes,Suresh Patil,Male,24,110001,"H.No. 870, Ward 7",New Delhi,Delhi,yes,4/21/2021,5,Son,no,29
+BPL200512,yes,Kavya Naidu,Female,24,110001,"H.No. 142, Ward 12",New Delhi,Delhi,no,4/21/2021,4,Sister,no,29
+BPL200513,yes,Suresh Iyer,Male,18,110001,"H.No. 657, Ward 3",New Delhi,Delhi,yes,4/21/2021,4,Brother,no,23
+BPL200514,yes,Rohit Kumar,Male,24,110001,"H.No. 57, Ward 4",New Delhi,Delhi,yes,4/21/2021,6,Daughter,no,29
+BPL200515,yes,Arjun Singh,Male,25,110001,"H.No. 719, Ward 11",New Delhi,Delhi,yes,4/21/2021,3,Brother,no,30
+BPL200516,yes,Lakshmi Sharma,Female,21,110001,"H.No. 73, Ward 18",New Delhi,Delhi,yes,4/21/2021,5,Brother,no,26
+BPL200517,yes,Anil Kumar,Male,22,110001,"H.No. 38, Ward 14",New Delhi,Delhi,no,4/21/2021,4,Brother,no,27
+BPL200518,yes,Manoj Das,Male,19,110001,"H.No. 106, Ward 23",New Delhi,Delhi,no,4/21/2021,6,Daughter,no,24
+BPL200519,yes,Asha Gowda,Female,22,110001,"H.No. 399, Ward 10",New Delhi,Delhi,yes,4/21/2021,6,Son,no,27
+BPL200520,yes,Prakash Sharma,Male,13,110001,"H.No. 516, Ward 7",New Delhi,Delhi,yes,4/21/2021,7,Spouse,no,18
+BPL200521,yes,Sunita Sharma,Female,7,110001,"H.No. 955, Ward 7",New Delhi,Delhi,yes,4/21/2021,7,Head,no,12
+BPL200522,yes,Anita Verma,Female,17,110001,"H.No. 421, Ward 11",New Delhi,Delhi,yes,4/21/2021,3,Spouse,yes,22
+BPL200523,yes,Anil Gowda,Male,29,110001,"H.No. 182, Ward 16",New Delhi,Delhi,yes,4/21/2021,7,Mother,yes,34
+BPL200524,yes,Vikas Gowda,Male,5,110001,"H.No. 730, Ward 23",New Delhi,Delhi,no,4/21/2021,5,Spouse,yes,10
+BPL200525,yes,Vikas Reddy,Male,31,110001,"H.No. 906, Ward 13",New Delhi,Delhi,no,4/21/2021,5,Head,yes,36
+BPL200526,yes,Vikas Verma,Male,5,110001,"H.No. 806, Ward 20",New Delhi,Delhi,yes,4/21/2021,7,Head,no,10
+BPL200527,yes,Deepak Naidu,Male,17,110001,"H.No. 525, Ward 23",New Delhi,Delhi,no,4/21/2021,6,Spouse,no,22
+BPL200528,yes,Amit Reddy,Male,10,110001,"H.No. 201, Ward 24",New Delhi,Delhi,yes,4/21/2021,7,Spouse,yes,15
+BPL200529,yes,Neha Naidu,Female,15,110001,"H.No. 376, Ward 4",New Delhi,Delhi,no,4/21/2021,4,Father,no,20
+BPL200530,yes,Neha Das,Female,49,110001,"H.No. 768, Ward 21",New Delhi,Delhi,yes,4/21/2021,4,Mother,yes,54
+BPL200531,yes,Meena Patil,Female,33,110001,"H.No. 957, Ward 8",New Delhi,Delhi,yes,4/21/2021,3,Head,yes,38
+BPL200532,yes,Anita Gowda,Female,31,110001,"H.No. 900, Ward 23",New Delhi,Delhi,yes,4/21/2021,7,Father,no,36
+BPL200533,yes,Anil Patil,Male,54,110001,"H.No. 659, Ward 9",New Delhi,Delhi,yes,4/21/2021,5,Head,yes,59
+BPL200534,yes,Vikas Reddy,Male,15,110001,"H.No. 28, Ward 21",New Delhi,Delhi,yes,4/21/2021,5,Mother,yes,20
+BPL200535,yes,Meena Naidu,Female,27,110001,"H.No. 380, Ward 22",New Delhi,Delhi,no,4/21/2021,7,Head,no,32
+BPL200536,yes,Arjun Reddy,Male,29,110001,"H.No. 103, Ward 8",New Delhi,Delhi,yes,4/21/2021,5,Mother,no,34
+BPL200537,yes,Prakash Das,Male,26,110001,"H.No. 29, Ward 15",New Delhi,Delhi,no,4/21/2021,4,Head,yes,31
+BPL200538,yes,Deepak Iyer,Male,28,110001,"H.No. 586, Ward 19",New Delhi,Delhi,yes,4/21/2021,4,Spouse,no,33
+BPL200539,yes,Deepak Verma,Male,6,110001,"H.No. 33, Ward 3",New Delhi,Delhi,yes,4/21/2021,7,Father,yes,11
+BPL200540,yes,Pooja Singh,Female,12,110001,"H.No. 79, Ward 23",New Delhi,Delhi,yes,4/21/2021,6,Spouse,no,17
+BPL200541,yes,Kavya Das,Female,8,110001,"H.No. 16, Ward 2",New Delhi,Delhi,no,4/21/2021,3,Spouse,yes,13
+BPL200542,yes,Anil Naidu,Male,11,110001,"H.No. 490, Ward 11",New Delhi,Delhi,no,4/21/2021,7,Head,no,16
+BPL200543,yes,Anil Singh,Male,12,110001,"H.No. 581, Ward 7",New Delhi,Delhi,no,4/21/2021,7,Head,no,17
+BPL200544,yes,Lakshmi Naidu,Female,54,110001,"H.No. 65, Ward 7",New Delhi,Delhi,yes,4/21/2021,3,Mother,yes,59
+BPL200545,yes,Rohit Patil,Male,64,110001,"H.No. 632, Ward 4",New Delhi,Delhi,yes,4/21/2021,5,Spouse,no,69
+BPL200546,yes,Asha Sharma,Female,17,110001,"H.No. 500, Ward 4",New Delhi,Delhi,yes,4/21/2021,5,Father,yes,22
+BPL200547,yes,Rahul Sharma,Male,13,110001,"H.No. 400, Ward 3",New Delhi,Delhi,yes,4/21/2021,3,Mother,no,18
+BPL200548,yes,Sunita Naidu,Female,16,110001,"H.No. 130, Ward 22",New Delhi,Delhi,no,4/21/2021,7,Head,no,21
+BPL200549,yes,Rahul Gowda,Male,65,110001,"H.No. 229, Ward 24",New Delhi,Delhi,no,4/21/2021,7,Father,yes,70
+BPL200550,yes,Suresh Verma,Male,65,110001,"H.No. 466, Ward 1",New Delhi,Delhi,no,4/21/2021,4,Father,no,70
+BPL200551,yes,Pooja Iyer,Female,10,110001,"H.No. 889, Ward 24",New Delhi,Delhi,yes,4/21/2021,5,Head,no,15
+BPL200552,yes,Neha Gowda,Female,59,110001,"H.No. 161, Ward 2",New Delhi,Delhi,no,4/21/2021,7,Father,yes,64
+BPL200553,yes,Asha Naidu,Female,14,110001,"H.No. 854, Ward 2",New Delhi,Delhi,yes,4/21/2021,3,Father,yes,19
+BPL200554,yes,Rahul Singh,Male,16,110001,"H.No. 471, Ward 15",New Delhi,Delhi,yes,4/21/2021,5,Mother,no,21
+BPL200555,yes,Anil Singh,Male,32,110001,"H.No. 57, Ward 10",New Delhi,Delhi,yes,4/21/2021,3,Father,no,37
+BPL200556,yes,Asha Iyer,Female,32,110001,"H.No. 758, Ward 9",New Delhi,Delhi,yes,4/21/2021,7,Spouse,yes,37
+BPL200557,yes,Amit Naidu,Male,53,110001,"H.No. 548, Ward 5",New Delhi,Delhi,yes,4/21/2021,3,Head,no,58
+BPL200558,yes,Prakash Kumar,Male,14,110001,"H.No. 402, Ward 23",New Delhi,Delhi,no,4/21/2021,6,Mother,no,19
+BPL200559,yes,Sunita Gowda,Female,32,110001,"H.No. 462, Ward 9",New Delhi,Delhi,yes,4/21/2021,3,Father,yes,37
+BPL200560,yes,Divya Verma,Female,66,110001,"H.No. 31, Ward 25",New Delhi,Delhi,no,4/21/2021,6,Mother,no,71
+BPL200561,yes,Deepak Sharma,Male,10,110001,"H.No. 682, Ward 21",New Delhi,Delhi,no,4/21/2021,3,Mother,no,15
+BPL200562,yes,Rahul Iyer,Male,12,110001,"H.No. 594, Ward 7",New Delhi,Delhi,yes,4/21/2021,6,Spouse,yes,17
+BPL200563,yes,Kavya Das,Female,41,110001,"H.No. 557, Ward 9",New Delhi,Delhi,yes,4/21/2021,7,Father,no,46
+BPL200564,yes,Divya Verma,Female,58,110001,"H.No. 965, Ward 6",New Delhi,Delhi,yes,4/21/2021,4,Spouse,yes,63
+BPL200565,yes,Neha Kumar,Female,16,110001,"H.No. 113, Ward 10",New Delhi,Delhi,no,4/21/2021,5,Head,yes,21
+BPL200566,yes,Sunita Patil,Female,12,110001,"H.No. 252, Ward 23",New Delhi,Delhi,yes,4/21/2021,6,Spouse,no,17
+BPL200567,yes,Amit Gowda,Male,37,110001,"H.No. 453, Ward 24",New Delhi,Delhi,yes,4/21/2021,3,Spouse,yes,42
+BPL200568,yes,Anil Singh,Male,33,110001,"H.No. 284, Ward 3",New Delhi,Delhi,no,4/21/2021,4,Head,no,38
+BPL200569,yes,Sunita Naidu,Female,16,110001,"H.No. 327, Ward 7",New Delhi,Delhi,no,4/21/2021,6,Spouse,no,21
+BPL200570,yes,Divya Verma,Female,24,400001,"H.No. 108, Ward 3",Mumbai,Maharashtra,yes,4/21/2021,3,Brother,no,29
+BPL200571,yes,Ritu Gowda,Female,25,400001,"H.No. 743, Ward 23",Mumbai,Maharashtra,yes,4/21/2021,3,Brother,no,30
+BPL200572,yes,Asha Naidu,Female,18,400001,"H.No. 323, Ward 16",Mumbai,Maharashtra,yes,4/21/2021,3,Son,no,23
+BPL200573,yes,Deepak Sharma,Male,18,400001,"H.No. 345, Ward 6",Mumbai,Maharashtra,no,4/21/2021,3,Brother,no,23
+BPL200574,yes,Rohit Reddy,Male,22,400001,"H.No. 330, Ward 25",Mumbai,Maharashtra,no,4/21/2021,5,Daughter,no,27
+BPL200575,yes,Anita Reddy,Female,20,400001,"H.No. 270, Ward 23",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,25
+BPL200576,yes,Deepak Singh,Male,18,400001,"H.No. 380, Ward 13",Mumbai,Maharashtra,yes,4/21/2021,3,Daughter,no,23
+BPL200577,yes,Ritu Patil,Female,20,400001,"H.No. 296, Ward 4",Mumbai,Maharashtra,yes,4/21/2021,6,Brother,no,25
+BPL200578,yes,Ritu Gowda,Female,19,400001,"H.No. 60, Ward 24",Mumbai,Maharashtra,no,4/21/2021,3,Daughter,no,24
+BPL200579,yes,Suresh Sharma,Male,21,400001,"H.No. 336, Ward 20",Mumbai,Maharashtra,no,4/21/2021,3,Daughter,no,26
+BPL200580,yes,Vikas Iyer,Male,19,400001,"H.No. 536, Ward 16",Mumbai,Maharashtra,yes,4/21/2021,4,Daughter,no,24
+BPL200581,yes,Deepak Iyer,Male,20,400001,"H.No. 883, Ward 9",Mumbai,Maharashtra,yes,4/21/2021,6,Sister,no,25
+BPL200582,yes,Asha Singh,Female,20,400001,"H.No. 137, Ward 22",Mumbai,Maharashtra,yes,4/21/2021,3,Daughter,no,25
+BPL200583,yes,Prakash Reddy,Male,22,400001,"H.No. 753, Ward 17",Mumbai,Maharashtra,yes,4/21/2021,4,Son,no,27
+BPL200584,yes,Meena Naidu,Female,21,400001,"H.No. 421, Ward 1",Mumbai,Maharashtra,yes,4/21/2021,5,Sister,no,26
+BPL200585,yes,Kavya Verma,Female,24,400001,"H.No. 311, Ward 21",Mumbai,Maharashtra,yes,4/21/2021,5,Brother,no,29
+BPL200586,yes,Vikas Gowda,Male,20,400001,"H.No. 24, Ward 23",Mumbai,Maharashtra,yes,4/21/2021,3,Sister,no,25
+BPL200587,yes,Amit Kumar,Male,25,400001,"H.No. 498, Ward 15",Mumbai,Maharashtra,no,4/21/2021,6,Daughter,no,30
+BPL200588,yes,Lakshmi Gowda,Female,19,400001,"H.No. 909, Ward 8",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,24
+BPL200589,yes,Rahul Singh,Male,25,400001,"H.No. 961, Ward 23",Mumbai,Maharashtra,yes,4/21/2021,5,Son,no,30
+BPL200590,yes,Anil Verma,Male,25,400001,"H.No. 257, Ward 19",Mumbai,Maharashtra,yes,4/21/2021,4,Brother,no,30
+BPL200591,yes,Anil Reddy,Male,25,400001,"H.No. 730, Ward 20",Mumbai,Maharashtra,yes,4/21/2021,5,Son,no,30
+BPL200592,yes,Ritu Reddy,Female,20,400001,"H.No. 995, Ward 7",Mumbai,Maharashtra,yes,4/21/2021,3,Son,no,25
+BPL200593,yes,Neha Iyer,Female,22,400001,"H.No. 323, Ward 12",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,27
+BPL200594,yes,Manoj Kumar,Male,19,400001,"H.No. 858, Ward 21",Mumbai,Maharashtra,no,4/21/2021,6,Son,no,24
+BPL200595,yes,Amit Singh,Male,22,400001,"H.No. 662, Ward 2",Mumbai,Maharashtra,yes,4/21/2021,4,Sister,no,27
+BPL200596,yes,Asha Verma,Female,25,400001,"H.No. 234, Ward 7",Mumbai,Maharashtra,yes,4/21/2021,4,Daughter,no,30
+BPL200597,yes,Asha Naidu,Female,22,400001,"H.No. 527, Ward 16",Mumbai,Maharashtra,no,4/21/2021,3,Son,no,27
+BPL200598,yes,Sunita Naidu,Female,21,400001,"H.No. 403, Ward 4",Mumbai,Maharashtra,yes,4/21/2021,4,Son,no,26
+BPL200599,yes,Asha Verma,Female,25,400001,"H.No. 317, Ward 11",Mumbai,Maharashtra,yes,4/21/2021,3,Daughter,no,30
+BPL200600,yes,Kavya Singh,Female,24,400001,"H.No. 635, Ward 17",Mumbai,Maharashtra,no,4/21/2021,6,Daughter,no,29
+BPL200601,yes,Anil Iyer,Male,19,400001,"H.No. 72, Ward 2",Mumbai,Maharashtra,yes,4/21/2021,6,Daughter,no,24
+BPL200602,yes,Divya Das,Female,22,400001,"H.No. 499, Ward 9",Mumbai,Maharashtra,yes,4/21/2021,3,Brother,no,27
+BPL200603,yes,Divya Verma,Female,25,400001,"H.No. 759, Ward 9",Mumbai,Maharashtra,yes,4/21/2021,4,Daughter,no,30
+BPL200604,yes,Kavya Naidu,Female,19,400001,"H.No. 961, Ward 14",Mumbai,Maharashtra,no,4/21/2021,5,Brother,no,24
+BPL200605,yes,Pooja Kumar,Female,21,400001,"H.No. 558, Ward 1",Mumbai,Maharashtra,yes,4/21/2021,3,Son,no,26
+BPL200606,yes,Vikas Verma,Male,23,400001,"H.No. 462, Ward 13",Mumbai,Maharashtra,yes,4/21/2021,6,Brother,no,28
+BPL200607,yes,Pooja Singh,Female,20,400001,"H.No. 350, Ward 19",Mumbai,Maharashtra,no,4/21/2021,3,Son,no,25
+BPL200608,yes,Kavya Gowda,Female,21,400001,"H.No. 584, Ward 2",Mumbai,Maharashtra,no,4/21/2021,6,Brother,no,26
+BPL200609,yes,Asha Das,Female,19,400001,"H.No. 374, Ward 18",Mumbai,Maharashtra,yes,4/21/2021,4,Brother,no,24
+BPL200610,yes,Ritu Patil,Female,23,400001,"H.No. 756, Ward 18",Mumbai,Maharashtra,no,4/21/2021,5,Brother,no,28
+BPL200611,yes,Prakash Naidu,Male,23,400001,"H.No. 724, Ward 23",Mumbai,Maharashtra,yes,4/21/2021,4,Daughter,no,28
+BPL200612,yes,Lakshmi Gowda,Female,18,400001,"H.No. 265, Ward 4",Mumbai,Maharashtra,yes,4/21/2021,5,Brother,no,23
+BPL200613,yes,Suresh Kumar,Male,21,400001,"H.No. 650, Ward 6",Mumbai,Maharashtra,no,4/21/2021,5,Son,no,26
+BPL200614,yes,Pooja Naidu,Female,19,400001,"H.No. 519, Ward 13",Mumbai,Maharashtra,no,4/21/2021,5,Daughter,no,24
+BPL200615,yes,Pooja Patil,Female,24,400001,"H.No. 631, Ward 12",Mumbai,Maharashtra,yes,4/21/2021,5,Sister,no,29
+BPL200616,yes,Amit Kumar,Male,24,400001,"H.No. 282, Ward 25",Mumbai,Maharashtra,no,4/21/2021,6,Brother,no,29
+BPL200617,yes,Suresh Iyer,Male,23,400001,"H.No. 479, Ward 2",Mumbai,Maharashtra,yes,4/21/2021,3,Sister,no,28
+BPL200618,yes,Rahul Verma,Male,25,400001,"H.No. 318, Ward 21",Mumbai,Maharashtra,yes,4/21/2021,3,Sister,no,30
+BPL200619,yes,Prakash Kumar,Male,23,400001,"H.No. 411, Ward 16",Mumbai,Maharashtra,no,4/21/2021,5,Sister,no,28
+BPL200620,yes,Pooja Das,Female,23,400001,"H.No. 732, Ward 25",Mumbai,Maharashtra,no,4/21/2021,4,Daughter,no,28
+BPL200621,yes,Divya Naidu,Female,18,400001,"H.No. 587, Ward 4",Mumbai,Maharashtra,yes,4/21/2021,5,Son,no,23
+BPL200622,yes,Pooja Gowda,Female,24,400001,"H.No. 794, Ward 19",Mumbai,Maharashtra,no,4/21/2021,3,Brother,no,29
+BPL200623,yes,Lakshmi Naidu,Female,20,400001,"H.No. 246, Ward 14",Mumbai,Maharashtra,no,4/21/2021,4,Sister,no,25
+BPL200624,yes,Deepak Singh,Male,25,400001,"H.No. 215, Ward 24",Mumbai,Maharashtra,yes,4/21/2021,5,Sister,no,30
+BPL200625,yes,Ritu Kumar,Female,18,400001,"H.No. 444, Ward 10",Mumbai,Maharashtra,yes,4/21/2021,6,Sister,no,23
+BPL200626,yes,Deepak Singh,Male,23,400001,"H.No. 434, Ward 23",Mumbai,Maharashtra,yes,4/21/2021,4,Sister,no,28
+BPL200627,yes,Anil Sharma,Male,21,400001,"H.No. 90, Ward 17",Mumbai,Maharashtra,yes,4/21/2021,6,Daughter,no,26
+BPL200628,yes,Lakshmi Das,Female,21,400001,"H.No. 76, Ward 6",Mumbai,Maharashtra,no,4/21/2021,3,Daughter,no,26
+BPL200629,yes,Amit Sharma,Male,19,400001,"H.No. 248, Ward 11",Mumbai,Maharashtra,yes,4/21/2021,3,Son,no,24
+BPL200630,yes,Kavya Naidu,Female,18,400001,"H.No. 426, Ward 1",Mumbai,Maharashtra,yes,4/21/2021,3,Son,no,23
+BPL200631,yes,Manoj Iyer,Male,25,400001,"H.No. 739, Ward 8",Mumbai,Maharashtra,no,4/21/2021,6,Brother,no,30
+BPL200632,yes,Lakshmi Das,Female,23,400001,"H.No. 887, Ward 19",Mumbai,Maharashtra,yes,4/21/2021,4,Brother,no,28
+BPL200633,yes,Vikas Das,Male,20,400001,"H.No. 8, Ward 13",Mumbai,Maharashtra,yes,4/21/2021,3,Brother,no,25
+BPL200634,yes,Divya Reddy,Female,24,400001,"H.No. 414, Ward 4",Mumbai,Maharashtra,no,4/21/2021,5,Sister,no,29
+BPL200635,yes,Meena Gowda,Female,23,400001,"H.No. 318, Ward 21",Mumbai,Maharashtra,yes,4/21/2021,5,Brother,no,28
+BPL200636,yes,Amit Patil,Male,20,400001,"H.No. 398, Ward 21",Mumbai,Maharashtra,no,4/21/2021,5,Sister,no,25
+BPL200637,yes,Manoj Naidu,Male,19,400001,"H.No. 910, Ward 18",Mumbai,Maharashtra,yes,4/21/2021,4,Brother,no,24
+BPL200638,yes,Anil Sharma,Male,25,400001,"H.No. 149, Ward 10",Mumbai,Maharashtra,no,4/21/2021,6,Son,no,30
+BPL200639,yes,Arjun Das,Male,25,400001,"H.No. 481, Ward 13",Mumbai,Maharashtra,yes,4/21/2021,4,Sister,no,30
+BPL200640,yes,Manoj Sharma,Male,18,400001,"H.No. 865, Ward 6",Mumbai,Maharashtra,yes,4/21/2021,5,Brother,no,23
+BPL200641,yes,Lakshmi Verma,Female,25,400001,"H.No. 964, Ward 24",Mumbai,Maharashtra,no,4/21/2021,4,Daughter,no,30
+BPL200642,yes,Arjun Patil,Male,19,400001,"H.No. 310, Ward 1",Mumbai,Maharashtra,no,4/21/2021,3,Daughter,no,24
+BPL200643,yes,Lakshmi Sharma,Female,20,400001,"H.No. 693, Ward 20",Mumbai,Maharashtra,yes,4/21/2021,4,Sister,no,25
+BPL200644,yes,Ritu Patil,Female,24,400001,"H.No. 40, Ward 4",Mumbai,Maharashtra,yes,4/21/2021,3,Son,no,29
+BPL200645,yes,Divya Verma,Female,20,400001,"H.No. 858, Ward 12",Mumbai,Maharashtra,no,4/21/2021,3,Son,no,25
+BPL200646,yes,Suresh Verma,Male,25,400001,"H.No. 450, Ward 2",Mumbai,Maharashtra,no,4/21/2021,6,Daughter,no,30
+BPL200647,yes,Amit Patil,Male,19,400001,"H.No. 678, Ward 24",Mumbai,Maharashtra,yes,4/21/2021,5,Son,no,24
+BPL200648,yes,Pooja Sharma,Female,19,400001,"H.No. 728, Ward 3",Mumbai,Maharashtra,yes,4/21/2021,4,Son,no,24
+BPL200649,yes,Vikas Kumar,Male,18,400001,"H.No. 555, Ward 10",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,23
+BPL200650,yes,Sunita Singh,Female,22,400001,"H.No. 416, Ward 6",Mumbai,Maharashtra,no,4/21/2021,4,Sister,no,27
+BPL200651,yes,Rahul Singh,Male,22,400001,"H.No. 896, Ward 10",Mumbai,Maharashtra,yes,4/21/2021,5,Sister,no,27
+BPL200652,yes,Sunita Verma,Female,24,400001,"H.No. 211, Ward 10",Mumbai,Maharashtra,yes,4/21/2021,5,Son,no,29
+BPL200653,yes,Manoj Iyer,Male,25,400001,"H.No. 339, Ward 19",Mumbai,Maharashtra,no,4/21/2021,6,Sister,no,30
+BPL200654,yes,Asha Kumar,Female,23,400001,"H.No. 83, Ward 25",Mumbai,Maharashtra,yes,4/21/2021,6,Sister,no,28
+BPL200655,yes,Rohit Das,Male,25,400001,"H.No. 423, Ward 2",Mumbai,Maharashtra,yes,4/21/2021,6,Daughter,no,30
+BPL200656,yes,Pooja Kumar,Female,19,400001,"H.No. 935, Ward 16",Mumbai,Maharashtra,no,4/21/2021,4,Daughter,no,24
+BPL200657,yes,Pooja Kumar,Female,19,400001,"H.No. 152, Ward 5",Mumbai,Maharashtra,no,4/21/2021,4,Sister,no,24
+BPL200658,yes,Sunita Gowda,Female,25,400001,"H.No. 381, Ward 14",Mumbai,Maharashtra,yes,4/21/2021,5,Son,no,30
+BPL200659,yes,Sunita Gowda,Female,20,400001,"H.No. 11, Ward 18",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,25
+BPL200660,yes,Prakash Singh,Male,21,400001,"H.No. 847, Ward 7",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,26
+BPL200661,yes,Kavya Verma,Female,21,400001,"H.No. 152, Ward 2",Mumbai,Maharashtra,no,4/21/2021,6,Son,no,26
+BPL200662,yes,Suresh Naidu,Male,20,400001,"H.No. 306, Ward 6",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,25
+BPL200663,yes,Arjun Das,Male,23,400001,"H.No. 325, Ward 5",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,28
+BPL200664,yes,Amit Naidu,Male,19,400001,"H.No. 756, Ward 17",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,24
+BPL200665,yes,Anita Kumar,Female,21,400001,"H.No. 807, Ward 10",Mumbai,Maharashtra,no,4/21/2021,5,Sister,no,26
+BPL200666,yes,Rahul Singh,Male,22,400001,"H.No. 397, Ward 23",Mumbai,Maharashtra,yes,4/21/2021,6,Brother,no,27
+BPL200667,yes,Neha Patil,Female,21,400001,"H.No. 320, Ward 1",Mumbai,Maharashtra,yes,4/21/2021,3,Daughter,no,26
+BPL200668,yes,Anil Kumar,Male,22,400001,"H.No. 83, Ward 22",Mumbai,Maharashtra,no,4/21/2021,6,Brother,no,27
+BPL200669,yes,Kavya Das,Female,19,400001,"H.No. 539, Ward 2",Mumbai,Maharashtra,no,4/21/2021,5,Son,no,24
+BPL200670,yes,Manoj Sharma,Male,25,400001,"H.No. 753, Ward 6",Mumbai,Maharashtra,no,4/21/2021,6,Sister,no,30
+BPL200671,yes,Manoj Das,Male,23,400001,"H.No. 110, Ward 22",Mumbai,Maharashtra,yes,4/21/2021,5,Daughter,no,28
+BPL200672,yes,Divya Reddy,Female,19,400001,"H.No. 673, Ward 24",Mumbai,Maharashtra,no,4/21/2021,6,Daughter,no,24
+BPL200673,yes,Prakash Naidu,Male,24,400001,"H.No. 756, Ward 10",Mumbai,Maharashtra,no,4/21/2021,3,Brother,no,29
+BPL200674,yes,Divya Singh,Female,19,400001,"H.No. 466, Ward 6",Mumbai,Maharashtra,yes,4/21/2021,3,Brother,no,24
+BPL200675,yes,Deepak Reddy,Male,23,400001,"H.No. 418, Ward 23",Mumbai,Maharashtra,yes,4/21/2021,6,Brother,no,28
+BPL200676,yes,Anita Patil,Female,24,400001,"H.No. 464, Ward 20",Mumbai,Maharashtra,no,4/21/2021,5,Sister,no,29
+BPL200677,yes,Deepak Reddy,Male,25,400001,"H.No. 438, Ward 25",Mumbai,Maharashtra,yes,4/21/2021,6,Son,no,30
+BPL200678,yes,Rohit Iyer,Male,20,400001,"H.No. 723, Ward 8",Mumbai,Maharashtra,yes,4/21/2021,5,Daughter,no,25
+BPL200679,yes,Divya Reddy,Female,18,400001,"H.No. 59, Ward 1",Mumbai,Maharashtra,yes,4/21/2021,4,Daughter,no,23
+BPL200680,yes,Divya Singh,Female,24,400001,"H.No. 172, Ward 2",Mumbai,Maharashtra,yes,4/21/2021,3,Sister,no,29
+BPL200681,yes,Prakash Verma,Male,21,400001,"H.No. 649, Ward 2",Mumbai,Maharashtra,yes,4/21/2021,4,Sister,no,26
+BPL200682,yes,Neha Naidu,Female,20,400001,"H.No. 54, Ward 16",Mumbai,Maharashtra,yes,4/21/2021,6,Daughter,no,25
+BPL200683,yes,Lakshmi Naidu,Female,20,400001,"H.No. 879, Ward 23",Mumbai,Maharashtra,no,4/21/2021,6,Daughter,no,25
+BPL200684,yes,Ritu Kumar,Female,19,400001,"H.No. 874, Ward 13",Mumbai,Maharashtra,no,4/21/2021,5,Daughter,no,24
+BPL200685,yes,Lakshmi Singh,Female,18,400001,"H.No. 160, Ward 9",Mumbai,Maharashtra,yes,4/21/2021,5,Son,no,23
+BPL200686,yes,Neha Verma,Female,19,400001,"H.No. 959, Ward 25",Mumbai,Maharashtra,no,4/21/2021,6,Daughter,no,24
+BPL200687,yes,Pooja Singh,Female,18,400001,"H.No. 419, Ward 8",Mumbai,Maharashtra,yes,4/21/2021,3,Son,no,23
+BPL200688,yes,Kavya Kumar,Female,19,400001,"H.No. 188, Ward 22",Mumbai,Maharashtra,yes,4/21/2021,3,Sister,no,24
+BPL200689,yes,Deepak Verma,Male,23,400001,"H.No. 765, Ward 8",Mumbai,Maharashtra,no,4/21/2021,4,Brother,no,28
+BPL200690,yes,Rahul Verma,Male,22,400001,"H.No. 644, Ward 18",Mumbai,Maharashtra,no,4/21/2021,3,Brother,no,27
+BPL200691,yes,Asha Patil,Female,18,400001,"H.No. 147, Ward 21",Mumbai,Maharashtra,no,4/21/2021,3,Brother,no,23
+BPL200692,yes,Asha Das,Female,19,400001,"H.No. 94, Ward 21",Mumbai,Maharashtra,no,4/21/2021,4,Daughter,no,24
+BPL200693,yes,Asha Sharma,Female,23,400001,"H.No. 696, Ward 24",Mumbai,Maharashtra,yes,4/21/2021,6,Daughter,no,28
+BPL200694,yes,Meena Patil,Female,21,400001,"H.No. 320, Ward 14",Mumbai,Maharashtra,no,4/21/2021,4,Brother,no,26
+BPL200695,yes,Meena Das,Female,22,400001,"H.No. 46, Ward 18",Mumbai,Maharashtra,no,4/21/2021,4,Daughter,no,27
+BPL200696,yes,Amit Gowda,Male,18,400001,"H.No. 485, Ward 7",Mumbai,Maharashtra,no,4/21/2021,4,Brother,no,23
+BPL200697,yes,Deepak Gowda,Male,22,400001,"H.No. 981, Ward 4",Mumbai,Maharashtra,yes,4/21/2021,3,Sister,no,27
+BPL200698,yes,Vikas Patil,Male,21,400001,"H.No. 726, Ward 4",Mumbai,Maharashtra,no,4/21/2021,3,Daughter,no,26
+BPL200699,yes,Lakshmi Sharma,Female,21,400001,"H.No. 690, Ward 21",Mumbai,Maharashtra,no,4/21/2021,6,Daughter,no,26
+BPL200700,yes,Kavya Patil,Female,19,400001,"H.No. 921, Ward 7",Mumbai,Maharashtra,yes,4/21/2021,3,Son,no,24
+BPL200701,yes,Kavya Sharma,Female,25,400001,"H.No. 921, Ward 12",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,30
+BPL200702,yes,Vikas Reddy,Male,19,400001,"H.No. 171, Ward 2",Mumbai,Maharashtra,no,4/21/2021,5,Brother,no,24
+BPL200703,yes,Rahul Gowda,Male,22,400001,"H.No. 496, Ward 2",Mumbai,Maharashtra,yes,4/21/2021,5,Son,no,27
+BPL200704,yes,Arjun Gowda,Male,20,400001,"H.No. 79, Ward 17",Mumbai,Maharashtra,no,4/21/2021,6,Sister,no,25
+BPL200705,yes,Anita Kumar,Female,21,400001,"H.No. 175, Ward 11",Mumbai,Maharashtra,no,4/21/2021,3,Brother,no,26
+BPL200706,yes,Suresh Iyer,Male,23,400001,"H.No. 358, Ward 12",Mumbai,Maharashtra,no,4/21/2021,5,Brother,no,28
+BPL200707,yes,Sunita Gowda,Female,25,400001,"H.No. 888, Ward 9",Mumbai,Maharashtra,yes,4/21/2021,6,Son,no,30
+BPL200708,yes,Lakshmi Verma,Female,23,400001,"H.No. 451, Ward 10",Mumbai,Maharashtra,yes,4/21/2021,3,Sister,no,28
+BPL200709,yes,Deepak Iyer,Male,20,400001,"H.No. 190, Ward 9",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,25
+BPL200710,yes,Rahul Das,Male,24,400001,"H.No. 289, Ward 2",Mumbai,Maharashtra,yes,4/21/2021,5,Brother,no,29
+BPL200711,yes,Rahul Singh,Male,20,400001,"H.No. 427, Ward 23",Mumbai,Maharashtra,yes,4/21/2021,5,Sister,no,25
+BPL200712,yes,Manoj Naidu,Male,22,400001,"H.No. 678, Ward 6",Mumbai,Maharashtra,yes,4/21/2021,3,Brother,no,27
+BPL200713,yes,Asha Iyer,Female,23,400001,"H.No. 500, Ward 25",Mumbai,Maharashtra,yes,4/21/2021,5,Sister,no,28
+BPL200714,yes,Deepak Sharma,Male,25,400001,"H.No. 183, Ward 8",Mumbai,Maharashtra,no,4/21/2021,5,Daughter,no,30
+BPL200715,yes,Arjun Iyer,Male,20,400001,"H.No. 966, Ward 17",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,25
+BPL200716,yes,Suresh Sharma,Male,19,400001,"H.No. 794, Ward 24",Mumbai,Maharashtra,yes,4/21/2021,4,Brother,no,24
+BPL200717,yes,Deepak Das,Male,25,400001,"H.No. 716, Ward 2",Mumbai,Maharashtra,no,4/21/2021,3,Daughter,no,30
+BPL200718,yes,Anil Patil,Male,22,400001,"H.No. 880, Ward 11",Mumbai,Maharashtra,yes,4/21/2021,5,Daughter,no,27
+BPL200719,yes,Sunita Verma,Female,19,400001,"H.No. 536, Ward 24",Mumbai,Maharashtra,no,4/21/2021,3,Brother,no,24
+BPL200720,yes,Neha Das,Female,21,400001,"H.No. 177, Ward 5",Mumbai,Maharashtra,no,4/21/2021,5,Sister,no,26
+BPL200721,yes,Meena Iyer,Female,23,400001,"H.No. 825, Ward 5",Mumbai,Maharashtra,yes,4/21/2021,5,Daughter,no,28
+BPL200722,yes,Sunita Sharma,Female,23,400001,"H.No. 748, Ward 6",Mumbai,Maharashtra,yes,4/21/2021,5,Son,no,28
+BPL200723,yes,Pooja Kumar,Female,25,400001,"H.No. 60, Ward 25",Mumbai,Maharashtra,yes,4/21/2021,6,Brother,no,30
+BPL200724,yes,Sunita Iyer,Female,20,400001,"H.No. 769, Ward 10",Mumbai,Maharashtra,yes,4/21/2021,4,Daughter,no,25
+BPL200725,yes,Anita Naidu,Female,19,400001,"H.No. 84, Ward 13",Mumbai,Maharashtra,no,4/21/2021,5,Brother,no,24
+BPL200726,yes,Divya Verma,Female,18,400001,"H.No. 602, Ward 20",Mumbai,Maharashtra,no,4/21/2021,6,Brother,no,23
+BPL200727,yes,Asha Das,Female,25,400001,"H.No. 724, Ward 5",Mumbai,Maharashtra,yes,4/21/2021,4,Son,no,30
+BPL200728,yes,Amit Singh,Male,19,400001,"H.No. 591, Ward 20",Mumbai,Maharashtra,no,4/21/2021,5,Son,no,24
+BPL200729,yes,Divya Gowda,Female,19,400001,"H.No. 233, Ward 16",Mumbai,Maharashtra,no,4/21/2021,4,Sister,no,24
+BPL200730,yes,Deepak Reddy,Male,31,400001,"H.No. 116, Ward 13",Mumbai,Maharashtra,no,4/21/2021,5,Mother,yes,36
+BPL200731,yes,Sunita Das,Female,12,400001,"H.No. 70, Ward 22",Mumbai,Maharashtra,yes,4/21/2021,3,Spouse,yes,17
+BPL200732,yes,Kavya Iyer,Female,70,400001,"H.No. 478, Ward 14",Mumbai,Maharashtra,yes,4/21/2021,3,Head,no,75
+BPL200733,yes,Prakash Das,Male,60,400001,"H.No. 402, Ward 5",Mumbai,Maharashtra,no,4/21/2021,6,Mother,no,65
+BPL200734,yes,Suresh Kumar,Male,61,400001,"H.No. 863, Ward 18",Mumbai,Maharashtra,no,4/21/2021,5,Head,yes,66
+BPL200735,yes,Sunita Reddy,Female,13,400001,"H.No. 544, Ward 17",Mumbai,Maharashtra,yes,4/21/2021,7,Spouse,yes,18
+BPL200736,yes,Sunita Singh,Female,8,400001,"H.No. 547, Ward 7",Mumbai,Maharashtra,no,4/21/2021,6,Father,no,13
+BPL200737,yes,Asha Patil,Female,51,400001,"H.No. 678, Ward 19",Mumbai,Maharashtra,yes,4/21/2021,4,Mother,no,56
+BPL200738,yes,Anil Patil,Male,50,400001,"H.No. 768, Ward 14",Mumbai,Maharashtra,no,4/21/2021,7,Spouse,no,55
+BPL200739,yes,Deepak Kumar,Male,15,400001,"H.No. 781, Ward 16",Mumbai,Maharashtra,no,4/21/2021,4,Father,yes,20
+BPL200740,yes,Divya Verma,Female,17,400001,"H.No. 710, Ward 24",Mumbai,Maharashtra,yes,4/21/2021,3,Father,no,22
+BPL200741,yes,Anil Naidu,Male,16,400001,"H.No. 492, Ward 2",Mumbai,Maharashtra,yes,4/21/2021,6,Head,no,21
+BPL200742,yes,Meena Sharma,Female,13,400001,"H.No. 372, Ward 6",Mumbai,Maharashtra,yes,4/21/2021,6,Mother,no,18
+BPL200743,yes,Kavya Gowda,Female,49,400001,"H.No. 546, Ward 12",Mumbai,Maharashtra,no,4/21/2021,5,Spouse,yes,54
+BPL200744,yes,Anita Kumar,Female,40,400001,"H.No. 681, Ward 1",Mumbai,Maharashtra,no,4/21/2021,4,Mother,yes,45
+BPL200745,yes,Meena Singh,Female,26,400001,"H.No. 517, Ward 10",Mumbai,Maharashtra,no,4/21/2021,6,Father,yes,31
+BPL200746,yes,Anil Reddy,Male,48,400001,"H.No. 588, Ward 22",Mumbai,Maharashtra,yes,4/21/2021,5,Head,no,53
+BPL200747,yes,Vikas Iyer,Male,6,400001,"H.No. 654, Ward 19",Mumbai,Maharashtra,yes,4/21/2021,4,Head,yes,11
+BPL200748,yes,Ritu Das,Female,11,400001,"H.No. 905, Ward 6",Mumbai,Maharashtra,no,4/21/2021,4,Mother,no,16
+BPL200749,yes,Rahul Das,Male,13,400001,"H.No. 834, Ward 20",Mumbai,Maharashtra,no,4/21/2021,5,Mother,no,18
+BPL200750,yes,Divya Sharma,Female,33,400001,"H.No. 55, Ward 20",Mumbai,Maharashtra,yes,4/21/2021,4,Head,yes,38
+BPL200751,yes,Vikas Singh,Male,13,400001,"H.No. 931, Ward 6",Mumbai,Maharashtra,yes,4/21/2021,7,Spouse,no,18
+BPL200752,yes,Suresh Kumar,Male,61,400001,"H.No. 706, Ward 18",Mumbai,Maharashtra,no,4/21/2021,6,Spouse,yes,66
+BPL200753,yes,Vikas Iyer,Male,38,400001,"H.No. 961, Ward 1",Mumbai,Maharashtra,no,4/21/2021,4,Mother,no,43
+BPL200754,yes,Neha Das,Female,13,400001,"H.No. 490, Ward 5",Mumbai,Maharashtra,no,4/21/2021,7,Mother,no,18
+BPL200755,yes,Deepak Singh,Male,39,400001,"H.No. 804, Ward 11",Mumbai,Maharashtra,yes,4/21/2021,6,Mother,no,44
+BPL200756,yes,Rohit Patil,Male,11,400001,"H.No. 805, Ward 8",Mumbai,Maharashtra,no,4/21/2021,7,Head,no,16
+BPL200757,yes,Amit Das,Male,6,400001,"H.No. 452, Ward 5",Mumbai,Maharashtra,no,4/21/2021,4,Father,yes,11
+BPL200758,yes,Asha Naidu,Female,42,400001,"H.No. 946, Ward 11",Mumbai,Maharashtra,no,4/21/2021,4,Father,yes,47
+BPL200759,yes,Neha Gowda,Female,30,400001,"H.No. 930, Ward 8",Mumbai,Maharashtra,no,4/21/2021,4,Spouse,no,35
+BPL200760,yes,Sunita Patil,Female,54,400001,"H.No. 760, Ward 13",Mumbai,Maharashtra,yes,4/21/2021,5,Head,no,59
+BPL200761,yes,Ritu Kumar,Female,13,400001,"H.No. 840, Ward 12",Mumbai,Maharashtra,yes,4/21/2021,4,Spouse,no,18
+BPL200762,yes,Pooja Verma,Female,9,400001,"H.No. 669, Ward 22",Mumbai,Maharashtra,yes,4/21/2021,7,Head,no,14
+BPL200763,yes,Sunita Sharma,Female,40,400001,"H.No. 337, Ward 9",Mumbai,Maharashtra,yes,4/21/2021,5,Father,yes,45
+BPL200764,yes,Suresh Kumar,Male,48,400001,"H.No. 933, Ward 17",Mumbai,Maharashtra,yes,4/21/2021,6,Head,yes,53
+BPL200765,yes,Neha Patil,Female,5,400001,"H.No. 510, Ward 4",Mumbai,Maharashtra,no,4/21/2021,5,Spouse,no,10
+BPL200766,yes,Lakshmi Iyer,Female,29,400001,"H.No. 570, Ward 25",Mumbai,Maharashtra,yes,4/21/2021,6,Spouse,no,34
+BPL200767,yes,Divya Gowda,Female,16,400001,"H.No. 411, Ward 14",Mumbai,Maharashtra,yes,4/21/2021,7,Head,yes,21
+BPL200768,yes,Rohit Gowda,Male,66,400001,"H.No. 87, Ward 1",Mumbai,Maharashtra,no,4/21/2021,6,Father,no,71
+BPL200769,yes,Lakshmi Patil,Female,29,400001,"H.No. 307, Ward 16",Mumbai,Maharashtra,no,4/21/2021,6,Head,yes,34
+BPL200770,yes,Neha Kumar,Female,44,400001,"H.No. 340, Ward 22",Mumbai,Maharashtra,yes,4/21/2021,7,Father,yes,49
+BPL200771,yes,Manoj Naidu,Male,35,400001,"H.No. 971, Ward 6",Mumbai,Maharashtra,yes,4/21/2021,5,Spouse,yes,40
+BPL200772,yes,Rahul Verma,Male,66,400001,"H.No. 767, Ward 19",Mumbai,Maharashtra,yes,4/21/2021,3,Spouse,no,71
+BPL200773,yes,Rahul Naidu,Male,39,400001,"H.No. 474, Ward 20",Mumbai,Maharashtra,yes,4/21/2021,6,Head,yes,44
+BPL200774,yes,Kavya Patil,Female,29,400001,"H.No. 986, Ward 24",Mumbai,Maharashtra,yes,4/21/2021,5,Spouse,no,34
+BPL200775,yes,Rohit Naidu,Male,7,400001,"H.No. 99, Ward 10",Mumbai,Maharashtra,no,4/21/2021,3,Spouse,yes,12
+BPL200776,yes,Deepak Singh,Male,8,400001,"H.No. 198, Ward 11",Mumbai,Maharashtra,no,4/21/2021,3,Mother,no,13
+BPL200777,yes,Manoj Sharma,Male,6,400001,"H.No. 456, Ward 9",Mumbai,Maharashtra,yes,4/21/2021,7,Mother,no,11
+BPL200778,yes,Lakshmi Naidu,Female,6,400001,"H.No. 824, Ward 18",Mumbai,Maharashtra,yes,4/21/2021,3,Father,no,11
+BPL200779,yes,Meena Reddy,Female,52,400001,"H.No. 866, Ward 10",Mumbai,Maharashtra,no,4/21/2021,7,Mother,no,57
+BPL200780,yes,Asha Das,Female,20,600001,"H.No. 388, Ward 5",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,25
+BPL200781,yes,Lakshmi Kumar,Female,21,600001,"H.No. 294, Ward 10",Chennai,Tamil Nadu,yes,4/21/2021,3,Brother,no,26
+BPL200782,yes,Anil Kumar,Male,22,600001,"H.No. 409, Ward 18",Chennai,Tamil Nadu,no,4/21/2021,4,Sister,no,27
+BPL200783,yes,Rohit Naidu,Male,24,600001,"H.No. 230, Ward 15",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,29
+BPL200784,yes,Kavya Gowda,Female,18,600001,"H.No. 206, Ward 19",Chennai,Tamil Nadu,yes,4/21/2021,6,Daughter,no,23
+BPL200785,yes,Kavya Das,Female,18,600001,"H.No. 567, Ward 19",Chennai,Tamil Nadu,yes,4/21/2021,3,Daughter,no,23
+BPL200786,yes,Suresh Gowda,Male,25,600001,"H.No. 57, Ward 25",Chennai,Tamil Nadu,no,4/21/2021,6,Daughter,no,30
+BPL200787,yes,Ritu Iyer,Female,19,600001,"H.No. 495, Ward 24",Chennai,Tamil Nadu,yes,4/21/2021,4,Daughter,no,24
+BPL200788,yes,Anita Das,Female,23,600001,"H.No. 828, Ward 8",Chennai,Tamil Nadu,yes,4/21/2021,5,Brother,no,28
+BPL200789,yes,Lakshmi Iyer,Female,19,600001,"H.No. 757, Ward 4",Chennai,Tamil Nadu,yes,4/21/2021,6,Son,no,24
+BPL200790,yes,Suresh Sharma,Male,25,600001,"H.No. 919, Ward 18",Chennai,Tamil Nadu,no,4/21/2021,5,Son,no,30
+BPL200791,yes,Prakash Reddy,Male,18,600001,"H.No. 310, Ward 25",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,23
+BPL200792,yes,Sunita Singh,Female,21,600001,"H.No. 253, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,4,Brother,no,26
+BPL200793,yes,Vikas Reddy,Male,23,600001,"H.No. 376, Ward 21",Chennai,Tamil Nadu,no,4/21/2021,5,Brother,no,28
+BPL200794,yes,Manoj Singh,Male,23,600001,"H.No. 156, Ward 2",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,28
+BPL200795,yes,Anil Das,Male,20,600001,"H.No. 580, Ward 21",Chennai,Tamil Nadu,no,4/21/2021,6,Daughter,no,25
+BPL200796,yes,Sunita Naidu,Female,19,600001,"H.No. 58, Ward 11",Chennai,Tamil Nadu,no,4/21/2021,5,Daughter,no,24
+BPL200797,yes,Arjun Kumar,Male,18,600001,"H.No. 844, Ward 18",Chennai,Tamil Nadu,yes,4/21/2021,3,Daughter,no,23
+BPL200798,yes,Meena Patil,Female,23,600001,"H.No. 461, Ward 20",Chennai,Tamil Nadu,yes,4/21/2021,5,Brother,no,28
+BPL200799,yes,Vikas Naidu,Male,20,600001,"H.No. 880, Ward 15",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,25
+BPL200800,yes,Kavya Sharma,Female,23,600001,"H.No. 165, Ward 16",Chennai,Tamil Nadu,no,4/21/2021,3,Brother,no,28
+BPL200801,yes,Rohit Iyer,Male,23,600001,"H.No. 22, Ward 23",Chennai,Tamil Nadu,yes,4/21/2021,3,Son,no,28
+BPL200802,yes,Neha Das,Female,19,600001,"H.No. 803, Ward 3",Chennai,Tamil Nadu,no,4/21/2021,3,Brother,no,24
+BPL200803,yes,Ritu Sharma,Female,20,600001,"H.No. 728, Ward 10",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,25
+BPL200804,yes,Rahul Iyer,Male,18,600001,"H.No. 8, Ward 11",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,23
+BPL200805,yes,Arjun Kumar,Male,21,600001,"H.No. 239, Ward 10",Chennai,Tamil Nadu,yes,4/21/2021,3,Daughter,no,26
+BPL200806,yes,Kavya Iyer,Female,22,600001,"H.No. 902, Ward 10",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,27
+BPL200807,yes,Rohit Naidu,Male,18,600001,"H.No. 766, Ward 8",Chennai,Tamil Nadu,yes,4/21/2021,3,Brother,no,23
+BPL200808,yes,Meena Singh,Female,19,600001,"H.No. 550, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,24
+BPL200809,yes,Suresh Das,Male,18,600001,"H.No. 916, Ward 21",Chennai,Tamil Nadu,yes,4/21/2021,3,Brother,no,23
+BPL200810,yes,Vikas Sharma,Male,21,600001,"H.No. 900, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,3,Son,no,26
+BPL200811,yes,Amit Iyer,Male,21,600001,"H.No. 243, Ward 25",Chennai,Tamil Nadu,no,4/21/2021,5,Sister,no,26
+BPL200812,yes,Divya Iyer,Female,25,600001,"H.No. 218, Ward 18",Chennai,Tamil Nadu,yes,4/21/2021,4,Daughter,no,30
+BPL200813,yes,Deepak Sharma,Male,19,600001,"H.No. 760, Ward 8",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,24
+BPL200814,yes,Lakshmi Reddy,Female,19,600001,"H.No. 913, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,3,Daughter,no,24
+BPL200815,yes,Anil Verma,Male,24,600001,"H.No. 208, Ward 15",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,29
+BPL200816,yes,Ritu Verma,Female,18,600001,"H.No. 977, Ward 25",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,23
+BPL200817,yes,Manoj Sharma,Male,21,600001,"H.No. 807, Ward 4",Chennai,Tamil Nadu,yes,4/21/2021,6,Son,no,26
+BPL200818,yes,Anita Reddy,Female,21,600001,"H.No. 748, Ward 22",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,26
+BPL200819,yes,Pooja Reddy,Female,19,600001,"H.No. 134, Ward 4",Chennai,Tamil Nadu,yes,4/21/2021,3,Sister,no,24
+BPL200820,yes,Arjun Patil,Male,25,600001,"H.No. 669, Ward 21",Chennai,Tamil Nadu,no,4/21/2021,5,Daughter,no,30
+BPL200821,yes,Divya Gowda,Female,24,600001,"H.No. 265, Ward 9",Chennai,Tamil Nadu,yes,4/21/2021,3,Sister,no,29
+BPL200822,yes,Suresh Reddy,Male,24,600001,"H.No. 512, Ward 4",Chennai,Tamil Nadu,yes,4/21/2021,4,Daughter,no,29
+BPL200823,yes,Sunita Patil,Female,24,600001,"H.No. 522, Ward 10",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,29
+BPL200824,yes,Anita Sharma,Female,24,600001,"H.No. 917, Ward 16",Chennai,Tamil Nadu,yes,4/21/2021,5,Brother,no,29
+BPL200825,yes,Lakshmi Iyer,Female,19,600001,"H.No. 429, Ward 14",Chennai,Tamil Nadu,yes,4/21/2021,3,Daughter,no,24
+BPL200826,yes,Deepak Kumar,Male,18,600001,"H.No. 802, Ward 17",Chennai,Tamil Nadu,yes,4/21/2021,5,Sister,no,23
+BPL200827,yes,Pooja Verma,Female,20,600001,"H.No. 953, Ward 10",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,25
+BPL200828,yes,Lakshmi Das,Female,19,600001,"H.No. 849, Ward 4",Chennai,Tamil Nadu,yes,4/21/2021,3,Son,no,24
+BPL200829,yes,Asha Kumar,Female,25,600001,"H.No. 847, Ward 23",Chennai,Tamil Nadu,no,4/21/2021,3,Son,no,30
+BPL200830,yes,Vikas Iyer,Male,19,600001,"H.No. 957, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,4,Sister,no,24
+BPL200831,yes,Anil Reddy,Male,20,600001,"H.No. 425, Ward 16",Chennai,Tamil Nadu,yes,4/21/2021,4,Sister,no,25
+BPL200832,yes,Kavya Reddy,Female,20,600001,"H.No. 347, Ward 15",Chennai,Tamil Nadu,no,4/21/2021,6,Daughter,no,25
+BPL200833,yes,Vikas Naidu,Male,19,600001,"H.No. 219, Ward 6",Chennai,Tamil Nadu,no,4/21/2021,3,Son,no,24
+BPL200834,yes,Lakshmi Naidu,Female,23,600001,"H.No. 846, Ward 14",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,28
+BPL200835,yes,Kavya Naidu,Female,18,600001,"H.No. 10, Ward 12",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,23
+BPL200836,yes,Rahul Iyer,Male,24,600001,"H.No. 800, Ward 25",Chennai,Tamil Nadu,no,4/21/2021,6,Sister,no,29
+BPL200837,yes,Neha Iyer,Female,22,600001,"H.No. 982, Ward 1",Chennai,Tamil Nadu,no,4/21/2021,3,Brother,no,27
+BPL200838,yes,Manoj Sharma,Male,24,600001,"H.No. 219, Ward 24",Chennai,Tamil Nadu,no,4/21/2021,4,Sister,no,29
+BPL200839,yes,Anil Singh,Male,18,600001,"H.No. 279, Ward 22",Chennai,Tamil Nadu,no,4/21/2021,3,Daughter,no,23
+BPL200840,yes,Sunita Das,Female,25,600001,"H.No. 716, Ward 6",Chennai,Tamil Nadu,no,4/21/2021,5,Brother,no,30
+BPL200841,yes,Lakshmi Gowda,Female,24,600001,"H.No. 124, Ward 4",Chennai,Tamil Nadu,yes,4/21/2021,5,Daughter,no,29
+BPL200842,yes,Arjun Singh,Male,23,600001,"H.No. 354, Ward 17",Chennai,Tamil Nadu,yes,4/21/2021,5,Son,no,28
+BPL200843,yes,Prakash Sharma,Male,20,600001,"H.No. 155, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,25
+BPL200844,yes,Amit Reddy,Male,25,600001,"H.No. 825, Ward 8",Chennai,Tamil Nadu,yes,4/21/2021,3,Daughter,no,30
+BPL200845,yes,Ritu Singh,Female,23,600001,"H.No. 329, Ward 12",Chennai,Tamil Nadu,no,4/21/2021,3,Sister,no,28
+BPL200846,yes,Divya Naidu,Female,25,600001,"H.No. 709, Ward 21",Chennai,Tamil Nadu,no,4/21/2021,6,Daughter,no,30
+BPL200847,yes,Prakash Patil,Male,20,600001,"H.No. 997, Ward 4",Chennai,Tamil Nadu,no,4/21/2021,4,Sister,no,25
+BPL200848,yes,Divya Naidu,Female,19,600001,"H.No. 684, Ward 21",Chennai,Tamil Nadu,yes,4/21/2021,6,Son,no,24
+BPL200849,yes,Suresh Gowda,Male,25,600001,"H.No. 672, Ward 22",Chennai,Tamil Nadu,yes,4/21/2021,6,Daughter,no,30
+BPL200850,yes,Arjun Patil,Male,24,600001,"H.No. 965, Ward 5",Chennai,Tamil Nadu,no,4/21/2021,5,Brother,no,29
+BPL200851,yes,Anita Iyer,Female,25,600001,"H.No. 387, Ward 14",Chennai,Tamil Nadu,yes,4/21/2021,4,Sister,no,30
+BPL200852,yes,Lakshmi Reddy,Female,19,600001,"H.No. 319, Ward 10",Chennai,Tamil Nadu,yes,4/21/2021,5,Brother,no,24
+BPL200853,yes,Ritu Verma,Female,25,600001,"H.No. 751, Ward 1",Chennai,Tamil Nadu,yes,4/21/2021,6,Son,no,30
+BPL200854,yes,Vikas Iyer,Male,21,600001,"H.No. 399, Ward 3",Chennai,Tamil Nadu,no,4/21/2021,5,Daughter,no,26
+BPL200855,yes,Lakshmi Patil,Female,18,600001,"H.No. 941, Ward 22",Chennai,Tamil Nadu,yes,4/21/2021,3,Daughter,no,23
+BPL200856,yes,Asha Iyer,Female,24,600001,"H.No. 889, Ward 8",Chennai,Tamil Nadu,yes,4/21/2021,4,Daughter,no,29
+BPL200857,yes,Meena Singh,Female,21,600001,"H.No. 200, Ward 15",Chennai,Tamil Nadu,yes,4/21/2021,6,Sister,no,26
+BPL200858,yes,Prakash Gowda,Male,25,600001,"H.No. 304, Ward 12",Chennai,Tamil Nadu,no,4/21/2021,5,Daughter,no,30
+BPL200859,yes,Anil Naidu,Male,20,600001,"H.No. 942, Ward 15",Chennai,Tamil Nadu,yes,4/21/2021,5,Son,no,25
+BPL200860,yes,Asha Naidu,Female,21,600001,"H.No. 899, Ward 7",Chennai,Tamil Nadu,yes,4/21/2021,6,Son,no,26
+BPL200861,yes,Rahul Iyer,Male,23,600001,"H.No. 540, Ward 6",Chennai,Tamil Nadu,no,4/21/2021,5,Brother,no,28
+BPL200862,yes,Asha Singh,Female,24,600001,"H.No. 173, Ward 10",Chennai,Tamil Nadu,yes,4/21/2021,5,Sister,no,29
+BPL200863,yes,Prakash Gowda,Male,21,600001,"H.No. 732, Ward 22",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,26
+BPL200864,yes,Lakshmi Singh,Female,19,600001,"H.No. 647, Ward 4",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,24
+BPL200865,yes,Asha Naidu,Female,22,600001,"H.No. 919, Ward 7",Chennai,Tamil Nadu,yes,4/21/2021,4,Sister,no,27
+BPL200866,yes,Amit Reddy,Male,24,600001,"H.No. 57, Ward 4",Chennai,Tamil Nadu,no,4/21/2021,6,Sister,no,29
+BPL200867,yes,Pooja Sharma,Female,20,600001,"H.No. 522, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,25
+BPL200868,yes,Sunita Sharma,Female,21,600001,"H.No. 189, Ward 12",Chennai,Tamil Nadu,yes,4/21/2021,4,Sister,no,26
+BPL200869,yes,Deepak Singh,Male,20,600001,"H.No. 593, Ward 1",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,25
+BPL200870,yes,Anita Sharma,Female,19,600001,"H.No. 614, Ward 5",Chennai,Tamil Nadu,no,4/21/2021,5,Sister,no,24
+BPL200871,yes,Deepak Patil,Male,24,600001,"H.No. 291, Ward 7",Chennai,Tamil Nadu,no,4/21/2021,3,Brother,no,29
+BPL200872,yes,Sunita Kumar,Female,24,600001,"H.No. 185, Ward 5",Chennai,Tamil Nadu,yes,4/21/2021,4,Daughter,no,29
+BPL200873,yes,Meena Gowda,Female,21,600001,"H.No. 860, Ward 24",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,26
+BPL200874,yes,Amit Naidu,Male,20,600001,"H.No. 699, Ward 2",Chennai,Tamil Nadu,no,4/21/2021,5,Sister,no,25
+BPL200875,yes,Suresh Das,Male,20,600001,"H.No. 940, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,4,Daughter,no,25
+BPL200876,yes,Deepak Kumar,Male,18,600001,"H.No. 390, Ward 8",Chennai,Tamil Nadu,yes,4/21/2021,3,Son,no,23
+BPL200877,yes,Amit Sharma,Male,19,600001,"H.No. 583, Ward 23",Chennai,Tamil Nadu,yes,4/21/2021,4,Sister,no,24
+BPL200878,yes,Vikas Naidu,Male,24,600001,"H.No. 964, Ward 22",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,29
+BPL200879,yes,Amit Singh,Male,22,600001,"H.No. 670, Ward 19",Chennai,Tamil Nadu,yes,4/21/2021,5,Son,no,27
+BPL200880,yes,Prakash Naidu,Male,25,600001,"H.No. 482, Ward 23",Chennai,Tamil Nadu,yes,4/21/2021,5,Son,no,30
+BPL200881,yes,Arjun Verma,Male,21,600001,"H.No. 439, Ward 13",Chennai,Tamil Nadu,yes,4/21/2021,4,Sister,no,26
+BPL200882,yes,Rahul Singh,Male,19,600001,"H.No. 96, Ward 24",Chennai,Tamil Nadu,no,4/21/2021,4,Brother,no,24
+BPL200883,yes,Neha Iyer,Female,23,600001,"H.No. 642, Ward 5",Chennai,Tamil Nadu,no,4/21/2021,3,Sister,no,28
+BPL200884,yes,Rahul Reddy,Male,22,600001,"H.No. 583, Ward 21",Chennai,Tamil Nadu,yes,4/21/2021,4,Sister,no,27
+BPL200885,yes,Rahul Iyer,Male,22,600001,"H.No. 133, Ward 23",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,27
+BPL200886,yes,Divya Naidu,Female,19,600001,"H.No. 494, Ward 7",Chennai,Tamil Nadu,no,4/21/2021,3,Son,no,24
+BPL200887,yes,Pooja Sharma,Female,25,600001,"H.No. 800, Ward 13",Chennai,Tamil Nadu,yes,4/21/2021,3,Brother,no,30
+BPL200888,yes,Suresh Verma,Male,23,600001,"H.No. 851, Ward 11",Chennai,Tamil Nadu,no,4/21/2021,6,Daughter,no,28
+BPL200889,yes,Kavya Das,Female,18,600001,"H.No. 881, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,23
+BPL200890,yes,Deepak Patil,Male,19,600001,"H.No. 109, Ward 16",Chennai,Tamil Nadu,yes,4/21/2021,5,Son,no,24
+BPL200891,yes,Neha Verma,Female,22,600001,"H.No. 878, Ward 19",Chennai,Tamil Nadu,no,4/21/2021,5,Daughter,no,27
+BPL200892,yes,Divya Sharma,Female,21,600001,"H.No. 426, Ward 10",Chennai,Tamil Nadu,no,4/21/2021,3,Son,no,26
+BPL200893,yes,Pooja Verma,Female,20,600001,"H.No. 172, Ward 2",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,25
+BPL200894,yes,Ritu Das,Female,21,600001,"H.No. 968, Ward 4",Chennai,Tamil Nadu,yes,4/21/2021,3,Brother,no,26
+BPL200895,yes,Pooja Sharma,Female,18,600001,"H.No. 123, Ward 6",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,23
+BPL200896,yes,Amit Verma,Male,23,600001,"H.No. 864, Ward 14",Chennai,Tamil Nadu,yes,4/21/2021,3,Sister,no,28
+BPL200897,yes,Divya Iyer,Female,18,600001,"H.No. 617, Ward 16",Chennai,Tamil Nadu,no,4/21/2021,3,Son,no,23
+BPL200898,yes,Rahul Singh,Male,21,600001,"H.No. 720, Ward 23",Chennai,Tamil Nadu,no,4/21/2021,4,Daughter,no,26
+BPL200899,yes,Pooja Das,Female,19,600001,"H.No. 581, Ward 12",Chennai,Tamil Nadu,yes,4/21/2021,5,Brother,no,24
+BPL200900,yes,Prakash Singh,Male,19,600001,"H.No. 884, Ward 22",Chennai,Tamil Nadu,yes,4/21/2021,4,Daughter,no,24
+BPL200901,yes,Anita Das,Female,24,600001,"H.No. 105, Ward 4",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,29
+BPL200902,yes,Pooja Sharma,Female,24,600001,"H.No. 604, Ward 2",Chennai,Tamil Nadu,no,4/21/2021,4,Sister,no,29
+BPL200903,yes,Vikas Verma,Male,19,600001,"H.No. 184, Ward 6",Chennai,Tamil Nadu,no,4/21/2021,3,Brother,no,24
+BPL200904,yes,Anita Sharma,Female,21,600001,"H.No. 197, Ward 14",Chennai,Tamil Nadu,yes,4/21/2021,4,Sister,no,26
+BPL200905,yes,Prakash Singh,Male,18,600001,"H.No. 138, Ward 5",Chennai,Tamil Nadu,no,4/21/2021,5,Son,no,23
+BPL200906,yes,Sunita Patil,Female,23,600001,"H.No. 496, Ward 7",Chennai,Tamil Nadu,yes,4/21/2021,6,Sister,no,28
+BPL200907,yes,Neha Kumar,Female,19,600001,"H.No. 521, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,5,Brother,no,24
+BPL200908,yes,Deepak Iyer,Male,25,600001,"H.No. 453, Ward 5",Chennai,Tamil Nadu,yes,4/21/2021,3,Daughter,no,30
+BPL200909,yes,Ritu Kumar,Female,18,600001,"H.No. 553, Ward 10",Chennai,Tamil Nadu,yes,4/21/2021,4,Brother,no,23
+BPL200910,yes,Rohit Kumar,Male,20,600001,"H.No. 236, Ward 9",Chennai,Tamil Nadu,yes,4/21/2021,5,Son,no,25
+BPL200911,yes,Rohit Reddy,Male,24,600001,"H.No. 135, Ward 24",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,29
+BPL200912,yes,Lakshmi Verma,Female,21,600001,"H.No. 482, Ward 3",Chennai,Tamil Nadu,yes,4/21/2021,3,Sister,no,26
+BPL200913,yes,Rohit Naidu,Male,22,600001,"H.No. 532, Ward 5",Chennai,Tamil Nadu,no,4/21/2021,3,Daughter,no,27
+BPL200914,yes,Pooja Gowda,Female,21,600001,"H.No. 339, Ward 9",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,26
+BPL200915,yes,Arjun Naidu,Male,20,600001,"H.No. 925, Ward 8",Chennai,Tamil Nadu,yes,4/21/2021,3,Daughter,no,25
+BPL200916,yes,Vikas Sharma,Male,18,600001,"H.No. 762, Ward 8",Chennai,Tamil Nadu,yes,4/21/2021,3,Sister,no,23
+BPL200917,yes,Ritu Verma,Female,25,600001,"H.No. 793, Ward 8",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,30
+BPL200918,yes,Lakshmi Kumar,Female,19,600001,"H.No. 760, Ward 18",Chennai,Tamil Nadu,no,4/21/2021,3,Sister,no,24
+BPL200919,yes,Sunita Gowda,Female,22,600001,"H.No. 273, Ward 18",Chennai,Tamil Nadu,yes,4/21/2021,3,Brother,no,27
+BPL200920,yes,Pooja Sharma,Female,25,600001,"H.No. 382, Ward 7",Chennai,Tamil Nadu,no,4/21/2021,5,Brother,no,30
+BPL200921,yes,Rahul Gowda,Male,21,600001,"H.No. 631, Ward 11",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,26
+BPL200922,yes,Deepak Iyer,Male,20,600001,"H.No. 278, Ward 9",Chennai,Tamil Nadu,yes,4/21/2021,3,Daughter,no,25
+BPL200923,yes,Asha Sharma,Female,18,600001,"H.No. 615, Ward 13",Chennai,Tamil Nadu,no,4/21/2021,4,Brother,no,23
+BPL200924,yes,Anita Naidu,Female,21,600001,"H.No. 873, Ward 14",Chennai,Tamil Nadu,no,4/21/2021,6,Sister,no,26
+BPL200925,yes,Rahul Gowda,Male,20,600001,"H.No. 81, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,3,Daughter,no,25
+BPL200926,yes,Anita Singh,Female,23,600001,"H.No. 929, Ward 23",Chennai,Tamil Nadu,yes,4/21/2021,5,Sister,no,28
+BPL200927,yes,Divya Sharma,Female,22,600001,"H.No. 552, Ward 24",Chennai,Tamil Nadu,no,4/21/2021,3,Daughter,no,27
+BPL200928,yes,Rohit Verma,Male,18,600001,"H.No. 290, Ward 25",Chennai,Tamil Nadu,no,4/21/2021,3,Brother,no,23
+BPL200929,yes,Anita Verma,Female,23,600001,"H.No. 760, Ward 6",Chennai,Tamil Nadu,no,4/21/2021,3,Daughter,no,28
+BPL200930,yes,Kavya Singh,Female,20,600001,"H.No. 777, Ward 10",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,25
+BPL200931,yes,Manoj Naidu,Male,20,600001,"H.No. 430, Ward 1",Chennai,Tamil Nadu,yes,4/21/2021,5,Daughter,no,25
+BPL200932,yes,Ritu Patil,Female,19,600001,"H.No. 338, Ward 15",Chennai,Tamil Nadu,no,4/21/2021,5,Sister,no,24
+BPL200933,yes,Amit Reddy,Male,23,600001,"H.No. 324, Ward 21",Chennai,Tamil Nadu,yes,4/21/2021,3,Daughter,no,28
+BPL200934,yes,Amit Singh,Male,21,600001,"H.No. 406, Ward 7",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,26
+BPL200935,yes,Asha Kumar,Female,18,600001,"H.No. 940, Ward 8",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,23
+BPL200936,yes,Prakash Gowda,Male,21,600001,"H.No. 698, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,26
+BPL200937,yes,Lakshmi Singh,Female,23,600001,"H.No. 13, Ward 11",Chennai,Tamil Nadu,yes,4/21/2021,5,Son,no,28
+BPL200938,yes,Rohit Patil,Male,23,600001,"H.No. 143, Ward 5",Chennai,Tamil Nadu,yes,4/21/2021,4,Brother,no,28
+BPL200939,yes,Rahul Das,Male,22,600001,"H.No. 58, Ward 19",Chennai,Tamil Nadu,no,4/21/2021,3,Sister,no,27
+BPL200940,yes,Rohit Verma,Male,23,600001,"H.No. 784, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,5,Son,no,28
+BPL200941,yes,Vikas Iyer,Male,21,600001,"H.No. 778, Ward 12",Chennai,Tamil Nadu,yes,4/21/2021,5,Son,no,26
+BPL200942,yes,Vikas Verma,Male,21,600001,"H.No. 224, Ward 10",Chennai,Tamil Nadu,yes,4/21/2021,4,Brother,no,26
+BPL200943,yes,Deepak Verma,Male,22,600001,"H.No. 381, Ward 15",Chennai,Tamil Nadu,yes,4/21/2021,6,Brother,no,27
+BPL200944,yes,Meena Sharma,Female,23,600001,"H.No. 23, Ward 8",Chennai,Tamil Nadu,no,4/21/2021,6,Daughter,no,28
+BPL200945,yes,Vikas Naidu,Male,23,600001,"H.No. 860, Ward 8",Chennai,Tamil Nadu,yes,4/21/2021,4,Sister,no,28
+BPL200946,yes,Suresh Kumar,Male,22,600001,"H.No. 355, Ward 1",Chennai,Tamil Nadu,yes,4/21/2021,3,Daughter,no,27
+BPL200947,yes,Meena Iyer,Female,24,600001,"H.No. 164, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,4,Sister,no,29
+BPL200948,yes,Manoj Naidu,Male,18,600001,"H.No. 191, Ward 13",Chennai,Tamil Nadu,no,4/21/2021,6,Daughter,no,23
+BPL200949,yes,Lakshmi Kumar,Female,23,600001,"H.No. 175, Ward 18",Chennai,Tamil Nadu,yes,4/21/2021,4,Daughter,no,28
+BPL200950,yes,Lakshmi Naidu,Female,14,600001,"H.No. 702, Ward 8",Chennai,Tamil Nadu,no,4/21/2021,5,Spouse,no,19
+BPL200951,yes,Anita Sharma,Female,9,600001,"H.No. 745, Ward 15",Chennai,Tamil Nadu,no,4/21/2021,5,Father,no,14
+BPL200952,yes,Rahul Gowda,Male,66,600001,"H.No. 916, Ward 2",Chennai,Tamil Nadu,yes,4/21/2021,4,Head,no,71
+BPL200953,yes,Ritu Patil,Female,45,600001,"H.No. 498, Ward 24",Chennai,Tamil Nadu,no,4/21/2021,7,Mother,yes,50
+BPL200954,yes,Rohit Sharma,Male,14,600001,"H.No. 61, Ward 7",Chennai,Tamil Nadu,yes,4/21/2021,5,Head,yes,19
+BPL200955,yes,Anita Singh,Female,43,600001,"H.No. 453, Ward 19",Chennai,Tamil Nadu,no,4/21/2021,5,Spouse,no,48
+BPL200956,yes,Pooja Patil,Female,13,600001,"H.No. 959, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,7,Mother,no,18
+BPL200957,yes,Prakash Gowda,Male,47,600001,"H.No. 688, Ward 13",Chennai,Tamil Nadu,yes,4/21/2021,7,Mother,yes,52
+BPL200958,yes,Anil Naidu,Male,14,600001,"H.No. 180, Ward 9",Chennai,Tamil Nadu,no,4/21/2021,3,Head,no,19
+BPL200959,yes,Rahul Singh,Male,47,600001,"H.No. 471, Ward 22",Chennai,Tamil Nadu,no,4/21/2021,5,Head,no,52
+BPL200960,yes,Manoj Patil,Male,27,600001,"H.No. 493, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,3,Mother,yes,32
+BPL200961,yes,Anil Das,Male,14,600001,"H.No. 723, Ward 16",Chennai,Tamil Nadu,yes,4/21/2021,4,Spouse,no,19
+BPL200962,yes,Ritu Sharma,Female,67,600001,"H.No. 679, Ward 9",Chennai,Tamil Nadu,yes,4/21/2021,5,Father,no,72
+BPL200963,yes,Rahul Sharma,Male,37,600001,"H.No. 981, Ward 5",Chennai,Tamil Nadu,yes,4/21/2021,3,Father,yes,42
+BPL200964,yes,Ritu Iyer,Female,7,600001,"H.No. 214, Ward 25",Chennai,Tamil Nadu,yes,4/21/2021,7,Father,yes,12
+BPL200965,yes,Prakash Verma,Male,54,600001,"H.No. 788, Ward 5",Chennai,Tamil Nadu,yes,4/21/2021,6,Father,yes,59
+BPL200966,yes,Divya Sharma,Female,12,600001,"H.No. 593, Ward 14",Chennai,Tamil Nadu,yes,4/21/2021,7,Spouse,no,17
+BPL200967,yes,Lakshmi Singh,Female,8,600001,"H.No. 97, Ward 7",Chennai,Tamil Nadu,yes,4/21/2021,6,Father,no,13
+BPL200968,yes,Lakshmi Kumar,Female,16,600001,"H.No. 477, Ward 23",Chennai,Tamil Nadu,yes,4/21/2021,5,Head,no,21
+BPL200969,yes,Vikas Das,Male,34,600001,"H.No. 24, Ward 20",Chennai,Tamil Nadu,yes,4/21/2021,6,Spouse,no,39
+BPL200970,yes,Ritu Reddy,Female,31,600001,"H.No. 853, Ward 10",Chennai,Tamil Nadu,yes,4/21/2021,7,Spouse,no,36
+BPL200971,yes,Sunita Singh,Female,30,600001,"H.No. 682, Ward 18",Chennai,Tamil Nadu,yes,4/21/2021,6,Father,no,35
+BPL200972,yes,Amit Singh,Male,5,600001,"H.No. 941, Ward 21",Chennai,Tamil Nadu,yes,4/21/2021,5,Mother,no,10
+BPL200973,yes,Suresh Reddy,Male,29,600001,"H.No. 546, Ward 15",Chennai,Tamil Nadu,yes,4/21/2021,5,Mother,yes,34
+BPL200974,yes,Arjun Das,Male,9,600001,"H.No. 457, Ward 19",Chennai,Tamil Nadu,no,4/21/2021,4,Father,yes,14
+BPL200975,yes,Kavya Verma,Female,17,600001,"H.No. 402, Ward 13",Chennai,Tamil Nadu,yes,4/21/2021,7,Head,yes,22
+BPL200976,yes,Lakshmi Reddy,Female,11,600001,"H.No. 961, Ward 12",Chennai,Tamil Nadu,no,4/21/2021,4,Mother,no,16
+BPL200977,yes,Suresh Kumar,Male,60,600001,"H.No. 575, Ward 7",Chennai,Tamil Nadu,yes,4/21/2021,3,Mother,yes,65
+BPL200978,yes,Deepak Patil,Male,10,600001,"H.No. 730, Ward 14",Chennai,Tamil Nadu,yes,4/21/2021,4,Spouse,yes,15
+BPL200979,yes,Lakshmi Naidu,Female,6,600001,"H.No. 343, Ward 9",Chennai,Tamil Nadu,yes,4/21/2021,6,Mother,no,11
+BPL200980,yes,Divya Sharma,Female,29,600001,"H.No. 863, Ward 8",Chennai,Tamil Nadu,yes,4/21/2021,3,Father,yes,34
+BPL200981,yes,Rohit Reddy,Male,59,600001,"H.No. 466, Ward 24",Chennai,Tamil Nadu,no,4/21/2021,5,Mother,no,64
+BPL200982,yes,Rahul Naidu,Male,5,600001,"H.No. 20, Ward 9",Chennai,Tamil Nadu,yes,4/21/2021,3,Spouse,no,10
+BPL200983,yes,Pooja Verma,Female,45,600001,"H.No. 145, Ward 19",Chennai,Tamil Nadu,yes,4/21/2021,5,Father,yes,50
+BPL200984,yes,Amit Patil,Male,11,600001,"H.No. 583, Ward 10",Chennai,Tamil Nadu,no,4/21/2021,5,Father,no,16
+BPL200985,yes,Rohit Das,Male,12,600001,"H.No. 388, Ward 15",Chennai,Tamil Nadu,no,4/21/2021,4,Mother,no,17
+BPL200986,yes,Meena Verma,Female,13,600001,"H.No. 670, Ward 11",Chennai,Tamil Nadu,yes,4/21/2021,6,Mother,yes,18
+BPL200987,yes,Meena Gowda,Female,48,600001,"H.No. 280, Ward 7",Chennai,Tamil Nadu,yes,4/21/2021,6,Head,yes,53
+BPL200988,yes,Manoj Reddy,Male,16,600001,"H.No. 545, Ward 18",Chennai,Tamil Nadu,yes,4/21/2021,3,Head,no,21
+BPL200989,yes,Arjun Iyer,Male,33,600001,"H.No. 19, Ward 14",Chennai,Tamil Nadu,yes,4/21/2021,3,Head,no,38
+BPL200990,yes,Pooja Das,Female,6,600001,"H.No. 168, Ward 13",Chennai,Tamil Nadu,yes,4/21/2021,7,Head,no,11
+BPL200991,yes,Anita Kumar,Female,49,600001,"H.No. 968, Ward 12",Chennai,Tamil Nadu,no,4/21/2021,6,Mother,yes,54
+BPL200992,yes,Anita Das,Female,9,600001,"H.No. 6, Ward 19",Chennai,Tamil Nadu,yes,4/21/2021,6,Mother,no,14
+BPL200993,yes,Vikas Das,Male,65,600001,"H.No. 151, Ward 10",Chennai,Tamil Nadu,no,4/21/2021,3,Father,yes,70
+BPL200994,yes,Prakash Gowda,Male,11,600001,"H.No. 983, Ward 25",Chennai,Tamil Nadu,no,4/21/2021,6,Mother,no,16
+BPL200995,yes,Vikas Gowda,Male,12,600001,"H.No. 769, Ward 22",Chennai,Tamil Nadu,yes,4/21/2021,3,Father,yes,17
+BPL200996,yes,Rahul Gowda,Male,28,600001,"H.No. 161, Ward 22",Chennai,Tamil Nadu,yes,4/21/2021,3,Spouse,no,33
+BPL200997,yes,Arjun Reddy,Male,7,600001,"H.No. 820, Ward 4",Chennai,Tamil Nadu,no,4/21/2021,7,Father,no,12
+BPL200998,yes,Amit Das,Male,9,600001,"H.No. 133, Ward 16",Chennai,Tamil Nadu,no,4/21/2021,3,Head,yes,14
+BPL200999,yes,Ritu Reddy,Female,33,600001,"H.No. 216, Ward 18",Chennai,Tamil Nadu,no,4/21/2021,3,Spouse,yes,38
+BPL200371,yes,Rahul Kumar,Male,20,110001,"H.No. 809, Ward 2",New Delhi,Delhi,no,4/21/2021,3,Son,no,25
+BPL200375,yes,Lakshmi Gowda,Female,18,110001,"H.No. 591, Ward 7",New Delhi,Delhi,no,4/21/2021,3,Sister,no,23
+BPL200381,yes,Pooja Reddy,Female,18,110001,"H.No. 472, Ward 5",New Delhi,Delhi,no,4/21/2021,3,Daughter,no,23
+BPL200385,yes,Manoj Naidu,Male,19,110001,"H.No. 422, Ward 2",New Delhi,Delhi,no,4/21/2021,6,Brother,no,24
+BPL200389,yes,Manoj Kumar,Male,18,110001,"H.No. 490, Ward 7",New Delhi,Delhi,no,4/21/2021,3,Son,no,23
+BPL200392,yes,Anil Gowda,Male,18,110001,"H.No. 288, Ward 6",New Delhi,Delhi,yes,4/21/2021,6,Daughter,no,23
+BPL200393,yes,Ritu Iyer,Female,18,110001,"H.No. 757, Ward 17",New Delhi,Delhi,no,4/21/2021,4,Daughter,no,23
+BPL200397,yes,Neha Verma,Female,19,110001,"H.No. 527, Ward 13",New Delhi,Delhi,yes,4/21/2021,6,Daughter,no,24
+BPL200401,yes,Meena Singh,Female,18,110001,"H.No. 749, Ward 12",New Delhi,Delhi,yes,4/21/2021,4,Brother,no,23
+BPL200403,yes,Manoj Kumar,Male,18,110001,"H.No. 43, Ward 7",New Delhi,Delhi,yes,4/21/2021,6,Sister,no,23
+BPL200411,yes,Anil Iyer,Male,20,110001,"H.No. 880, Ward 24",New Delhi,Delhi,no,4/21/2021,4,Daughter,no,25
+BPL200419,yes,Anil Sharma,Male,20,110001,"H.No. 278, Ward 16",New Delhi,Delhi,yes,4/21/2021,4,Daughter,no,25
+BPL200423,yes,Divya Verma,Female,20,110001,"H.No. 196, Ward 21",New Delhi,Delhi,no,4/21/2021,6,Daughter,no,25
+BPL200424,yes,Neha Iyer,Female,19,110001,"H.No. 741, Ward 18",New Delhi,Delhi,no,4/21/2021,5,Brother,no,24
+BPL200425,yes,Anil Patil,Male,18,110001,"H.No. 722, Ward 20",New Delhi,Delhi,no,4/21/2021,4,Brother,no,23
+BPL200429,yes,Arjun Iyer,Male,19,110001,"H.No. 508, Ward 20",New Delhi,Delhi,no,4/21/2021,4,Sister,no,24
+BPL200430,yes,Neha Verma,Female,18,110001,"H.No. 9, Ward 16",New Delhi,Delhi,no,4/21/2021,5,Brother,no,23
+BPL200432,yes,Neha Patil,Female,19,110001,"H.No. 48, Ward 7",New Delhi,Delhi,yes,4/21/2021,6,Sister,no,24
+BPL200438,yes,Neha Kumar,Female,18,110001,"H.No. 939, Ward 14",New Delhi,Delhi,yes,4/21/2021,4,Son,no,23
+BPL200442,yes,Divya Kumar,Female,18,110001,"H.No. 908, Ward 11",New Delhi,Delhi,no,4/21/2021,4,Sister,no,23
+BPL200445,yes,Kavya Das,Female,20,110001,"H.No. 989, Ward 9",New Delhi,Delhi,no,4/21/2021,4,Brother,no,25
+BPL200446,yes,Suresh Singh,Male,19,110001,"H.No. 808, Ward 10",New Delhi,Delhi,yes,4/21/2021,5,Son,no,24
+BPL200449,yes,Rohit Das,Male,18,110001,"H.No. 991, Ward 17",New Delhi,Delhi,no,4/21/2021,6,Son,no,23
+BPL200451,yes,Rohit Verma,Male,19,110001,"H.No. 838, Ward 9",New Delhi,Delhi,yes,4/21/2021,4,Brother,no,24
+BPL200458,yes,Rohit Patil,Male,18,110001,"H.No. 491, Ward 17",New Delhi,Delhi,yes,4/21/2021,4,Daughter,no,23
+BPL200459,yes,Manoj Naidu,Male,18,110001,"H.No. 492, Ward 24",New Delhi,Delhi,yes,4/21/2021,3,Daughter,no,23
+BPL200468,yes,Amit Verma,Male,18,110001,"H.No. 109, Ward 7",New Delhi,Delhi,yes,4/21/2021,4,Daughter,no,23
+BPL200469,yes,Amit Sharma,Male,19,110001,"H.No. 3, Ward 23",New Delhi,Delhi,yes,4/21/2021,4,Brother,no,24
+BPL200470,yes,Manoj Iyer,Male,20,110001,"H.No. 265, Ward 8",New Delhi,Delhi,no,4/21/2021,3,Sister,no,25
+BPL200471,yes,Arjun Verma,Male,19,110001,"H.No. 136, Ward 23",New Delhi,Delhi,yes,4/21/2021,3,Son,no,24
+BPL200478,yes,Vikas Gowda,Male,18,110001,"H.No. 801, Ward 13",New Delhi,Delhi,no,4/21/2021,3,Daughter,no,23
+BPL200479,yes,Pooja Kumar,Female,18,110001,"H.No. 68, Ward 6",New Delhi,Delhi,yes,4/21/2021,6,Brother,no,23
+BPL200480,yes,Pooja Patil,Female,18,110001,"H.No. 285, Ward 13",New Delhi,Delhi,no,4/21/2021,4,Daughter,no,23
+BPL200482,yes,Arjun Verma,Male,19,110001,"H.No. 762, Ward 22",New Delhi,Delhi,no,4/21/2021,5,Daughter,no,24
+BPL200483,yes,Deepak Verma,Male,18,110001,"H.No. 956, Ward 8",New Delhi,Delhi,no,4/21/2021,6,Daughter,no,23
+BPL200484,yes,Manoj Sharma,Male,18,110001,"H.No. 352, Ward 14",New Delhi,Delhi,no,4/21/2021,3,Sister,no,23
+BPL200488,yes,Pooja Kumar,Female,19,110001,"H.No. 807, Ward 18",New Delhi,Delhi,no,4/21/2021,5,Sister,no,24
+BPL200489,yes,Pooja Iyer,Female,19,110001,"H.No. 918, Ward 22",New Delhi,Delhi,no,4/21/2021,6,Daughter,no,24
+BPL200490,yes,Amit Sharma,Male,19,110001,"H.No. 244, Ward 8",New Delhi,Delhi,yes,4/21/2021,4,Daughter,no,24
+BPL200492,yes,Rahul Sharma,Male,18,110001,"H.No. 66, Ward 18",New Delhi,Delhi,yes,4/21/2021,3,Brother,no,23
+BPL200494,yes,Amit Gowda,Male,19,110001,"H.No. 398, Ward 4",New Delhi,Delhi,no,4/21/2021,5,Daughter,no,24
+BPL200499,yes,Manoj Sharma,Male,18,110001,"H.No. 850, Ward 11",New Delhi,Delhi,no,4/21/2021,4,Daughter,no,23
+BPL200501,yes,Anita Kumar,Female,18,110001,"H.No. 222, Ward 22",New Delhi,Delhi,yes,4/21/2021,6,Sister,no,23
+BPL200502,yes,Pooja Verma,Female,20,110001,"H.No. 730, Ward 11",New Delhi,Delhi,yes,4/21/2021,5,Son,no,25
+BPL200504,yes,Prakash Iyer,Male,19,110001,"H.No. 830, Ward 22",New Delhi,Delhi,no,4/21/2021,6,Son,no,24
+BPL200505,yes,Deepak Das,Male,20,110001,"H.No. 396, Ward 12",New Delhi,Delhi,yes,4/21/2021,3,Brother,no,25
+BPL200506,yes,Deepak Patil,Male,20,110001,"H.No. 610, Ward 7",New Delhi,Delhi,no,4/21/2021,5,Sister,no,25
+BPL200510,yes,Sunita Verma,Female,18,110001,"H.No. 379, Ward 15",New Delhi,Delhi,no,4/21/2021,5,Son,no,23
+BPL200513,yes,Suresh Iyer,Male,18,110001,"H.No. 657, Ward 3",New Delhi,Delhi,yes,4/21/2021,4,Brother,no,23
+BPL200518,yes,Manoj Das,Male,19,110001,"H.No. 106, Ward 23",New Delhi,Delhi,no,4/21/2021,6,Daughter,no,24
+BPL200520,yes,Prakash Sharma,Male,13,110001,"H.No. 516, Ward 7",New Delhi,Delhi,yes,4/21/2021,7,Spouse,no,18
+BPL200522,yes,Anita Verma,Female,17,110001,"H.No. 421, Ward 11",New Delhi,Delhi,yes,4/21/2021,3,Spouse,yes,22
+BPL200527,yes,Deepak Naidu,Male,17,110001,"H.No. 525, Ward 23",New Delhi,Delhi,no,4/21/2021,6,Spouse,no,22
+BPL200529,yes,Neha Naidu,Female,15,110001,"H.No. 376, Ward 4",New Delhi,Delhi,no,4/21/2021,4,Father,no,20
+BPL200534,yes,Vikas Reddy,Male,15,110001,"H.No. 28, Ward 21",New Delhi,Delhi,yes,4/21/2021,5,Mother,yes,20
+BPL200546,yes,Asha Sharma,Female,17,110001,"H.No. 500, Ward 4",New Delhi,Delhi,yes,4/21/2021,5,Father,yes,22
+BPL200547,yes,Rahul Sharma,Male,13,110001,"H.No. 400, Ward 3",New Delhi,Delhi,yes,4/21/2021,3,Mother,no,18
+BPL200548,yes,Sunita Naidu,Female,16,110001,"H.No. 130, Ward 22",New Delhi,Delhi,no,4/21/2021,7,Head,no,21
+BPL200553,yes,Asha Naidu,Female,14,110001,"H.No. 854, Ward 2",New Delhi,Delhi,yes,4/21/2021,3,Father,yes,19
+BPL200554,yes,Rahul Singh,Male,16,110001,"H.No. 471, Ward 15",New Delhi,Delhi,yes,4/21/2021,5,Mother,no,21
+BPL200558,yes,Prakash Kumar,Male,14,110001,"H.No. 402, Ward 23",New Delhi,Delhi,no,4/21/2021,6,Mother,no,19
+BPL200565,yes,Neha Kumar,Female,16,110001,"H.No. 113, Ward 10",New Delhi,Delhi,no,4/21/2021,5,Head,yes,21
+BPL200569,yes,Sunita Naidu,Female,16,110001,"H.No. 327, Ward 7",New Delhi,Delhi,no,4/21/2021,6,Spouse,no,21
+BPL200572,yes,Asha Naidu,Female,18,400001,"H.No. 323, Ward 16",Mumbai,Maharashtra,yes,4/21/2021,3,Son,no,23
+BPL200573,yes,Deepak Sharma,Male,18,400001,"H.No. 345, Ward 6",Mumbai,Maharashtra,no,4/21/2021,3,Brother,no,23
+BPL200575,yes,Anita Reddy,Female,20,400001,"H.No. 270, Ward 23",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,25
+BPL200576,yes,Deepak Singh,Male,18,400001,"H.No. 380, Ward 13",Mumbai,Maharashtra,yes,4/21/2021,3,Daughter,no,23
+BPL200577,yes,Ritu Patil,Female,20,400001,"H.No. 296, Ward 4",Mumbai,Maharashtra,yes,4/21/2021,6,Brother,no,25
+BPL200578,yes,Ritu Gowda,Female,19,400001,"H.No. 60, Ward 24",Mumbai,Maharashtra,no,4/21/2021,3,Daughter,no,24
+BPL200580,yes,Vikas Iyer,Male,19,400001,"H.No. 536, Ward 16",Mumbai,Maharashtra,yes,4/21/2021,4,Daughter,no,24
+BPL200581,yes,Deepak Iyer,Male,20,400001,"H.No. 883, Ward 9",Mumbai,Maharashtra,yes,4/21/2021,6,Sister,no,25
+BPL200582,yes,Asha Singh,Female,20,400001,"H.No. 137, Ward 22",Mumbai,Maharashtra,yes,4/21/2021,3,Daughter,no,25
+BPL200586,yes,Vikas Gowda,Male,20,400001,"H.No. 24, Ward 23",Mumbai,Maharashtra,yes,4/21/2021,3,Sister,no,25
+BPL200588,yes,Lakshmi Gowda,Female,19,400001,"H.No. 909, Ward 8",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,24
+BPL200592,yes,Ritu Reddy,Female,20,400001,"H.No. 995, Ward 7",Mumbai,Maharashtra,yes,4/21/2021,3,Son,no,25
+BPL200594,yes,Manoj Kumar,Male,19,400001,"H.No. 858, Ward 21",Mumbai,Maharashtra,no,4/21/2021,6,Son,no,24
+BPL200601,yes,Anil Iyer,Male,19,400001,"H.No. 72, Ward 2",Mumbai,Maharashtra,yes,4/21/2021,6,Daughter,no,24
+BPL200604,yes,Kavya Naidu,Female,19,400001,"H.No. 961, Ward 14",Mumbai,Maharashtra,no,4/21/2021,5,Brother,no,24
+BPL200607,yes,Pooja Singh,Female,20,400001,"H.No. 350, Ward 19",Mumbai,Maharashtra,no,4/21/2021,3,Son,no,25
+BPL200609,yes,Asha Das,Female,19,400001,"H.No. 374, Ward 18",Mumbai,Maharashtra,yes,4/21/2021,4,Brother,no,24
+BPL200612,yes,Lakshmi Gowda,Female,18,400001,"H.No. 265, Ward 4",Mumbai,Maharashtra,yes,4/21/2021,5,Brother,no,23
+BPL200614,yes,Pooja Naidu,Female,19,400001,"H.No. 519, Ward 13",Mumbai,Maharashtra,no,4/21/2021,5,Daughter,no,24
+BPL200621,yes,Divya Naidu,Female,18,400001,"H.No. 587, Ward 4",Mumbai,Maharashtra,yes,4/21/2021,5,Son,no,23
+BPL200623,yes,Lakshmi Naidu,Female,20,400001,"H.No. 246, Ward 14",Mumbai,Maharashtra,no,4/21/2021,4,Sister,no,25
+BPL200625,yes,Ritu Kumar,Female,18,400001,"H.No. 444, Ward 10",Mumbai,Maharashtra,yes,4/21/2021,6,Sister,no,23
+BPL200629,yes,Amit Sharma,Male,19,400001,"H.No. 248, Ward 11",Mumbai,Maharashtra,yes,4/21/2021,3,Son,no,24
+BPL200630,yes,Kavya Naidu,Female,18,400001,"H.No. 426, Ward 1",Mumbai,Maharashtra,yes,4/21/2021,3,Son,no,23
+BPL200633,yes,Vikas Das,Male,20,400001,"H.No. 8, Ward 13",Mumbai,Maharashtra,yes,4/21/2021,3,Brother,no,25
+BPL200636,yes,Amit Patil,Male,20,400001,"H.No. 398, Ward 21",Mumbai,Maharashtra,no,4/21/2021,5,Sister,no,25
+BPL200637,yes,Manoj Naidu,Male,19,400001,"H.No. 910, Ward 18",Mumbai,Maharashtra,yes,4/21/2021,4,Brother,no,24
+BPL200640,yes,Manoj Sharma,Male,18,400001,"H.No. 865, Ward 6",Mumbai,Maharashtra,yes,4/21/2021,5,Brother,no,23
+BPL200642,yes,Arjun Patil,Male,19,400001,"H.No. 310, Ward 1",Mumbai,Maharashtra,no,4/21/2021,3,Daughter,no,24
+BPL200643,yes,Lakshmi Sharma,Female,20,400001,"H.No. 693, Ward 20",Mumbai,Maharashtra,yes,4/21/2021,4,Sister,no,25
+BPL200645,yes,Divya Verma,Female,20,400001,"H.No. 858, Ward 12",Mumbai,Maharashtra,no,4/21/2021,3,Son,no,25
+BPL200647,yes,Amit Patil,Male,19,400001,"H.No. 678, Ward 24",Mumbai,Maharashtra,yes,4/21/2021,5,Son,no,24
+BPL200648,yes,Pooja Sharma,Female,19,400001,"H.No. 728, Ward 3",Mumbai,Maharashtra,yes,4/21/2021,4,Son,no,24
+BPL200649,yes,Vikas Kumar,Male,18,400001,"H.No. 555, Ward 10",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,23
+BPL200656,yes,Pooja Kumar,Female,19,400001,"H.No. 935, Ward 16",Mumbai,Maharashtra,no,4/21/2021,4,Daughter,no,24
+BPL200657,yes,Pooja Kumar,Female,19,400001,"H.No. 152, Ward 5",Mumbai,Maharashtra,no,4/21/2021,4,Sister,no,24
+BPL200659,yes,Sunita Gowda,Female,20,400001,"H.No. 11, Ward 18",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,25
+BPL200662,yes,Suresh Naidu,Male,20,400001,"H.No. 306, Ward 6",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,25
+BPL200664,yes,Amit Naidu,Male,19,400001,"H.No. 756, Ward 17",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,24
+BPL200669,yes,Kavya Das,Female,19,400001,"H.No. 539, Ward 2",Mumbai,Maharashtra,no,4/21/2021,5,Son,no,24
+BPL200672,yes,Divya Reddy,Female,19,400001,"H.No. 673, Ward 24",Mumbai,Maharashtra,no,4/21/2021,6,Daughter,no,24
+BPL200674,yes,Divya Singh,Female,19,400001,"H.No. 466, Ward 6",Mumbai,Maharashtra,yes,4/21/2021,3,Brother,no,24
+BPL200678,yes,Rohit Iyer,Male,20,400001,"H.No. 723, Ward 8",Mumbai,Maharashtra,yes,4/21/2021,5,Daughter,no,25
+BPL200679,yes,Divya Reddy,Female,18,400001,"H.No. 59, Ward 1",Mumbai,Maharashtra,yes,4/21/2021,4,Daughter,no,23
+BPL200682,yes,Neha Naidu,Female,20,400001,"H.No. 54, Ward 16",Mumbai,Maharashtra,yes,4/21/2021,6,Daughter,no,25
+BPL200683,yes,Lakshmi Naidu,Female,20,400001,"H.No. 879, Ward 23",Mumbai,Maharashtra,no,4/21/2021,6,Daughter,no,25
+BPL200684,yes,Ritu Kumar,Female,19,400001,"H.No. 874, Ward 13",Mumbai,Maharashtra,no,4/21/2021,5,Daughter,no,24
+BPL200685,yes,Lakshmi Singh,Female,18,400001,"H.No. 160, Ward 9",Mumbai,Maharashtra,yes,4/21/2021,5,Son,no,23
+BPL200686,yes,Neha Verma,Female,19,400001,"H.No. 959, Ward 25",Mumbai,Maharashtra,no,4/21/2021,6,Daughter,no,24
+BPL200687,yes,Pooja Singh,Female,18,400001,"H.No. 419, Ward 8",Mumbai,Maharashtra,yes,4/21/2021,3,Son,no,23
+BPL200688,yes,Kavya Kumar,Female,19,400001,"H.No. 188, Ward 22",Mumbai,Maharashtra,yes,4/21/2021,3,Sister,no,24
+BPL200691,yes,Asha Patil,Female,18,400001,"H.No. 147, Ward 21",Mumbai,Maharashtra,no,4/21/2021,3,Brother,no,23
+BPL200692,yes,Asha Das,Female,19,400001,"H.No. 94, Ward 21",Mumbai,Maharashtra,no,4/21/2021,4,Daughter,no,24
+BPL200696,yes,Amit Gowda,Male,18,400001,"H.No. 485, Ward 7",Mumbai,Maharashtra,no,4/21/2021,4,Brother,no,23
+BPL200700,yes,Kavya Patil,Female,19,400001,"H.No. 921, Ward 7",Mumbai,Maharashtra,yes,4/21/2021,3,Son,no,24
+BPL200702,yes,Vikas Reddy,Male,19,400001,"H.No. 171, Ward 2",Mumbai,Maharashtra,no,4/21/2021,5,Brother,no,24
+BPL200704,yes,Arjun Gowda,Male,20,400001,"H.No. 79, Ward 17",Mumbai,Maharashtra,no,4/21/2021,6,Sister,no,25
+BPL200709,yes,Deepak Iyer,Male,20,400001,"H.No. 190, Ward 9",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,25
+BPL200711,yes,Rahul Singh,Male,20,400001,"H.No. 427, Ward 23",Mumbai,Maharashtra,yes,4/21/2021,5,Sister,no,25
+BPL200715,yes,Arjun Iyer,Male,20,400001,"H.No. 966, Ward 17",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,25
+BPL200716,yes,Suresh Sharma,Male,19,400001,"H.No. 794, Ward 24",Mumbai,Maharashtra,yes,4/21/2021,4,Brother,no,24
+BPL200719,yes,Sunita Verma,Female,19,400001,"H.No. 536, Ward 24",Mumbai,Maharashtra,no,4/21/2021,3,Brother,no,24
+BPL200724,yes,Sunita Iyer,Female,20,400001,"H.No. 769, Ward 10",Mumbai,Maharashtra,yes,4/21/2021,4,Daughter,no,25
+BPL200725,yes,Anita Naidu,Female,19,400001,"H.No. 84, Ward 13",Mumbai,Maharashtra,no,4/21/2021,5,Brother,no,24
+BPL200726,yes,Divya Verma,Female,18,400001,"H.No. 602, Ward 20",Mumbai,Maharashtra,no,4/21/2021,6,Brother,no,23
+BPL200728,yes,Amit Singh,Male,19,400001,"H.No. 591, Ward 20",Mumbai,Maharashtra,no,4/21/2021,5,Son,no,24
+BPL200729,yes,Divya Gowda,Female,19,400001,"H.No. 233, Ward 16",Mumbai,Maharashtra,no,4/21/2021,4,Sister,no,24
+BPL200735,yes,Sunita Reddy,Female,13,400001,"H.No. 544, Ward 17",Mumbai,Maharashtra,yes,4/21/2021,7,Spouse,yes,18
+BPL200739,yes,Deepak Kumar,Male,15,400001,"H.No. 781, Ward 16",Mumbai,Maharashtra,no,4/21/2021,4,Father,yes,20
+BPL200740,yes,Divya Verma,Female,17,400001,"H.No. 710, Ward 24",Mumbai,Maharashtra,yes,4/21/2021,3,Father,no,22
+BPL200741,yes,Anil Naidu,Male,16,400001,"H.No. 492, Ward 2",Mumbai,Maharashtra,yes,4/21/2021,6,Head,no,21
+BPL200742,yes,Meena Sharma,Female,13,400001,"H.No. 372, Ward 6",Mumbai,Maharashtra,yes,4/21/2021,6,Mother,no,18
+BPL200749,yes,Rahul Das,Male,13,400001,"H.No. 834, Ward 20",Mumbai,Maharashtra,no,4/21/2021,5,Mother,no,18
+BPL200751,yes,Vikas Singh,Male,13,400001,"H.No. 931, Ward 6",Mumbai,Maharashtra,yes,4/21/2021,7,Spouse,no,18
+BPL200754,yes,Neha Das,Female,13,400001,"H.No. 490, Ward 5",Mumbai,Maharashtra,no,4/21/2021,7,Mother,no,18
+BPL200761,yes,Ritu Kumar,Female,13,400001,"H.No. 840, Ward 12",Mumbai,Maharashtra,yes,4/21/2021,4,Spouse,no,18
+BPL200767,yes,Divya Gowda,Female,16,400001,"H.No. 411, Ward 14",Mumbai,Maharashtra,yes,4/21/2021,7,Head,yes,21
+BPL200180,yes,Asha Verma,Female,18,560001,"H.No. 940, Ward 12",Bengaluru,Karnataka,yes,4/21/2021,5,Sister,no,23
+BPL200181,yes,Asha Patil,Female,20,560001,"H.No. 5, Ward 23",Bengaluru,Karnataka,no,4/21/2021,6,Daughter,no,25
+BPL200182,yes,Vikas Reddy,Male,19,560001,"H.No. 820, Ward 11",Bengaluru,Karnataka,no,4/21/2021,4,Sister,no,24
+BPL200183,yes,Divya Sharma,Female,18,560001,"H.No. 677, Ward 21",Bengaluru,Karnataka,yes,4/21/2021,6,Son,no,23
+BPL200184,yes,Pooja Iyer,Female,18,560001,"H.No. 648, Ward 10",Bengaluru,Karnataka,yes,4/21/2021,4,Son,no,23
+BPL200185,yes,Lakshmi Reddy,Female,19,560001,"H.No. 185, Ward 12",Bengaluru,Karnataka,yes,4/21/2021,4,Brother,no,24
+BPL200189,yes,Arjun Patil,Male,20,560001,"H.No. 337, Ward 8",Bengaluru,Karnataka,yes,4/21/2021,3,Brother,no,25
+BPL200190,yes,Vikas Kumar,Male,19,560001,"H.No. 191, Ward 9",Bengaluru,Karnataka,no,4/21/2021,6,Daughter,no,24
+BPL200191,yes,Rahul Naidu,Male,19,560001,"H.No. 355, Ward 13",Bengaluru,Karnataka,yes,4/21/2021,6,Son,no,24
+BPL200192,yes,Lakshmi Iyer,Female,20,560001,"H.No. 234, Ward 12",Bengaluru,Karnataka,yes,4/21/2021,3,Sister,no,25
+BPL200193,yes,Pooja Verma,Female,18,560001,"H.No. 524, Ward 22",Bengaluru,Karnataka,no,4/21/2021,4,Brother,no,23
+BPL200196,yes,Vikas Verma,Male,20,560001,"H.No. 171, Ward 15",Bengaluru,Karnataka,yes,4/21/2021,5,Brother,no,25
+BPL200202,yes,Anita Verma,Female,20,560001,"H.No. 859, Ward 18",Bengaluru,Karnataka,yes,4/21/2021,5,Sister,no,25
+BPL200203,yes,Amit Naidu,Male,19,560001,"H.No. 830, Ward 3",Bengaluru,Karnataka,yes,4/21/2021,3,Daughter,no,24
+BPL200207,yes,Divya Sharma,Female,18,560001,"H.No. 559, Ward 2",Bengaluru,Karnataka,no,4/21/2021,4,Sister,no,23
+BPL200214,yes,Vikas Verma,Male,19,560001,"H.No. 485, Ward 16",Bengaluru,Karnataka,no,4/21/2021,6,Brother,no,24
+BPL200215,yes,Prakash Das,Male,19,560001,"H.No. 491, Ward 2",Bengaluru,Karnataka,yes,4/21/2021,5,Brother,no,24
+BPL200216,yes,Suresh Patil,Male,19,560001,"H.No. 894, Ward 16",Bengaluru,Karnataka,yes,4/21/2021,3,Daughter,no,24
+BPL200219,yes,Lakshmi Verma,Female,20,560001,"H.No. 379, Ward 2",Bengaluru,Karnataka,no,4/21/2021,5,Sister,no,25
+BPL200220,yes,Anita Verma,Female,19,560001,"H.No. 46, Ward 1",Bengaluru,Karnataka,yes,4/21/2021,3,Sister,no,24
+BPL200222,yes,Amit Iyer,Male,19,560001,"H.No. 401, Ward 15",Bengaluru,Karnataka,yes,4/21/2021,5,Daughter,no,24
+BPL200224,yes,Lakshmi Kumar,Female,19,560001,"H.No. 123, Ward 25",Bengaluru,Karnataka,yes,4/21/2021,6,Brother,no,24
+BPL200226,yes,Pooja Naidu,Female,20,560001,"H.No. 233, Ward 3",Bengaluru,Karnataka,yes,4/21/2021,3,Brother,no,25
+BPL200228,yes,Lakshmi Gowda,Female,18,560001,"H.No. 368, Ward 9",Bengaluru,Karnataka,yes,4/21/2021,4,Sister,no,23
+BPL200230,yes,Ritu Reddy,Female,20,560001,"H.No. 239, Ward 4",Bengaluru,Karnataka,yes,4/21/2021,6,Son,no,25
+BPL200231,yes,Sunita Sharma,Female,18,560001,"H.No. 262, Ward 24",Bengaluru,Karnataka,yes,4/21/2021,5,Daughter,no,23
+BPL200234,yes,Arjun Reddy,Male,19,560001,"H.No. 875, Ward 5",Bengaluru,Karnataka,yes,4/21/2021,4,Son,no,24
+BPL200242,yes,Amit Naidu,Male,19,560001,"H.No. 107, Ward 20",Bengaluru,Karnataka,no,4/21/2021,4,Son,no,24
+BPL200243,yes,Divya Kumar,Female,19,560001,"H.No. 361, Ward 16",Bengaluru,Karnataka,yes,4/21/2021,6,Sister,no,24
+BPL200246,yes,Anil Kumar,Male,18,560001,"H.No. 314, Ward 22",Bengaluru,Karnataka,no,4/21/2021,6,Son,no,23
+BPL200249,yes,Meena Reddy,Female,20,560001,"H.No. 81, Ward 12",Bengaluru,Karnataka,yes,4/21/2021,4,Daughter,no,25
+BPL200256,yes,Deepak Singh,Male,18,560001,"H.No. 994, Ward 23",Bengaluru,Karnataka,no,4/21/2021,5,Brother,no,23
+BPL200258,yes,Amit Gowda,Male,19,560001,"H.No. 220, Ward 15",Bengaluru,Karnataka,yes,4/21/2021,4,Son,no,24
+BPL200260,yes,Kavya Gowda,Female,19,560001,"H.No. 964, Ward 24",Bengaluru,Karnataka,no,4/21/2021,3,Sister,no,24
+BPL200263,yes,Suresh Das,Male,20,560001,"H.No. 216, Ward 2",Bengaluru,Karnataka,yes,4/21/2021,4,Sister,no,25
+BPL200266,yes,Asha Kumar,Female,19,560001,"H.No. 632, Ward 21",Bengaluru,Karnataka,yes,4/21/2021,6,Daughter,no,24
+BPL200271,yes,Manoj Sharma,Male,20,560001,"H.No. 234, Ward 2",Bengaluru,Karnataka,yes,4/21/2021,3,Son,no,25
+BPL200275,yes,Divya Sharma,Female,20,560001,"H.No. 656, Ward 1",Bengaluru,Karnataka,yes,4/21/2021,3,Brother,no,25
+BPL200281,yes,Ritu Patil,Female,18,560001,"H.No. 669, Ward 10",Bengaluru,Karnataka,yes,4/21/2021,3,Son,no,23
+BPL200284,yes,Divya Das,Female,19,560001,"H.No. 43, Ward 23",Bengaluru,Karnataka,no,4/21/2021,4,Son,no,24
+BPL200286,yes,Anita Sharma,Female,20,560001,"H.No. 16, Ward 8",Bengaluru,Karnataka,yes,4/21/2021,3,Sister,no,25
+BPL200287,yes,Prakash Gowda,Male,20,560001,"H.No. 740, Ward 5",Bengaluru,Karnataka,no,4/21/2021,5,Son,no,25
+BPL200290,yes,Sunita Kumar,Female,18,560001,"H.No. 72, Ward 15",Bengaluru,Karnataka,no,4/21/2021,4,Daughter,no,23
+BPL200292,yes,Rohit Verma,Male,20,560001,"H.No. 99, Ward 10",Bengaluru,Karnataka,yes,4/21/2021,5,Son,no,25
+BPL200293,yes,Prakash Singh,Male,19,560001,"H.No. 46, Ward 4",Bengaluru,Karnataka,yes,4/21/2021,3,Daughter,no,24
+BPL200297,yes,Divya Gowda,Female,19,560001,"H.No. 15, Ward 19",Bengaluru,Karnataka,yes,4/21/2021,4,Sister,no,24
+BPL200299,yes,Divya Verma,Female,19,560001,"H.No. 91, Ward 20",Bengaluru,Karnataka,yes,4/21/2021,4,Brother,no,24
+BPL200300,yes,Asha Naidu,Female,19,560001,"H.No. 881, Ward 22",Bengaluru,Karnataka,yes,4/21/2021,6,Sister,no,24
+BPL200301,yes,Prakash Naidu,Male,19,560001,"H.No. 748, Ward 1",Bengaluru,Karnataka,no,4/21/2021,5,Daughter,no,24
+BPL200303,yes,Suresh Das,Male,19,560001,"H.No. 275, Ward 16",Bengaluru,Karnataka,no,4/21/2021,5,Daughter,no,24
+BPL200310,yes,Neha Verma,Female,19,560001,"H.No. 769, Ward 6",Bengaluru,Karnataka,yes,4/21/2021,3,Daughter,no,24
+BPL200311,yes,Kavya Patil,Female,20,560001,"H.No. 322, Ward 14",Bengaluru,Karnataka,yes,4/21/2021,4,Son,no,25
+BPL200314,yes,Prakash Verma,Male,19,560001,"H.No. 579, Ward 24",Bengaluru,Karnataka,no,4/21/2021,6,Son,no,24
+BPL200320,yes,Amit Verma,Male,15,560001,"H.No. 137, Ward 2",Bengaluru,Karnataka,yes,4/21/2021,6,Spouse,no,20
+BPL200323,yes,Sunita Das,Female,13,560001,"H.No. 480, Ward 8",Bengaluru,Karnataka,no,4/21/2021,5,Head,no,18
+BPL200329,yes,Arjun Naidu,Male,17,560001,"H.No. 628, Ward 3",Bengaluru,Karnataka,no,4/21/2021,5,Spouse,yes,22
+BPL200333,yes,Kavya Gowda,Female,17,560001,"H.No. 363, Ward 25",Bengaluru,Karnataka,yes,4/21/2021,4,Spouse,yes,22
+BPL200334,yes,Amit Iyer,Male,16,560001,"H.No. 307, Ward 3",Bengaluru,Karnataka,no,4/21/2021,6,Head,no,21
+BPL200335,yes,Sunita Naidu,Female,14,560001,"H.No. 927, Ward 22",Bengaluru,Karnataka,no,4/21/2021,6,Mother,yes,19
+BPL200336,yes,Pooja Verma,Female,13,560001,"H.No. 618, Ward 21",Bengaluru,Karnataka,yes,4/21/2021,4,Father,no,18
+BPL200348,yes,Vikas Sharma,Male,14,560001,"H.No. 716, Ward 14",Bengaluru,Karnataka,no,4/21/2021,4,Head,no,19
+BPL200349,yes,Rohit Gowda,Male,16,560001,"H.No. 771, Ward 17",Bengaluru,Karnataka,no,4/21/2021,7,Mother,no,21
+BPL200350,yes,Suresh Naidu,Male,14,560001,"H.No. 538, Ward 19",Bengaluru,Karnataka,yes,4/21/2021,7,Head,yes,19
+BPL200354,yes,Asha Naidu,Female,13,560001,"H.No. 789, Ward 15",Bengaluru,Karnataka,yes,4/21/2021,5,Spouse,yes,18
+BPL200357,yes,Anil Naidu,Male,15,560001,"H.No. 555, Ward 1",Bengaluru,Karnataka,yes,4/21/2021,6,Father,yes,20
+BPL200367,yes,Lakshmi Gowda,Female,13,560001,"H.No. 841, Ward 22",Bengaluru,Karnataka,yes,4/21/2021,7,Head,no,18
+BPL200780,yes,Asha Das,Female,20,600001,"H.No. 388, Ward 5",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,25
+BPL200784,yes,Kavya Gowda,Female,18,600001,"H.No. 206, Ward 19",Chennai,Tamil Nadu,yes,4/21/2021,6,Daughter,no,23
+BPL200785,yes,Kavya Das,Female,18,600001,"H.No. 567, Ward 19",Chennai,Tamil Nadu,yes,4/21/2021,3,Daughter,no,23
+BPL200787,yes,Ritu Iyer,Female,19,600001,"H.No. 495, Ward 24",Chennai,Tamil Nadu,yes,4/21/2021,4,Daughter,no,24
+BPL200789,yes,Lakshmi Iyer,Female,19,600001,"H.No. 757, Ward 4",Chennai,Tamil Nadu,yes,4/21/2021,6,Son,no,24
+BPL200791,yes,Prakash Reddy,Male,18,600001,"H.No. 310, Ward 25",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,23
+BPL200795,yes,Anil Das,Male,20,600001,"H.No. 580, Ward 21",Chennai,Tamil Nadu,no,4/21/2021,6,Daughter,no,25
+BPL200796,yes,Sunita Naidu,Female,19,600001,"H.No. 58, Ward 11",Chennai,Tamil Nadu,no,4/21/2021,5,Daughter,no,24
+BPL200797,yes,Arjun Kumar,Male,18,600001,"H.No. 844, Ward 18",Chennai,Tamil Nadu,yes,4/21/2021,3,Daughter,no,23
+BPL200799,yes,Vikas Naidu,Male,20,600001,"H.No. 880, Ward 15",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,25
+BPL200802,yes,Neha Das,Female,19,600001,"H.No. 803, Ward 3",Chennai,Tamil Nadu,no,4/21/2021,3,Brother,no,24
+BPL200803,yes,Ritu Sharma,Female,20,600001,"H.No. 728, Ward 10",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,25
+BPL200804,yes,Rahul Iyer,Male,18,600001,"H.No. 8, Ward 11",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,23
+BPL200807,yes,Rohit Naidu,Male,18,600001,"H.No. 766, Ward 8",Chennai,Tamil Nadu,yes,4/21/2021,3,Brother,no,23
+BPL200808,yes,Meena Singh,Female,19,600001,"H.No. 550, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,24
+BPL200809,yes,Suresh Das,Male,18,600001,"H.No. 916, Ward 21",Chennai,Tamil Nadu,yes,4/21/2021,3,Brother,no,23
+BPL200813,yes,Deepak Sharma,Male,19,600001,"H.No. 760, Ward 8",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,24
+BPL200814,yes,Lakshmi Reddy,Female,19,600001,"H.No. 913, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,3,Daughter,no,24
+BPL200816,yes,Ritu Verma,Female,18,600001,"H.No. 977, Ward 25",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,23
+BPL200819,yes,Pooja Reddy,Female,19,600001,"H.No. 134, Ward 4",Chennai,Tamil Nadu,yes,4/21/2021,3,Sister,no,24
+BPL200825,yes,Lakshmi Iyer,Female,19,600001,"H.No. 429, Ward 14",Chennai,Tamil Nadu,yes,4/21/2021,3,Daughter,no,24
+BPL200826,yes,Deepak Kumar,Male,18,600001,"H.No. 802, Ward 17",Chennai,Tamil Nadu,yes,4/21/2021,5,Sister,no,23
+BPL200827,yes,Pooja Verma,Female,20,600001,"H.No. 953, Ward 10",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,25
+BPL200828,yes,Lakshmi Das,Female,19,600001,"H.No. 849, Ward 4",Chennai,Tamil Nadu,yes,4/21/2021,3,Son,no,24
+BPL200830,yes,Vikas Iyer,Male,19,600001,"H.No. 957, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,4,Sister,no,24
+BPL200831,yes,Anil Reddy,Male,20,600001,"H.No. 425, Ward 16",Chennai,Tamil Nadu,yes,4/21/2021,4,Sister,no,25
+BPL200832,yes,Kavya Reddy,Female,20,600001,"H.No. 347, Ward 15",Chennai,Tamil Nadu,no,4/21/2021,6,Daughter,no,25
+BPL200833,yes,Vikas Naidu,Male,19,600001,"H.No. 219, Ward 6",Chennai,Tamil Nadu,no,4/21/2021,3,Son,no,24
+BPL200835,yes,Kavya Naidu,Female,18,600001,"H.No. 10, Ward 12",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,23
+BPL200839,yes,Anil Singh,Male,18,600001,"H.No. 279, Ward 22",Chennai,Tamil Nadu,no,4/21/2021,3,Daughter,no,23
+BPL200843,yes,Prakash Sharma,Male,20,600001,"H.No. 155, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,25
+BPL200847,yes,Prakash Patil,Male,20,600001,"H.No. 997, Ward 4",Chennai,Tamil Nadu,no,4/21/2021,4,Sister,no,25
+BPL200848,yes,Divya Naidu,Female,19,600001,"H.No. 684, Ward 21",Chennai,Tamil Nadu,yes,4/21/2021,6,Son,no,24
+BPL200852,yes,Lakshmi Reddy,Female,19,600001,"H.No. 319, Ward 10",Chennai,Tamil Nadu,yes,4/21/2021,5,Brother,no,24
+BPL200855,yes,Lakshmi Patil,Female,18,600001,"H.No. 941, Ward 22",Chennai,Tamil Nadu,yes,4/21/2021,3,Daughter,no,23
+BPL200859,yes,Anil Naidu,Male,20,600001,"H.No. 942, Ward 15",Chennai,Tamil Nadu,yes,4/21/2021,5,Son,no,25
+BPL200864,yes,Lakshmi Singh,Female,19,600001,"H.No. 647, Ward 4",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,24
+BPL200867,yes,Pooja Sharma,Female,20,600001,"H.No. 522, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,25
+BPL200869,yes,Deepak Singh,Male,20,600001,"H.No. 593, Ward 1",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,25
+BPL200870,yes,Anita Sharma,Female,19,600001,"H.No. 614, Ward 5",Chennai,Tamil Nadu,no,4/21/2021,5,Sister,no,24
+BPL200874,yes,Amit Naidu,Male,20,600001,"H.No. 699, Ward 2",Chennai,Tamil Nadu,no,4/21/2021,5,Sister,no,25
+BPL200875,yes,Suresh Das,Male,20,600001,"H.No. 940, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,4,Daughter,no,25
+BPL200876,yes,Deepak Kumar,Male,18,600001,"H.No. 390, Ward 8",Chennai,Tamil Nadu,yes,4/21/2021,3,Son,no,23
+BPL200877,yes,Amit Sharma,Male,19,600001,"H.No. 583, Ward 23",Chennai,Tamil Nadu,yes,4/21/2021,4,Sister,no,24
+BPL200882,yes,Rahul Singh,Male,19,600001,"H.No. 96, Ward 24",Chennai,Tamil Nadu,no,4/21/2021,4,Brother,no,24
+BPL200886,yes,Divya Naidu,Female,19,600001,"H.No. 494, Ward 7",Chennai,Tamil Nadu,no,4/21/2021,3,Son,no,24
+BPL200889,yes,Kavya Das,Female,18,600001,"H.No. 881, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,23
+BPL200890,yes,Deepak Patil,Male,19,600001,"H.No. 109, Ward 16",Chennai,Tamil Nadu,yes,4/21/2021,5,Son,no,24
+BPL200893,yes,Pooja Verma,Female,20,600001,"H.No. 172, Ward 2",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,25
+BPL200895,yes,Pooja Sharma,Female,18,600001,"H.No. 123, Ward 6",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,23
+BPL200897,yes,Divya Iyer,Female,18,600001,"H.No. 617, Ward 16",Chennai,Tamil Nadu,no,4/21/2021,3,Son,no,23
+BPL200899,yes,Pooja Das,Female,19,600001,"H.No. 581, Ward 12",Chennai,Tamil Nadu,yes,4/21/2021,5,Brother,no,24
+BPL200900,yes,Prakash Singh,Male,19,600001,"H.No. 884, Ward 22",Chennai,Tamil Nadu,yes,4/21/2021,4,Daughter,no,24
+BPL200903,yes,Vikas Verma,Male,19,600001,"H.No. 184, Ward 6",Chennai,Tamil Nadu,no,4/21/2021,3,Brother,no,24
+BPL200905,yes,Prakash Singh,Male,18,600001,"H.No. 138, Ward 5",Chennai,Tamil Nadu,no,4/21/2021,5,Son,no,23
+BPL200907,yes,Neha Kumar,Female,19,600001,"H.No. 521, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,5,Brother,no,24
+BPL200909,yes,Ritu Kumar,Female,18,600001,"H.No. 553, Ward 10",Chennai,Tamil Nadu,yes,4/21/2021,4,Brother,no,23
+BPL200910,yes,Rohit Kumar,Male,20,600001,"H.No. 236, Ward 9",Chennai,Tamil Nadu,yes,4/21/2021,5,Son,no,25
+BPL200915,yes,Arjun Naidu,Male,20,600001,"H.No. 925, Ward 8",Chennai,Tamil Nadu,yes,4/21/2021,3,Daughter,no,25
+BPL200916,yes,Vikas Sharma,Male,18,600001,"H.No. 762, Ward 8",Chennai,Tamil Nadu,yes,4/21/2021,3,Sister,no,23
+BPL200918,yes,Lakshmi Kumar,Female,19,600001,"H.No. 760, Ward 18",Chennai,Tamil Nadu,no,4/21/2021,3,Sister,no,24
+BPL200922,yes,Deepak Iyer,Male,20,600001,"H.No. 278, Ward 9",Chennai,Tamil Nadu,yes,4/21/2021,3,Daughter,no,25
+BPL200923,yes,Asha Sharma,Female,18,600001,"H.No. 615, Ward 13",Chennai,Tamil Nadu,no,4/21/2021,4,Brother,no,23
+BPL200925,yes,Rahul Gowda,Male,20,600001,"H.No. 81, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,3,Daughter,no,25
+BPL200928,yes,Rohit Verma,Male,18,600001,"H.No. 290, Ward 25",Chennai,Tamil Nadu,no,4/21/2021,3,Brother,no,23
+BPL200930,yes,Kavya Singh,Female,20,600001,"H.No. 777, Ward 10",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,25
+BPL200931,yes,Manoj Naidu,Male,20,600001,"H.No. 430, Ward 1",Chennai,Tamil Nadu,yes,4/21/2021,5,Daughter,no,25
+BPL200932,yes,Ritu Patil,Female,19,600001,"H.No. 338, Ward 15",Chennai,Tamil Nadu,no,4/21/2021,5,Sister,no,24
+BPL200935,yes,Asha Kumar,Female,18,600001,"H.No. 940, Ward 8",Chennai,Tamil Nadu,yes,4/21/2021,4,Son,no,23
+BPL200948,yes,Manoj Naidu,Male,18,600001,"H.No. 191, Ward 13",Chennai,Tamil Nadu,no,4/21/2021,6,Daughter,no,23
+BPL200950,yes,Lakshmi Naidu,Female,14,600001,"H.No. 702, Ward 8",Chennai,Tamil Nadu,no,4/21/2021,5,Spouse,no,19
+BPL200954,yes,Rohit Sharma,Male,14,600001,"H.No. 61, Ward 7",Chennai,Tamil Nadu,yes,4/21/2021,5,Head,yes,19
+BPL200956,yes,Pooja Patil,Female,13,600001,"H.No. 959, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,7,Mother,no,18
+BPL200958,yes,Anil Naidu,Male,14,600001,"H.No. 180, Ward 9",Chennai,Tamil Nadu,no,4/21/2021,3,Head,no,19
+BPL200961,yes,Anil Das,Male,14,600001,"H.No. 723, Ward 16",Chennai,Tamil Nadu,yes,4/21/2021,4,Spouse,no,19
+BPL200968,yes,Lakshmi Kumar,Female,16,600001,"H.No. 477, Ward 23",Chennai,Tamil Nadu,yes,4/21/2021,5,Head,no,21
+BPL200975,yes,Kavya Verma,Female,17,600001,"H.No. 402, Ward 13",Chennai,Tamil Nadu,yes,4/21/2021,7,Head,yes,22
+BPL200986,yes,Meena Verma,Female,13,600001,"H.No. 670, Ward 11",Chennai,Tamil Nadu,yes,4/21/2021,6,Mother,yes,18
+BPL200988,yes,Manoj Reddy,Male,16,600001,"H.No. 545, Ward 18",Chennai,Tamil Nadu,yes,4/21/2021,3,Head,no,21
+BPL200003,yes,Anil Kumar,Male,20,700001,"H.No. 82, Ward 4",Kolkata,West Bengal,yes,4/21/2021,3,Brother,no,25
+BPL200007,yes,Meena Singh,Female,19,700001,"H.No. 542, Ward 13",Kolkata,West Bengal,yes,4/21/2021,4,Son,no,24
+BPL200008,yes,Anita Reddy,Female,20,700001,"H.No. 62, Ward 21",Kolkata,West Bengal,no,4/21/2021,3,Sister,no,25
+BPL200012,yes,Deepak Das,Male,20,700001,"H.No. 399, Ward 23",Kolkata,West Bengal,no,4/21/2021,5,Sister,no,25
+BPL200019,yes,Meena Gowda,Female,18,700001,"H.No. 749, Ward 9",Kolkata,West Bengal,no,4/21/2021,4,Son,no,23
+BPL200020,yes,Ritu Gowda,Female,19,700001,"H.No. 253, Ward 21",Kolkata,West Bengal,no,4/21/2021,6,Brother,no,24
+BPL200022,yes,Vikas Verma,Male,19,700001,"H.No. 819, Ward 13",Kolkata,West Bengal,no,4/21/2021,4,Son,no,24
+BPL200024,yes,Deepak Sharma,Male,19,700001,"H.No. 333, Ward 6",Kolkata,West Bengal,no,4/21/2021,6,Son,no,24
+BPL200032,yes,Neha Iyer,Female,18,700001,"H.No. 776, Ward 7",Kolkata,West Bengal,yes,4/21/2021,4,Daughter,no,23
+BPL200035,yes,Suresh Iyer,Male,19,700001,"H.No. 524, Ward 15",Kolkata,West Bengal,yes,4/21/2021,4,Daughter,no,24
+BPL200036,yes,Vikas Patil,Male,19,700001,"H.No. 858, Ward 2",Kolkata,West Bengal,no,4/21/2021,4,Sister,no,24
+BPL200042,yes,Suresh Naidu,Male,19,700001,"H.No. 271, Ward 11",Kolkata,West Bengal,no,4/21/2021,6,Sister,no,24
+BPL200049,yes,Anil Naidu,Male,19,700001,"H.No. 150, Ward 19",Kolkata,West Bengal,no,4/21/2021,5,Daughter,no,24
+BPL200051,yes,Amit Reddy,Male,20,700001,"H.No. 479, Ward 23",Kolkata,West Bengal,no,4/21/2021,6,Daughter,no,25
+BPL200052,yes,Suresh Reddy,Male,18,700001,"H.No. 352, Ward 17",Kolkata,West Bengal,yes,4/21/2021,3,Daughter,no,23
+BPL200056,yes,Rohit Iyer,Male,19,700001,"H.No. 744, Ward 22",Kolkata,West Bengal,no,4/21/2021,3,Sister,no,24
+BPL200059,yes,Divya Das,Female,20,700001,"H.No. 253, Ward 3",Kolkata,West Bengal,no,4/21/2021,3,Daughter,no,25
+BPL200061,yes,Kavya Reddy,Female,18,700001,"H.No. 558, Ward 17",Kolkata,West Bengal,no,4/21/2021,5,Son,no,23
+BPL200062,yes,Kavya Sharma,Female,19,700001,"H.No. 635, Ward 1",Kolkata,West Bengal,no,4/21/2021,6,Daughter,no,24
+BPL200064,yes,Arjun Iyer,Male,18,700001,"H.No. 739, Ward 21",Kolkata,West Bengal,no,4/21/2021,6,Sister,no,23
+BPL200065,yes,Neha Iyer,Female,19,700001,"H.No. 806, Ward 19",Kolkata,West Bengal,no,4/21/2021,5,Son,no,24
+BPL200066,yes,Manoj Singh,Male,18,700001,"H.No. 45, Ward 14",Kolkata,West Bengal,no,4/21/2021,5,Daughter,no,23
+BPL200067,yes,Divya Das,Female,18,700001,"H.No. 35, Ward 6",Kolkata,West Bengal,no,4/21/2021,5,Daughter,no,23
+BPL200080,yes,Meena Gowda,Female,18,700001,"H.No. 882, Ward 4",Kolkata,West Bengal,no,4/21/2021,6,Sister,no,23
+BPL200081,yes,Sunita Naidu,Female,18,700001,"H.No. 240, Ward 10",Kolkata,West Bengal,yes,4/21/2021,4,Daughter,no,23
+BPL200084,yes,Manoj Reddy,Male,18,700001,"H.No. 567, Ward 19",Kolkata,West Bengal,no,4/21/2021,5,Sister,no,23
+BPL200086,yes,Arjun Verma,Male,19,700001,"H.No. 715, Ward 19",Kolkata,West Bengal,no,4/21/2021,3,Son,no,24
+BPL200088,yes,Anil Verma,Male,18,700001,"H.No. 398, Ward 20",Kolkata,West Bengal,yes,4/21/2021,6,Brother,no,23
+BPL200089,yes,Rohit Iyer,Male,19,700001,"H.No. 171, Ward 25",Kolkata,West Bengal,yes,4/21/2021,5,Brother,no,24
+BPL200090,yes,Kavya Reddy,Female,19,700001,"H.No. 338, Ward 19",Kolkata,West Bengal,yes,4/21/2021,6,Sister,no,24
+BPL200092,yes,Ritu Reddy,Female,18,700001,"H.No. 894, Ward 22",Kolkata,West Bengal,no,4/21/2021,4,Son,no,23
+BPL200094,yes,Pooja Sharma,Female,20,700001,"H.No. 270, Ward 2",Kolkata,West Bengal,no,4/21/2021,4,Brother,no,25
+BPL200095,yes,Pooja Iyer,Female,18,700001,"H.No. 150, Ward 7",Kolkata,West Bengal,yes,4/21/2021,5,Brother,no,23
+BPL200102,yes,Anil Iyer,Male,19,700001,"H.No. 920, Ward 10",Kolkata,West Bengal,yes,4/21/2021,5,Son,no,24
+BPL200104,yes,Kavya Verma,Female,19,700001,"H.No. 890, Ward 20",Kolkata,West Bengal,no,4/21/2021,6,Brother,no,24
+BPL200105,yes,Deepak Das,Male,18,700001,"H.No. 375, Ward 25",Kolkata,West Bengal,yes,4/21/2021,6,Son,no,23
+BPL200107,yes,Neha Singh,Female,18,700001,"H.No. 831, Ward 7",Kolkata,West Bengal,yes,4/21/2021,6,Brother,no,23
+BPL200108,yes,Sunita Gowda,Female,19,700001,"H.No. 828, Ward 14",Kolkata,West Bengal,yes,4/21/2021,5,Daughter,no,24
+BPL200110,yes,Rohit Singh,Male,18,700001,"H.No. 904, Ward 3",Kolkata,West Bengal,yes,4/21/2021,3,Daughter,no,23
+BPL200117,yes,Vikas Iyer,Male,18,700001,"H.No. 5, Ward 22",Kolkata,West Bengal,yes,4/21/2021,5,Sister,no,23
+BPL200120,yes,Neha Verma,Female,20,700001,"H.No. 921, Ward 10",Kolkata,West Bengal,no,4/21/2021,3,Daughter,no,25
+BPL200125,yes,Anil Gowda,Male,19,700001,"H.No. 541, Ward 13",Kolkata,West Bengal,yes,4/21/2021,5,Daughter,no,24
+BPL200126,yes,Pooja Sharma,Female,20,700001,"H.No. 661, Ward 25",Kolkata,West Bengal,yes,4/21/2021,5,Daughter,no,25
+BPL200127,yes,Asha Singh,Female,18,700001,"H.No. 327, Ward 23",Kolkata,West Bengal,no,4/21/2021,6,Daughter,no,23
+BPL200128,yes,Asha Verma,Female,19,700001,"H.No. 345, Ward 17",Kolkata,West Bengal,yes,4/21/2021,3,Son,no,24
+BPL200135,yes,Manoj Das,Male,15,700001,"H.No. 992, Ward 8",Kolkata,West Bengal,yes,4/21/2021,4,Mother,yes,20
+BPL200136,yes,Amit Kumar,Male,13,700001,"H.No. 412, Ward 4",Kolkata,West Bengal,no,4/21/2021,7,Mother,no,18
+BPL200155,yes,Anita Gowda,Female,17,700001,"H.No. 80, Ward 9",Kolkata,West Bengal,no,4/21/2021,3,Head,yes,22
+BPL200161,yes,Vikas Singh,Male,13,700001,"H.No. 420, Ward 25",Kolkata,West Bengal,yes,4/21/2021,4,Mother,yes,18
+BPL200170,yes,Pooja Das,Female,13,700001,"H.No. 367, Ward 16",Kolkata,West Bengal,no,4/21/2021,4,Father,yes,18
+BPL200176,yes,Kavya Sharma,Female,15,700001,"H.No. 904, Ward 8",Kolkata,West Bengal,no,4/21/2021,4,Head,no,20
+BPL200371,yes,Rahul Kumar,Male,20,110001,"H.No. 809, Ward 2",New Delhi,Delhi,no,4/21/2021,3,Son,no,25
+BPL200375,yes,Lakshmi Gowda,Female,18,110001,"H.No. 591, Ward 7",New Delhi,Delhi,no,4/21/2021,3,Sister,no,23
+BPL200381,yes,Pooja Reddy,Female,18,110001,"H.No. 472, Ward 5",New Delhi,Delhi,no,4/21/2021,3,Daughter,no,23
+BPL200385,yes,Manoj Naidu,Male,19,110001,"H.No. 422, Ward 2",New Delhi,Delhi,no,4/21/2021,6,Brother,no,24
+BPL200389,yes,Manoj Kumar,Male,18,110001,"H.No. 490, Ward 7",New Delhi,Delhi,no,4/21/2021,3,Son,no,23
+BPL200393,yes,Ritu Iyer,Female,18,110001,"H.No. 757, Ward 17",New Delhi,Delhi,no,4/21/2021,4,Daughter,no,23
+BPL200411,yes,Anil Iyer,Male,20,110001,"H.No. 880, Ward 24",New Delhi,Delhi,no,4/21/2021,4,Daughter,no,25
+BPL200423,yes,Divya Verma,Female,20,110001,"H.No. 196, Ward 21",New Delhi,Delhi,no,4/21/2021,6,Daughter,no,25
+BPL200424,yes,Neha Iyer,Female,19,110001,"H.No. 741, Ward 18",New Delhi,Delhi,no,4/21/2021,5,Brother,no,24
+BPL200425,yes,Anil Patil,Male,18,110001,"H.No. 722, Ward 20",New Delhi,Delhi,no,4/21/2021,4,Brother,no,23
+BPL200429,yes,Arjun Iyer,Male,19,110001,"H.No. 508, Ward 20",New Delhi,Delhi,no,4/21/2021,4,Sister,no,24
+BPL200430,yes,Neha Verma,Female,18,110001,"H.No. 9, Ward 16",New Delhi,Delhi,no,4/21/2021,5,Brother,no,23
+BPL200442,yes,Divya Kumar,Female,18,110001,"H.No. 908, Ward 11",New Delhi,Delhi,no,4/21/2021,4,Sister,no,23
+BPL200445,yes,Kavya Das,Female,20,110001,"H.No. 989, Ward 9",New Delhi,Delhi,no,4/21/2021,4,Brother,no,25
+BPL200449,yes,Rohit Das,Male,18,110001,"H.No. 991, Ward 17",New Delhi,Delhi,no,4/21/2021,6,Son,no,23
+BPL200470,yes,Manoj Iyer,Male,20,110001,"H.No. 265, Ward 8",New Delhi,Delhi,no,4/21/2021,3,Sister,no,25
+BPL200478,yes,Vikas Gowda,Male,18,110001,"H.No. 801, Ward 13",New Delhi,Delhi,no,4/21/2021,3,Daughter,no,23
+BPL200480,yes,Pooja Patil,Female,18,110001,"H.No. 285, Ward 13",New Delhi,Delhi,no,4/21/2021,4,Daughter,no,23
+BPL200482,yes,Arjun Verma,Male,19,110001,"H.No. 762, Ward 22",New Delhi,Delhi,no,4/21/2021,5,Daughter,no,24
+BPL200483,yes,Deepak Verma,Male,18,110001,"H.No. 956, Ward 8",New Delhi,Delhi,no,4/21/2021,6,Daughter,no,23
+BPL200484,yes,Manoj Sharma,Male,18,110001,"H.No. 352, Ward 14",New Delhi,Delhi,no,4/21/2021,3,Sister,no,23
+BPL200488,yes,Pooja Kumar,Female,19,110001,"H.No. 807, Ward 18",New Delhi,Delhi,no,4/21/2021,5,Sister,no,24
+BPL200489,yes,Pooja Iyer,Female,19,110001,"H.No. 918, Ward 22",New Delhi,Delhi,no,4/21/2021,6,Daughter,no,24
+BPL200494,yes,Amit Gowda,Male,19,110001,"H.No. 398, Ward 4",New Delhi,Delhi,no,4/21/2021,5,Daughter,no,24
+BPL200499,yes,Manoj Sharma,Male,18,110001,"H.No. 850, Ward 11",New Delhi,Delhi,no,4/21/2021,4,Daughter,no,23
+BPL200504,yes,Prakash Iyer,Male,19,110001,"H.No. 830, Ward 22",New Delhi,Delhi,no,4/21/2021,6,Son,no,24
+BPL200506,yes,Deepak Patil,Male,20,110001,"H.No. 610, Ward 7",New Delhi,Delhi,no,4/21/2021,5,Sister,no,25
+BPL200510,yes,Sunita Verma,Female,18,110001,"H.No. 379, Ward 15",New Delhi,Delhi,no,4/21/2021,5,Son,no,23
+BPL200518,yes,Manoj Das,Male,19,110001,"H.No. 106, Ward 23",New Delhi,Delhi,no,4/21/2021,6,Daughter,no,24
+BPL200527,yes,Deepak Naidu,Male,17,110001,"H.No. 525, Ward 23",New Delhi,Delhi,no,4/21/2021,6,Spouse,no,22
+BPL200529,yes,Neha Naidu,Female,15,110001,"H.No. 376, Ward 4",New Delhi,Delhi,no,4/21/2021,4,Father,no,20
+BPL200548,yes,Sunita Naidu,Female,16,110001,"H.No. 130, Ward 22",New Delhi,Delhi,no,4/21/2021,7,Head,no,21
+BPL200558,yes,Prakash Kumar,Male,14,110001,"H.No. 402, Ward 23",New Delhi,Delhi,no,4/21/2021,6,Mother,no,19
+BPL200565,yes,Neha Kumar,Female,16,110001,"H.No. 113, Ward 10",New Delhi,Delhi,no,4/21/2021,5,Head,yes,21
+BPL200569,yes,Sunita Naidu,Female,16,110001,"H.No. 327, Ward 7",New Delhi,Delhi,no,4/21/2021,6,Spouse,no,21
+BPL200371,yes,Rahul Kumar,Male,20,110001,"H.No. 809, Ward 2",New Delhi,Delhi,no,4/21/2021,3,Son,no,25
+BPL200375,yes,Lakshmi Gowda,Female,18,110001,"H.No. 591, Ward 7",New Delhi,Delhi,no,4/21/2021,3,Sister,no,23
+BPL200381,yes,Pooja Reddy,Female,18,110001,"H.No. 472, Ward 5",New Delhi,Delhi,no,4/21/2021,3,Daughter,no,23
+BPL200385,yes,Manoj Naidu,Male,19,110001,"H.No. 422, Ward 2",New Delhi,Delhi,no,4/21/2021,6,Brother,no,24
+BPL200389,yes,Manoj Kumar,Male,18,110001,"H.No. 490, Ward 7",New Delhi,Delhi,no,4/21/2021,3,Son,no,23
+BPL200393,yes,Ritu Iyer,Female,18,110001,"H.No. 757, Ward 17",New Delhi,Delhi,no,4/21/2021,4,Daughter,no,23
+BPL200411,yes,Anil Iyer,Male,20,110001,"H.No. 880, Ward 24",New Delhi,Delhi,no,4/21/2021,4,Daughter,no,25
+BPL200423,yes,Divya Verma,Female,20,110001,"H.No. 196, Ward 21",New Delhi,Delhi,no,4/21/2021,6,Daughter,no,25
+BPL200424,yes,Neha Iyer,Female,19,110001,"H.No. 741, Ward 18",New Delhi,Delhi,no,4/21/2021,5,Brother,no,24
+BPL200425,yes,Anil Patil,Male,18,110001,"H.No. 722, Ward 20",New Delhi,Delhi,no,4/21/2021,4,Brother,no,23
+BPL200429,yes,Arjun Iyer,Male,19,110001,"H.No. 508, Ward 20",New Delhi,Delhi,no,4/21/2021,4,Sister,no,24
+BPL200430,yes,Neha Verma,Female,18,110001,"H.No. 9, Ward 16",New Delhi,Delhi,no,4/21/2021,5,Brother,no,23
+BPL200442,yes,Divya Kumar,Female,18,110001,"H.No. 908, Ward 11",New Delhi,Delhi,no,4/21/2021,4,Sister,no,23
+BPL200445,yes,Kavya Das,Female,20,110001,"H.No. 989, Ward 9",New Delhi,Delhi,no,4/21/2021,4,Brother,no,25
+BPL200449,yes,Rohit Das,Male,18,110001,"H.No. 991, Ward 17",New Delhi,Delhi,no,4/21/2021,6,Son,no,23
+BPL200470,yes,Manoj Iyer,Male,20,110001,"H.No. 265, Ward 8",New Delhi,Delhi,no,4/21/2021,3,Sister,no,25
+BPL200478,yes,Vikas Gowda,Male,18,110001,"H.No. 801, Ward 13",New Delhi,Delhi,no,4/21/2021,3,Daughter,no,23
+BPL200480,yes,Pooja Patil,Female,18,110001,"H.No. 285, Ward 13",New Delhi,Delhi,no,4/21/2021,4,Daughter,no,23
+BPL200482,yes,Arjun Verma,Male,19,110001,"H.No. 762, Ward 22",New Delhi,Delhi,no,4/21/2021,5,Daughter,no,24
+BPL200483,yes,Deepak Verma,Male,18,110001,"H.No. 956, Ward 8",New Delhi,Delhi,no,4/21/2021,6,Daughter,no,23
+BPL200484,yes,Manoj Sharma,Male,18,110001,"H.No. 352, Ward 14",New Delhi,Delhi,no,4/21/2021,3,Sister,no,23
+BPL200488,yes,Pooja Kumar,Female,19,110001,"H.No. 807, Ward 18",New Delhi,Delhi,no,4/21/2021,5,Sister,no,24
+BPL200489,yes,Pooja Iyer,Female,19,110001,"H.No. 918, Ward 22",New Delhi,Delhi,no,4/21/2021,6,Daughter,no,24
+BPL200494,yes,Amit Gowda,Male,19,110001,"H.No. 398, Ward 4",New Delhi,Delhi,no,4/21/2021,5,Daughter,no,24
+BPL200499,yes,Manoj Sharma,Male,18,110001,"H.No. 850, Ward 11",New Delhi,Delhi,no,4/21/2021,4,Daughter,no,23
+BPL200504,yes,Prakash Iyer,Male,19,110001,"H.No. 830, Ward 22",New Delhi,Delhi,no,4/21/2021,6,Son,no,24
+BPL200506,yes,Deepak Patil,Male,20,110001,"H.No. 610, Ward 7",New Delhi,Delhi,no,4/21/2021,5,Sister,no,25
+BPL200510,yes,Sunita Verma,Female,18,110001,"H.No. 379, Ward 15",New Delhi,Delhi,no,4/21/2021,5,Son,no,23
+BPL200518,yes,Manoj Das,Male,19,110001,"H.No. 106, Ward 23",New Delhi,Delhi,no,4/21/2021,6,Daughter,no,24
+BPL200527,yes,Deepak Naidu,Male,17,110001,"H.No. 525, Ward 23",New Delhi,Delhi,no,4/21/2021,6,Spouse,no,22
+BPL200529,yes,Neha Naidu,Female,15,110001,"H.No. 376, Ward 4",New Delhi,Delhi,no,4/21/2021,4,Father,no,20
+BPL200548,yes,Sunita Naidu,Female,16,110001,"H.No. 130, Ward 22",New Delhi,Delhi,no,4/21/2021,7,Head,no,21
+BPL200558,yes,Prakash Kumar,Male,14,110001,"H.No. 402, Ward 23",New Delhi,Delhi,no,4/21/2021,6,Mother,no,19
+BPL200565,yes,Neha Kumar,Female,16,110001,"H.No. 113, Ward 10",New Delhi,Delhi,no,4/21/2021,5,Head,yes,21
+BPL200569,yes,Sunita Naidu,Female,16,110001,"H.No. 327, Ward 7",New Delhi,Delhi,no,4/21/2021,6,Spouse,no,21
+BPL200573,yes,Deepak Sharma,Male,18,400001,"H.No. 345, Ward 6",Mumbai,Maharashtra,no,4/21/2021,3,Brother,no,23
+BPL200575,yes,Anita Reddy,Female,20,400001,"H.No. 270, Ward 23",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,25
+BPL200578,yes,Ritu Gowda,Female,19,400001,"H.No. 60, Ward 24",Mumbai,Maharashtra,no,4/21/2021,3,Daughter,no,24
+BPL200588,yes,Lakshmi Gowda,Female,19,400001,"H.No. 909, Ward 8",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,24
+BPL200594,yes,Manoj Kumar,Male,19,400001,"H.No. 858, Ward 21",Mumbai,Maharashtra,no,4/21/2021,6,Son,no,24
+BPL200604,yes,Kavya Naidu,Female,19,400001,"H.No. 961, Ward 14",Mumbai,Maharashtra,no,4/21/2021,5,Brother,no,24
+BPL200607,yes,Pooja Singh,Female,20,400001,"H.No. 350, Ward 19",Mumbai,Maharashtra,no,4/21/2021,3,Son,no,25
+BPL200614,yes,Pooja Naidu,Female,19,400001,"H.No. 519, Ward 13",Mumbai,Maharashtra,no,4/21/2021,5,Daughter,no,24
+BPL200623,yes,Lakshmi Naidu,Female,20,400001,"H.No. 246, Ward 14",Mumbai,Maharashtra,no,4/21/2021,4,Sister,no,25
+BPL200636,yes,Amit Patil,Male,20,400001,"H.No. 398, Ward 21",Mumbai,Maharashtra,no,4/21/2021,5,Sister,no,25
+BPL200642,yes,Arjun Patil,Male,19,400001,"H.No. 310, Ward 1",Mumbai,Maharashtra,no,4/21/2021,3,Daughter,no,24
+BPL200645,yes,Divya Verma,Female,20,400001,"H.No. 858, Ward 12",Mumbai,Maharashtra,no,4/21/2021,3,Son,no,25
+BPL200649,yes,Vikas Kumar,Male,18,400001,"H.No. 555, Ward 10",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,23
+BPL200656,yes,Pooja Kumar,Female,19,400001,"H.No. 935, Ward 16",Mumbai,Maharashtra,no,4/21/2021,4,Daughter,no,24
+BPL200657,yes,Pooja Kumar,Female,19,400001,"H.No. 152, Ward 5",Mumbai,Maharashtra,no,4/21/2021,4,Sister,no,24
+BPL200659,yes,Sunita Gowda,Female,20,400001,"H.No. 11, Ward 18",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,25
+BPL200662,yes,Suresh Naidu,Male,20,400001,"H.No. 306, Ward 6",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,25
+BPL200664,yes,Amit Naidu,Male,19,400001,"H.No. 756, Ward 17",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,24
+BPL200669,yes,Kavya Das,Female,19,400001,"H.No. 539, Ward 2",Mumbai,Maharashtra,no,4/21/2021,5,Son,no,24
+BPL200672,yes,Divya Reddy,Female,19,400001,"H.No. 673, Ward 24",Mumbai,Maharashtra,no,4/21/2021,6,Daughter,no,24
+BPL200683,yes,Lakshmi Naidu,Female,20,400001,"H.No. 879, Ward 23",Mumbai,Maharashtra,no,4/21/2021,6,Daughter,no,25
+BPL200684,yes,Ritu Kumar,Female,19,400001,"H.No. 874, Ward 13",Mumbai,Maharashtra,no,4/21/2021,5,Daughter,no,24
+BPL200686,yes,Neha Verma,Female,19,400001,"H.No. 959, Ward 25",Mumbai,Maharashtra,no,4/21/2021,6,Daughter,no,24
+BPL200691,yes,Asha Patil,Female,18,400001,"H.No. 147, Ward 21",Mumbai,Maharashtra,no,4/21/2021,3,Brother,no,23
+BPL200692,yes,Asha Das,Female,19,400001,"H.No. 94, Ward 21",Mumbai,Maharashtra,no,4/21/2021,4,Daughter,no,24
+BPL200696,yes,Amit Gowda,Male,18,400001,"H.No. 485, Ward 7",Mumbai,Maharashtra,no,4/21/2021,4,Brother,no,23
+BPL200702,yes,Vikas Reddy,Male,19,400001,"H.No. 171, Ward 2",Mumbai,Maharashtra,no,4/21/2021,5,Brother,no,24
+BPL200704,yes,Arjun Gowda,Male,20,400001,"H.No. 79, Ward 17",Mumbai,Maharashtra,no,4/21/2021,6,Sister,no,25
+BPL200709,yes,Deepak Iyer,Male,20,400001,"H.No. 190, Ward 9",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,25
+BPL200715,yes,Arjun Iyer,Male,20,400001,"H.No. 966, Ward 17",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,25
+BPL200719,yes,Sunita Verma,Female,19,400001,"H.No. 536, Ward 24",Mumbai,Maharashtra,no,4/21/2021,3,Brother,no,24
+BPL200725,yes,Anita Naidu,Female,19,400001,"H.No. 84, Ward 13",Mumbai,Maharashtra,no,4/21/2021,5,Brother,no,24
+BPL200726,yes,Divya Verma,Female,18,400001,"H.No. 602, Ward 20",Mumbai,Maharashtra,no,4/21/2021,6,Brother,no,23
+BPL200728,yes,Amit Singh,Male,19,400001,"H.No. 591, Ward 20",Mumbai,Maharashtra,no,4/21/2021,5,Son,no,24
+BPL200729,yes,Divya Gowda,Female,19,400001,"H.No. 233, Ward 16",Mumbai,Maharashtra,no,4/21/2021,4,Sister,no,24
+BPL200739,yes,Deepak Kumar,Male,15,400001,"H.No. 781, Ward 16",Mumbai,Maharashtra,no,4/21/2021,4,Father,yes,20
+BPL200749,yes,Rahul Das,Male,13,400001,"H.No. 834, Ward 20",Mumbai,Maharashtra,no,4/21/2021,5,Mother,no,18
+BPL200754,yes,Neha Das,Female,13,400001,"H.No. 490, Ward 5",Mumbai,Maharashtra,no,4/21/2021,7,Mother,no,18
+BPL200573,yes,Deepak Sharma,Male,18,400001,"H.No. 345, Ward 6",Mumbai,Maharashtra,no,4/21/2021,3,Brother,no,23
+BPL200575,yes,Anita Reddy,Female,20,400001,"H.No. 270, Ward 23",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,25
+BPL200578,yes,Ritu Gowda,Female,19,400001,"H.No. 60, Ward 24",Mumbai,Maharashtra,no,4/21/2021,3,Daughter,no,24
+BPL200588,yes,Lakshmi Gowda,Female,19,400001,"H.No. 909, Ward 8",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,24
+BPL200594,yes,Manoj Kumar,Male,19,400001,"H.No. 858, Ward 21",Mumbai,Maharashtra,no,4/21/2021,6,Son,no,24
+BPL200604,yes,Kavya Naidu,Female,19,400001,"H.No. 961, Ward 14",Mumbai,Maharashtra,no,4/21/2021,5,Brother,no,24
+BPL200607,yes,Pooja Singh,Female,20,400001,"H.No. 350, Ward 19",Mumbai,Maharashtra,no,4/21/2021,3,Son,no,25
+BPL200614,yes,Pooja Naidu,Female,19,400001,"H.No. 519, Ward 13",Mumbai,Maharashtra,no,4/21/2021,5,Daughter,no,24
+BPL200623,yes,Lakshmi Naidu,Female,20,400001,"H.No. 246, Ward 14",Mumbai,Maharashtra,no,4/21/2021,4,Sister,no,25
+BPL200636,yes,Amit Patil,Male,20,400001,"H.No. 398, Ward 21",Mumbai,Maharashtra,no,4/21/2021,5,Sister,no,25
+BPL200642,yes,Arjun Patil,Male,19,400001,"H.No. 310, Ward 1",Mumbai,Maharashtra,no,4/21/2021,3,Daughter,no,24
+BPL200645,yes,Divya Verma,Female,20,400001,"H.No. 858, Ward 12",Mumbai,Maharashtra,no,4/21/2021,3,Son,no,25
+BPL200649,yes,Vikas Kumar,Male,18,400001,"H.No. 555, Ward 10",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,23
+BPL200656,yes,Pooja Kumar,Female,19,400001,"H.No. 935, Ward 16",Mumbai,Maharashtra,no,4/21/2021,4,Daughter,no,24
+BPL200657,yes,Pooja Kumar,Female,19,400001,"H.No. 152, Ward 5",Mumbai,Maharashtra,no,4/21/2021,4,Sister,no,24
+BPL200659,yes,Sunita Gowda,Female,20,400001,"H.No. 11, Ward 18",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,25
+BPL200662,yes,Suresh Naidu,Male,20,400001,"H.No. 306, Ward 6",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,25
+BPL200664,yes,Amit Naidu,Male,19,400001,"H.No. 756, Ward 17",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,24
+BPL200669,yes,Kavya Das,Female,19,400001,"H.No. 539, Ward 2",Mumbai,Maharashtra,no,4/21/2021,5,Son,no,24
+BPL200672,yes,Divya Reddy,Female,19,400001,"H.No. 673, Ward 24",Mumbai,Maharashtra,no,4/21/2021,6,Daughter,no,24
+BPL200683,yes,Lakshmi Naidu,Female,20,400001,"H.No. 879, Ward 23",Mumbai,Maharashtra,no,4/21/2021,6,Daughter,no,25
+BPL200684,yes,Ritu Kumar,Female,19,400001,"H.No. 874, Ward 13",Mumbai,Maharashtra,no,4/21/2021,5,Daughter,no,24
+BPL200686,yes,Neha Verma,Female,19,400001,"H.No. 959, Ward 25",Mumbai,Maharashtra,no,4/21/2021,6,Daughter,no,24
+BPL200691,yes,Asha Patil,Female,18,400001,"H.No. 147, Ward 21",Mumbai,Maharashtra,no,4/21/2021,3,Brother,no,23
+BPL200692,yes,Asha Das,Female,19,400001,"H.No. 94, Ward 21",Mumbai,Maharashtra,no,4/21/2021,4,Daughter,no,24
+BPL200696,yes,Amit Gowda,Male,18,400001,"H.No. 485, Ward 7",Mumbai,Maharashtra,no,4/21/2021,4,Brother,no,23
+BPL200702,yes,Vikas Reddy,Male,19,400001,"H.No. 171, Ward 2",Mumbai,Maharashtra,no,4/21/2021,5,Brother,no,24
+BPL200704,yes,Arjun Gowda,Male,20,400001,"H.No. 79, Ward 17",Mumbai,Maharashtra,no,4/21/2021,6,Sister,no,25
+BPL200709,yes,Deepak Iyer,Male,20,400001,"H.No. 190, Ward 9",Mumbai,Maharashtra,no,4/21/2021,4,Son,no,25
+BPL200715,yes,Arjun Iyer,Male,20,400001,"H.No. 966, Ward 17",Mumbai,Maharashtra,no,4/21/2021,3,Sister,no,25
+BPL200719,yes,Sunita Verma,Female,19,400001,"H.No. 536, Ward 24",Mumbai,Maharashtra,no,4/21/2021,3,Brother,no,24
+BPL200725,yes,Anita Naidu,Female,19,400001,"H.No. 84, Ward 13",Mumbai,Maharashtra,no,4/21/2021,5,Brother,no,24
+BPL200726,yes,Divya Verma,Female,18,400001,"H.No. 602, Ward 20",Mumbai,Maharashtra,no,4/21/2021,6,Brother,no,23
+BPL200728,yes,Amit Singh,Male,19,400001,"H.No. 591, Ward 20",Mumbai,Maharashtra,no,4/21/2021,5,Son,no,24
+BPL200729,yes,Divya Gowda,Female,19,400001,"H.No. 233, Ward 16",Mumbai,Maharashtra,no,4/21/2021,4,Sister,no,24
+BPL200739,yes,Deepak Kumar,Male,15,400001,"H.No. 781, Ward 16",Mumbai,Maharashtra,no,4/21/2021,4,Father,yes,20
+BPL200749,yes,Rahul Das,Male,13,400001,"H.No. 834, Ward 20",Mumbai,Maharashtra,no,4/21/2021,5,Mother,no,18
+BPL200754,yes,Neha Das,Female,13,400001,"H.No. 490, Ward 5",Mumbai,Maharashtra,no,4/21/2021,7,Mother,no,18
+BPL200181,yes,Asha Patil,Female,20,560001,"H.No. 5, Ward 23",Bengaluru,Karnataka,no,4/21/2021,6,Daughter,no,25
+BPL200182,yes,Vikas Reddy,Male,19,560001,"H.No. 820, Ward 11",Bengaluru,Karnataka,no,4/21/2021,4,Sister,no,24
+BPL200190,yes,Vikas Kumar,Male,19,560001,"H.No. 191, Ward 9",Bengaluru,Karnataka,no,4/21/2021,6,Daughter,no,24
+BPL200193,yes,Pooja Verma,Female,18,560001,"H.No. 524, Ward 22",Bengaluru,Karnataka,no,4/21/2021,4,Brother,no,23
+BPL200207,yes,Divya Sharma,Female,18,560001,"H.No. 559, Ward 2",Bengaluru,Karnataka,no,4/21/2021,4,Sister,no,23
+BPL200214,yes,Vikas Verma,Male,19,560001,"H.No. 485, Ward 16",Bengaluru,Karnataka,no,4/21/2021,6,Brother,no,24
+BPL200219,yes,Lakshmi Verma,Female,20,560001,"H.No. 379, Ward 2",Bengaluru,Karnataka,no,4/21/2021,5,Sister,no,25
+BPL200242,yes,Amit Naidu,Male,19,560001,"H.No. 107, Ward 20",Bengaluru,Karnataka,no,4/21/2021,4,Son,no,24
+BPL200246,yes,Anil Kumar,Male,18,560001,"H.No. 314, Ward 22",Bengaluru,Karnataka,no,4/21/2021,6,Son,no,23
+BPL200256,yes,Deepak Singh,Male,18,560001,"H.No. 994, Ward 23",Bengaluru,Karnataka,no,4/21/2021,5,Brother,no,23
+BPL200260,yes,Kavya Gowda,Female,19,560001,"H.No. 964, Ward 24",Bengaluru,Karnataka,no,4/21/2021,3,Sister,no,24
+BPL200284,yes,Divya Das,Female,19,560001,"H.No. 43, Ward 23",Bengaluru,Karnataka,no,4/21/2021,4,Son,no,24
+BPL200287,yes,Prakash Gowda,Male,20,560001,"H.No. 740, Ward 5",Bengaluru,Karnataka,no,4/21/2021,5,Son,no,25
+BPL200290,yes,Sunita Kumar,Female,18,560001,"H.No. 72, Ward 15",Bengaluru,Karnataka,no,4/21/2021,4,Daughter,no,23
+BPL200301,yes,Prakash Naidu,Male,19,560001,"H.No. 748, Ward 1",Bengaluru,Karnataka,no,4/21/2021,5,Daughter,no,24
+BPL200303,yes,Suresh Das,Male,19,560001,"H.No. 275, Ward 16",Bengaluru,Karnataka,no,4/21/2021,5,Daughter,no,24
+BPL200314,yes,Prakash Verma,Male,19,560001,"H.No. 579, Ward 24",Bengaluru,Karnataka,no,4/21/2021,6,Son,no,24
+BPL200323,yes,Sunita Das,Female,13,560001,"H.No. 480, Ward 8",Bengaluru,Karnataka,no,4/21/2021,5,Head,no,18
+BPL200329,yes,Arjun Naidu,Male,17,560001,"H.No. 628, Ward 3",Bengaluru,Karnataka,no,4/21/2021,5,Spouse,yes,22
+BPL200334,yes,Amit Iyer,Male,16,560001,"H.No. 307, Ward 3",Bengaluru,Karnataka,no,4/21/2021,6,Head,no,21
+BPL200335,yes,Sunita Naidu,Female,14,560001,"H.No. 927, Ward 22",Bengaluru,Karnataka,no,4/21/2021,6,Mother,yes,19
+BPL200348,yes,Vikas Sharma,Male,14,560001,"H.No. 716, Ward 14",Bengaluru,Karnataka,no,4/21/2021,4,Head,no,19
+BPL200349,yes,Rohit Gowda,Male,16,560001,"H.No. 771, Ward 17",Bengaluru,Karnataka,no,4/21/2021,7,Mother,no,21
+BPL200181,yes,Asha Patil,Female,20,560001,"H.No. 5, Ward 23",Bengaluru,Karnataka,no,4/21/2021,6,Daughter,no,25
+BPL200182,yes,Vikas Reddy,Male,19,560001,"H.No. 820, Ward 11",Bengaluru,Karnataka,no,4/21/2021,4,Sister,no,24
+BPL200190,yes,Vikas Kumar,Male,19,560001,"H.No. 191, Ward 9",Bengaluru,Karnataka,no,4/21/2021,6,Daughter,no,24
+BPL200193,yes,Pooja Verma,Female,18,560001,"H.No. 524, Ward 22",Bengaluru,Karnataka,no,4/21/2021,4,Brother,no,23
+BPL200207,yes,Divya Sharma,Female,18,560001,"H.No. 559, Ward 2",Bengaluru,Karnataka,no,4/21/2021,4,Sister,no,23
+BPL200214,yes,Vikas Verma,Male,19,560001,"H.No. 485, Ward 16",Bengaluru,Karnataka,no,4/21/2021,6,Brother,no,24
+BPL200219,yes,Lakshmi Verma,Female,20,560001,"H.No. 379, Ward 2",Bengaluru,Karnataka,no,4/21/2021,5,Sister,no,25
+BPL200242,yes,Amit Naidu,Male,19,560001,"H.No. 107, Ward 20",Bengaluru,Karnataka,no,4/21/2021,4,Son,no,24
+BPL200246,yes,Anil Kumar,Male,18,560001,"H.No. 314, Ward 22",Bengaluru,Karnataka,no,4/21/2021,6,Son,no,23
+BPL200256,yes,Deepak Singh,Male,18,560001,"H.No. 994, Ward 23",Bengaluru,Karnataka,no,4/21/2021,5,Brother,no,23
+BPL200260,yes,Kavya Gowda,Female,19,560001,"H.No. 964, Ward 24",Bengaluru,Karnataka,no,4/21/2021,3,Sister,no,24
+BPL200284,yes,Divya Das,Female,19,560001,"H.No. 43, Ward 23",Bengaluru,Karnataka,no,4/21/2021,4,Son,no,24
+BPL200287,yes,Prakash Gowda,Male,20,560001,"H.No. 740, Ward 5",Bengaluru,Karnataka,no,4/21/2021,5,Son,no,25
+BPL200290,yes,Sunita Kumar,Female,18,560001,"H.No. 72, Ward 15",Bengaluru,Karnataka,no,4/21/2021,4,Daughter,no,23
+BPL200301,yes,Prakash Naidu,Male,19,560001,"H.No. 748, Ward 1",Bengaluru,Karnataka,no,4/21/2021,5,Daughter,no,24
+BPL200303,yes,Suresh Das,Male,19,560001,"H.No. 275, Ward 16",Bengaluru,Karnataka,no,4/21/2021,5,Daughter,no,24
+BPL200314,yes,Prakash Verma,Male,19,560001,"H.No. 579, Ward 24",Bengaluru,Karnataka,no,4/21/2021,6,Son,no,24
+BPL200323,yes,Sunita Das,Female,13,560001,"H.No. 480, Ward 8",Bengaluru,Karnataka,no,4/21/2021,5,Head,no,18
+BPL200329,yes,Arjun Naidu,Male,17,560001,"H.No. 628, Ward 3",Bengaluru,Karnataka,no,4/21/2021,5,Spouse,yes,22
+BPL200334,yes,Amit Iyer,Male,16,560001,"H.No. 307, Ward 3",Bengaluru,Karnataka,no,4/21/2021,6,Head,no,21
+BPL200335,yes,Sunita Naidu,Female,14,560001,"H.No. 927, Ward 22",Bengaluru,Karnataka,no,4/21/2021,6,Mother,yes,19
+BPL200348,yes,Vikas Sharma,Male,14,560001,"H.No. 716, Ward 14",Bengaluru,Karnataka,no,4/21/2021,4,Head,no,19
+BPL200349,yes,Rohit Gowda,Male,16,560001,"H.No. 771, Ward 17",Bengaluru,Karnataka,no,4/21/2021,7,Mother,no,21
+BPL200791,yes,Prakash Reddy,Male,18,600001,"H.No. 310, Ward 25",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,23
+BPL200795,yes,Anil Das,Male,20,600001,"H.No. 580, Ward 21",Chennai,Tamil Nadu,no,4/21/2021,6,Daughter,no,25
+BPL200796,yes,Sunita Naidu,Female,19,600001,"H.No. 58, Ward 11",Chennai,Tamil Nadu,no,4/21/2021,5,Daughter,no,24
+BPL200799,yes,Vikas Naidu,Male,20,600001,"H.No. 880, Ward 15",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,25
+BPL200802,yes,Neha Das,Female,19,600001,"H.No. 803, Ward 3",Chennai,Tamil Nadu,no,4/21/2021,3,Brother,no,24
+BPL200803,yes,Ritu Sharma,Female,20,600001,"H.No. 728, Ward 10",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,25
+BPL200804,yes,Rahul Iyer,Male,18,600001,"H.No. 8, Ward 11",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,23
+BPL200808,yes,Meena Singh,Female,19,600001,"H.No. 550, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,24
+BPL200814,yes,Lakshmi Reddy,Female,19,600001,"H.No. 913, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,3,Daughter,no,24
+BPL200827,yes,Pooja Verma,Female,20,600001,"H.No. 953, Ward 10",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,25
+BPL200830,yes,Vikas Iyer,Male,19,600001,"H.No. 957, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,4,Sister,no,24
+BPL200832,yes,Kavya Reddy,Female,20,600001,"H.No. 347, Ward 15",Chennai,Tamil Nadu,no,4/21/2021,6,Daughter,no,25
+BPL200833,yes,Vikas Naidu,Male,19,600001,"H.No. 219, Ward 6",Chennai,Tamil Nadu,no,4/21/2021,3,Son,no,24
+BPL200835,yes,Kavya Naidu,Female,18,600001,"H.No. 10, Ward 12",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,23
+BPL200839,yes,Anil Singh,Male,18,600001,"H.No. 279, Ward 22",Chennai,Tamil Nadu,no,4/21/2021,3,Daughter,no,23
+BPL200843,yes,Prakash Sharma,Male,20,600001,"H.No. 155, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,25
+BPL200847,yes,Prakash Patil,Male,20,600001,"H.No. 997, Ward 4",Chennai,Tamil Nadu,no,4/21/2021,4,Sister,no,25
+BPL200864,yes,Lakshmi Singh,Female,19,600001,"H.No. 647, Ward 4",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,24
+BPL200867,yes,Pooja Sharma,Female,20,600001,"H.No. 522, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,25
+BPL200869,yes,Deepak Singh,Male,20,600001,"H.No. 593, Ward 1",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,25
+BPL200870,yes,Anita Sharma,Female,19,600001,"H.No. 614, Ward 5",Chennai,Tamil Nadu,no,4/21/2021,5,Sister,no,24
+BPL200874,yes,Amit Naidu,Male,20,600001,"H.No. 699, Ward 2",Chennai,Tamil Nadu,no,4/21/2021,5,Sister,no,25
+BPL200875,yes,Suresh Das,Male,20,600001,"H.No. 940, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,4,Daughter,no,25
+BPL200882,yes,Rahul Singh,Male,19,600001,"H.No. 96, Ward 24",Chennai,Tamil Nadu,no,4/21/2021,4,Brother,no,24
+BPL200886,yes,Divya Naidu,Female,19,600001,"H.No. 494, Ward 7",Chennai,Tamil Nadu,no,4/21/2021,3,Son,no,24
+BPL200889,yes,Kavya Das,Female,18,600001,"H.No. 881, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,23
+BPL200897,yes,Divya Iyer,Female,18,600001,"H.No. 617, Ward 16",Chennai,Tamil Nadu,no,4/21/2021,3,Son,no,23
+BPL200903,yes,Vikas Verma,Male,19,600001,"H.No. 184, Ward 6",Chennai,Tamil Nadu,no,4/21/2021,3,Brother,no,24
+BPL200905,yes,Prakash Singh,Male,18,600001,"H.No. 138, Ward 5",Chennai,Tamil Nadu,no,4/21/2021,5,Son,no,23
+BPL200907,yes,Neha Kumar,Female,19,600001,"H.No. 521, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,5,Brother,no,24
+BPL200918,yes,Lakshmi Kumar,Female,19,600001,"H.No. 760, Ward 18",Chennai,Tamil Nadu,no,4/21/2021,3,Sister,no,24
+BPL200923,yes,Asha Sharma,Female,18,600001,"H.No. 615, Ward 13",Chennai,Tamil Nadu,no,4/21/2021,4,Brother,no,23
+BPL200925,yes,Rahul Gowda,Male,20,600001,"H.No. 81, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,3,Daughter,no,25
+BPL200928,yes,Rohit Verma,Male,18,600001,"H.No. 290, Ward 25",Chennai,Tamil Nadu,no,4/21/2021,3,Brother,no,23
+BPL200932,yes,Ritu Patil,Female,19,600001,"H.No. 338, Ward 15",Chennai,Tamil Nadu,no,4/21/2021,5,Sister,no,24
+BPL200948,yes,Manoj Naidu,Male,18,600001,"H.No. 191, Ward 13",Chennai,Tamil Nadu,no,4/21/2021,6,Daughter,no,23
+BPL200950,yes,Lakshmi Naidu,Female,14,600001,"H.No. 702, Ward 8",Chennai,Tamil Nadu,no,4/21/2021,5,Spouse,no,19
+BPL200956,yes,Pooja Patil,Female,13,600001,"H.No. 959, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,7,Mother,no,18
+BPL200958,yes,Anil Naidu,Male,14,600001,"H.No. 180, Ward 9",Chennai,Tamil Nadu,no,4/21/2021,3,Head,no,19
+BPL200791,yes,Prakash Reddy,Male,18,600001,"H.No. 310, Ward 25",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,23
+BPL200795,yes,Anil Das,Male,20,600001,"H.No. 580, Ward 21",Chennai,Tamil Nadu,no,4/21/2021,6,Daughter,no,25
+BPL200796,yes,Sunita Naidu,Female,19,600001,"H.No. 58, Ward 11",Chennai,Tamil Nadu,no,4/21/2021,5,Daughter,no,24
+BPL200799,yes,Vikas Naidu,Male,20,600001,"H.No. 880, Ward 15",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,25
+BPL200802,yes,Neha Das,Female,19,600001,"H.No. 803, Ward 3",Chennai,Tamil Nadu,no,4/21/2021,3,Brother,no,24
+BPL200803,yes,Ritu Sharma,Female,20,600001,"H.No. 728, Ward 10",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,25
+BPL200804,yes,Rahul Iyer,Male,18,600001,"H.No. 8, Ward 11",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,23
+BPL200808,yes,Meena Singh,Female,19,600001,"H.No. 550, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,24
+BPL200814,yes,Lakshmi Reddy,Female,19,600001,"H.No. 913, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,3,Daughter,no,24
+BPL200827,yes,Pooja Verma,Female,20,600001,"H.No. 953, Ward 10",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,25
+BPL200830,yes,Vikas Iyer,Male,19,600001,"H.No. 957, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,4,Sister,no,24
+BPL200832,yes,Kavya Reddy,Female,20,600001,"H.No. 347, Ward 15",Chennai,Tamil Nadu,no,4/21/2021,6,Daughter,no,25
+BPL200833,yes,Vikas Naidu,Male,19,600001,"H.No. 219, Ward 6",Chennai,Tamil Nadu,no,4/21/2021,3,Son,no,24
+BPL200835,yes,Kavya Naidu,Female,18,600001,"H.No. 10, Ward 12",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,23
+BPL200839,yes,Anil Singh,Male,18,600001,"H.No. 279, Ward 22",Chennai,Tamil Nadu,no,4/21/2021,3,Daughter,no,23
+BPL200843,yes,Prakash Sharma,Male,20,600001,"H.No. 155, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,25
+BPL200847,yes,Prakash Patil,Male,20,600001,"H.No. 997, Ward 4",Chennai,Tamil Nadu,no,4/21/2021,4,Sister,no,25
+BPL200864,yes,Lakshmi Singh,Female,19,600001,"H.No. 647, Ward 4",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,24
+BPL200867,yes,Pooja Sharma,Female,20,600001,"H.No. 522, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,6,Son,no,25
+BPL200869,yes,Deepak Singh,Male,20,600001,"H.No. 593, Ward 1",Chennai,Tamil Nadu,no,4/21/2021,6,Brother,no,25
+BPL200870,yes,Anita Sharma,Female,19,600001,"H.No. 614, Ward 5",Chennai,Tamil Nadu,no,4/21/2021,5,Sister,no,24
+BPL200874,yes,Amit Naidu,Male,20,600001,"H.No. 699, Ward 2",Chennai,Tamil Nadu,no,4/21/2021,5,Sister,no,25
+BPL200875,yes,Suresh Das,Male,20,600001,"H.No. 940, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,4,Daughter,no,25
+BPL200882,yes,Rahul Singh,Male,19,600001,"H.No. 96, Ward 24",Chennai,Tamil Nadu,no,4/21/2021,4,Brother,no,24
+BPL200886,yes,Divya Naidu,Female,19,600001,"H.No. 494, Ward 7",Chennai,Tamil Nadu,no,4/21/2021,3,Son,no,24
+BPL200889,yes,Kavya Das,Female,18,600001,"H.No. 881, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,4,Son,no,23
+BPL200897,yes,Divya Iyer,Female,18,600001,"H.No. 617, Ward 16",Chennai,Tamil Nadu,no,4/21/2021,3,Son,no,23
+BPL200903,yes,Vikas Verma,Male,19,600001,"H.No. 184, Ward 6",Chennai,Tamil Nadu,no,4/21/2021,3,Brother,no,24
+BPL200905,yes,Prakash Singh,Male,18,600001,"H.No. 138, Ward 5",Chennai,Tamil Nadu,no,4/21/2021,5,Son,no,23
+BPL200907,yes,Neha Kumar,Female,19,600001,"H.No. 521, Ward 20",Chennai,Tamil Nadu,no,4/21/2021,5,Brother,no,24
+BPL200918,yes,Lakshmi Kumar,Female,19,600001,"H.No. 760, Ward 18",Chennai,Tamil Nadu,no,4/21/2021,3,Sister,no,24
+BPL200923,yes,Asha Sharma,Female,18,600001,"H.No. 615, Ward 13",Chennai,Tamil Nadu,no,4/21/2021,4,Brother,no,23
+BPL200925,yes,Rahul Gowda,Male,20,600001,"H.No. 81, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,3,Daughter,no,25
+BPL200928,yes,Rohit Verma,Male,18,600001,"H.No. 290, Ward 25",Chennai,Tamil Nadu,no,4/21/2021,3,Brother,no,23
+BPL200932,yes,Ritu Patil,Female,19,600001,"H.No. 338, Ward 15",Chennai,Tamil Nadu,no,4/21/2021,5,Sister,no,24
+BPL200948,yes,Manoj Naidu,Male,18,600001,"H.No. 191, Ward 13",Chennai,Tamil Nadu,no,4/21/2021,6,Daughter,no,23
+BPL200950,yes,Lakshmi Naidu,Female,14,600001,"H.No. 702, Ward 8",Chennai,Tamil Nadu,no,4/21/2021,5,Spouse,no,19
+BPL200956,yes,Pooja Patil,Female,13,600001,"H.No. 959, Ward 17",Chennai,Tamil Nadu,no,4/21/2021,7,Mother,no,18
+BPL200958,yes,Anil Naidu,Male,14,600001,"H.No. 180, Ward 9",Chennai,Tamil Nadu,no,4/21/2021,3,Head,no,19
+BPL200008,yes,Anita Reddy,Female,20,700001,"H.No. 62, Ward 21",Kolkata,West Bengal,no,4/21/2021,3,Sister,no,25
+BPL200012,yes,Deepak Das,Male,20,700001,"H.No. 399, Ward 23",Kolkata,West Bengal,no,4/21/2021,5,Sister,no,25
+BPL200019,yes,Meena Gowda,Female,18,700001,"H.No. 749, Ward 9",Kolkata,West Bengal,no,4/21/2021,4,Son,no,23
+BPL200020,yes,Ritu Gowda,Female,19,700001,"H.No. 253, Ward 21",Kolkata,West Bengal,no,4/21/2021,6,Brother,no,24
+BPL200022,yes,Vikas Verma,Male,19,700001,"H.No. 819, Ward 13",Kolkata,West Bengal,no,4/21/2021,4,Son,no,24
+BPL200024,yes,Deepak Sharma,Male,19,700001,"H.No. 333, Ward 6",Kolkata,West Bengal,no,4/21/2021,6,Son,no,24
+BPL200036,yes,Vikas Patil,Male,19,700001,"H.No. 858, Ward 2",Kolkata,West Bengal,no,4/21/2021,4,Sister,no,24
+BPL200042,yes,Suresh Naidu,Male,19,700001,"H.No. 271, Ward 11",Kolkata,West Bengal,no,4/21/2021,6,Sister,no,24
+BPL200049,yes,Anil Naidu,Male,19,700001,"H.No. 150, Ward 19",Kolkata,West Bengal,no,4/21/2021,5,Daughter,no,24
+BPL200051,yes,Amit Reddy,Male,20,700001,"H.No. 479, Ward 23",Kolkata,West Bengal,no,4/21/2021,6,Daughter,no,25
+BPL200056,yes,Rohit Iyer,Male,19,700001,"H.No. 744, Ward 22",Kolkata,West Bengal,no,4/21/2021,3,Sister,no,24
+BPL200059,yes,Divya Das,Female,20,700001,"H.No. 253, Ward 3",Kolkata,West Bengal,no,4/21/2021,3,Daughter,no,25
+BPL200061,yes,Kavya Reddy,Female,18,700001,"H.No. 558, Ward 17",Kolkata,West Bengal,no,4/21/2021,5,Son,no,23
+BPL200062,yes,Kavya Sharma,Female,19,700001,"H.No. 635, Ward 1",Kolkata,West Bengal,no,4/21/2021,6,Daughter,no,24
+BPL200064,yes,Arjun Iyer,Male,18,700001,"H.No. 739, Ward 21",Kolkata,West Bengal,no,4/21/2021,6,Sister,no,23
+BPL200065,yes,Neha Iyer,Female,19,700001,"H.No. 806, Ward 19",Kolkata,West Bengal,no,4/21/2021,5,Son,no,24
+BPL200066,yes,Manoj Singh,Male,18,700001,"H.No. 45, Ward 14",Kolkata,West Bengal,no,4/21/2021,5,Daughter,no,23
+BPL200067,yes,Divya Das,Female,18,700001,"H.No. 35, Ward 6",Kolkata,West Bengal,no,4/21/2021,5,Daughter,no,23
+BPL200080,yes,Meena Gowda,Female,18,700001,"H.No. 882, Ward 4",Kolkata,West Bengal,no,4/21/2021,6,Sister,no,23
+BPL200084,yes,Manoj Reddy,Male,18,700001,"H.No. 567, Ward 19",Kolkata,West Bengal,no,4/21/2021,5,Sister,no,23
+BPL200086,yes,Arjun Verma,Male,19,700001,"H.No. 715, Ward 19",Kolkata,West Bengal,no,4/21/2021,3,Son,no,24
+BPL200092,yes,Ritu Reddy,Female,18,700001,"H.No. 894, Ward 22",Kolkata,West Bengal,no,4/21/2021,4,Son,no,23
+BPL200094,yes,Pooja Sharma,Female,20,700001,"H.No. 270, Ward 2",Kolkata,West Bengal,no,4/21/2021,4,Brother,no,25
+BPL200104,yes,Kavya Verma,Female,19,700001,"H.No. 890, Ward 20",Kolkata,West Bengal,no,4/21/2021,6,Brother,no,24
+BPL200120,yes,Neha Verma,Female,20,700001,"H.No. 921, Ward 10",Kolkata,West Bengal,no,4/21/2021,3,Daughter,no,25
+BPL200127,yes,Asha Singh,Female,18,700001,"H.No. 327, Ward 23",Kolkata,West Bengal,no,4/21/2021,6,Daughter,no,23
+BPL200136,yes,Amit Kumar,Male,13,700001,"H.No. 412, Ward 4",Kolkata,West Bengal,no,4/21/2021,7,Mother,no,18
+BPL200155,yes,Anita Gowda,Female,17,700001,"H.No. 80, Ward 9",Kolkata,West Bengal,no,4/21/2021,3,Head,yes,22
+BPL200170,yes,Pooja Das,Female,13,700001,"H.No. 367, Ward 16",Kolkata,West Bengal,no,4/21/2021,4,Father,yes,18
+BPL200176,yes,Kavya Sharma,Female,15,700001,"H.No. 904, Ward 8",Kolkata,West Bengal,no,4/21/2021,4,Head,no,20
+BPL200008,yes,Anita Reddy,Female,20,700001,"H.No. 62, Ward 21",Kolkata,West Bengal,no,4/21/2021,3,Sister,no,25
+BPL200012,yes,Deepak Das,Male,20,700001,"H.No. 399, Ward 23",Kolkata,West Bengal,no,4/21/2021,5,Sister,no,25
+BPL200019,yes,Meena Gowda,Female,18,700001,"H.No. 749, Ward 9",Kolkata,West Bengal,no,4/21/2021,4,Son,no,23
+BPL200020,yes,Ritu Gowda,Female,19,700001,"H.No. 253, Ward 21",Kolkata,West Bengal,no,4/21/2021,6,Brother,no,24
+BPL200022,yes,Vikas Verma,Male,19,700001,"H.No. 819, Ward 13",Kolkata,West Bengal,no,4/21/2021,4,Son,no,24
+BPL200024,yes,Deepak Sharma,Male,19,700001,"H.No. 333, Ward 6",Kolkata,West Bengal,no,4/21/2021,6,Son,no,24
+BPL200036,yes,Vikas Patil,Male,19,700001,"H.No. 858, Ward 2",Kolkata,West Bengal,no,4/21/2021,4,Sister,no,24
+BPL200042,yes,Suresh Naidu,Male,19,700001,"H.No. 271, Ward 11",Kolkata,West Bengal,no,4/21/2021,6,Sister,no,24
+BPL200049,yes,Anil Naidu,Male,19,700001,"H.No. 150, Ward 19",Kolkata,West Bengal,no,4/21/2021,5,Daughter,no,24
+BPL200051,yes,Amit Reddy,Male,20,700001,"H.No. 479, Ward 23",Kolkata,West Bengal,no,4/21/2021,6,Daughter,no,25
+BPL200056,yes,Rohit Iyer,Male,19,700001,"H.No. 744, Ward 22",Kolkata,West Bengal,no,4/21/2021,3,Sister,no,24
+BPL200059,yes,Divya Das,Female,20,700001,"H.No. 253, Ward 3",Kolkata,West Bengal,no,4/21/2021,3,Daughter,no,25
+BPL200061,yes,Kavya Reddy,Female,18,700001,"H.No. 558, Ward 17",Kolkata,West Bengal,no,4/21/2021,5,Son,no,23
+BPL200062,yes,Kavya Sharma,Female,19,700001,"H.No. 635, Ward 1",Kolkata,West Bengal,no,4/21/2021,6,Daughter,no,24
+BPL200064,yes,Arjun Iyer,Male,18,700001,"H.No. 739, Ward 21",Kolkata,West Bengal,no,4/21/2021,6,Sister,no,23
+BPL200065,yes,Neha Iyer,Female,19,700001,"H.No. 806, Ward 19",Kolkata,West Bengal,no,4/21/2021,5,Son,no,24
+BPL200066,yes,Manoj Singh,Male,18,700001,"H.No. 45, Ward 14",Kolkata,West Bengal,no,4/21/2021,5,Daughter,no,23
+BPL200067,yes,Divya Das,Female,18,700001,"H.No. 35, Ward 6",Kolkata,West Bengal,no,4/21/2021,5,Daughter,no,23
+BPL200080,yes,Meena Gowda,Female,18,700001,"H.No. 882, Ward 4",Kolkata,West Bengal,no,4/21/2021,6,Sister,no,23
+BPL200084,yes,Manoj Reddy,Male,18,700001,"H.No. 567, Ward 19",Kolkata,West Bengal,no,4/21/2021,5,Sister,no,23
+BPL200086,yes,Arjun Verma,Male,19,700001,"H.No. 715, Ward 19",Kolkata,West Bengal,no,4/21/2021,3,Son,no,24
+BPL200092,yes,Ritu Reddy,Female,18,700001,"H.No. 894, Ward 22",Kolkata,West Bengal,no,4/21/2021,4,Son,no,23
+BPL200094,yes,Pooja Sharma,Female,20,700001,"H.No. 270, Ward 2",Kolkata,West Bengal,no,4/21/2021,4,Brother,no,25
+BPL200104,yes,Kavya Verma,Female,19,700001,"H.No. 890, Ward 20",Kolkata,West Bengal,no,4/21/2021,6,Brother,no,24
+BPL200120,yes,Neha Verma,Female,20,700001,"H.No. 921, Ward 10",Kolkata,West Bengal,no,4/21/2021,3,Daughter,no,25
+BPL200127,yes,Asha Singh,Female,18,700001,"H.No. 327, Ward 23",Kolkata,West Bengal,no,4/21/2021,6,Daughter,no,23
+BPL200136,yes,Amit Kumar,Male,13,700001,"H.No. 412, Ward 4",Kolkata,West Bengal,no,4/21/2021,7,Mother,no,18
+BPL200155,yes,Anita Gowda,Female,17,700001,"H.No. 80, Ward 9",Kolkata,West Bengal,no,4/21/2021,3,Head,yes,22
+BPL200170,yes,Pooja Das,Female,13,700001,"H.No. 367, Ward 16",Kolkata,West Bengal,no,4/21/2021,4,Father,yes,18
+BPL200176,yes,Kavya Sharma,Female,15,700001,"H.No. 904, Ward 8",Kolkata,West Bengal,no,4/21/2021,4,Head,no,20
+BPL200181,yes,Asha Patil,Female,20,560001,"H.No. 5, Ward 23",Bengaluru,Karnataka,no,4/21/2021,6,Daughter,no,25
+BPL200182,yes,Vikas Reddy,Male,19,560001,"H.No. 820, Ward 11",Bengaluru,Karnataka,no,4/21/2021,4,Sister,no,24
+BPL200190,yes,Vikas Kumar,Male,19,560001,"H.No. 191, Ward 9",Bengaluru,Karnataka,no,4/21/2021,6,Daughter,no,24
+BPL200193,yes,Pooja Verma,Female,18,560001,"H.No. 524, Ward 22",Bengaluru,Karnataka,no,4/21/2021,4,Brother,no,23
+BPL200207,yes,Divya Sharma,Female,18,560001,"H.No. 559, Ward 2",Bengaluru,Karnataka,no,4/21/2021,4,Sister,no,23
+BPL200214,yes,Vikas Verma,Male,19,560001,"H.No. 485, Ward 16",Bengaluru,Karnataka,no,4/21/2021,6,Brother,no,24
+BPL200219,yes,Lakshmi Verma,Female,20,560001,"H.No. 379, Ward 2",Bengaluru,Karnataka,no,4/21/2021,5,Sister,no,25
+BPL200242,yes,Amit Naidu,Male,19,560001,"H.No. 107, Ward 20",Bengaluru,Karnataka,no,4/21/2021,4,Son,no,24
+BPL200246,yes,Anil Kumar,Male,18,560001,"H.No. 314, Ward 22",Bengaluru,Karnataka,no,4/21/2021,6,Son,no,23
+BPL200256,yes,Deepak Singh,Male,18,560001,"H.No. 994, Ward 23",Bengaluru,Karnataka,no,4/21/2021,5,Brother,no,23
+BPL200260,yes,Kavya Gowda,Female,19,560001,"H.No. 964, Ward 24",Bengaluru,Karnataka,no,4/21/2021,3,Sister,no,24
+BPL200284,yes,Divya Das,Female,19,560001,"H.No. 43, Ward 23",Bengaluru,Karnataka,no,4/21/2021,4,Son,no,24
+BPL200287,yes,Prakash Gowda,Male,20,560001,"H.No. 740, Ward 5",Bengaluru,Karnataka,no,4/21/2021,5,Son,no,25
+BPL200290,yes,Sunita Kumar,Female,18,560001,"H.No. 72, Ward 15",Bengaluru,Karnataka,no,4/21/2021,4,Daughter,no,23
+BPL200301,yes,Prakash Naidu,Male,19,560001,"H.No. 748, Ward 1",Bengaluru,Karnataka,no,4/21/2021,5,Daughter,no,24
+BPL200303,yes,Suresh Das,Male,19,560001,"H.No. 275, Ward 16",Bengaluru,Karnataka,no,4/21/2021,5,Daughter,no,24
+BPL200314,yes,Prakash Verma,Male,19,560001,"H.No. 579, Ward 24",Bengaluru,Karnataka,no,4/21/2021,6,Son,no,24
+BPL200323,yes,Sunita Das,Female,13,560001,"H.No. 480, Ward 8",Bengaluru,Karnataka,no,4/21/2021,5,Head,no,18
+BPL200329,yes,Arjun Naidu,Male,17,560001,"H.No. 628, Ward 3",Bengaluru,Karnataka,no,4/21/2021,5,Spouse,yes,22
+BPL200334,yes,Amit Iyer,Male,16,560001,"H.No. 307, Ward 3",Bengaluru,Karnataka,no,4/21/2021,6,Head,no,21
+BPL200335,yes,Sunita Naidu,Female,14,560001,"H.No. 927, Ward 22",Bengaluru,Karnataka,no,4/21/2021,6,Mother,yes,19
+BPL200348,yes,Vikas Sharma,Male,14,560001,"H.No. 716, Ward 14",Bengaluru,Karnataka,no,4/21/2021,4,Head,no,19
+BPL200349,yes,Rohit Gowda,Male,16,560001,"H.No. 771, Ward 17",Bengaluru,Karnataka,no,4/21/2021,7,Mother,no,21
+BPL200181,yes,Asha Patil,Female,20,560001,"H.No. 5, Ward 23",Bengaluru,Karnataka,no,4/21/2021,6,Daughter,no,25
+BPL200182,yes,Vikas Reddy,Male,19,560001,"H.No. 820, Ward 11",Bengaluru,Karnataka,no,4/21/2021,4,Sister,no,24
+BPL200190,yes,Vikas Kumar,Male,19,560001,"H.No. 191, Ward 9",Bengaluru,Karnataka,no,4/21/2021,6,Daughter,no,24
+BPL200193,yes,Pooja Verma,Female,18,560001,"H.No. 524, Ward 22",Bengaluru,Karnataka,no,4/21/2021,4,Brother,no,23
+BPL200207,yes,Divya Sharma,Female,18,560001,"H.No. 559, Ward 2",Bengaluru,Karnataka,no,4/21/2021,4,Sister,no,23
+BPL200214,yes,Vikas Verma,Male,19,560001,"H.No. 485, Ward 16",Bengaluru,Karnataka,no,4/21/2021,6,Brother,no,24
+BPL200219,yes,Lakshmi Verma,Female,20,560001,"H.No. 379, Ward 2",Bengaluru,Karnataka,no,4/21/2021,5,Sister,no,25
+BPL200242,yes,Amit Naidu,Male,19,560001,"H.No. 107, Ward 20",Bengaluru,Karnataka,no,4/21/2021,4,Son,no,24
+BPL200246,yes,Anil Kumar,Male,18,560001,"H.No. 314, Ward 22",Bengaluru,Karnataka,no,4/21/2021,6,Son,no,23
+BPL200256,yes,Deepak Singh,Male,18,560001,"H.No. 994, Ward 23",Bengaluru,Karnataka,no,4/21/2021,5,Brother,no,23

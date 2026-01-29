@@ -1,0 +1,67 @@
+{
+  "Admin Login": {
+    "Hindi": "प्रशासक लॉगिन",
+    "Punjabi": "ਪਰਸ਼ਾਸਕ ਲੌਗਇਨ",
+    "Kannada": "ನಿರ್ವಾಹಕ ಲಾಗಿನ್"
+  },
+  "Mobilizer Login": {
+    "Hindi": "मोबिलाइज़र लॉगिन",
+    "Punjabi": "ਮੋਬਿਲਾਈਜ਼ਰ ਲੌਗਇਨ",
+    "Kannada": "ಮೊಬಿಲೈಜರ್ ಲಾಗಿನ್"
+  },
+  "Livelihood Program": {
+    "Hindi": "आजीविका कार्यक्रम",
+    "Punjabi": "ਰੋਜ਼ੀ-ਰੋਟੀ ਪ੍ਰੋਗਰਾਮ",
+    "Kannada": "ಜೀವನೋಪಾಯ ಕಾರ್ಯಕ್ರಮ"
+  },
+  "Adolescent Program": {
+    "Hindi": "किशोर कार्यक्रम",
+    "Punjabi": "ਕਿਸ਼ੋਰ ਪ੍ਰੋਗਰਾਮ",
+    "Kannada": "ಕಿಶೋರರ ಕಾರ್ಯಕ್ರಮ"
+  },
+    "Enter your Credentials": {
+    "Hindi": "अपने प्रमाण-पत्र दर्ज करें",
+    "Punjabi": "ਆਪਣੇ ਪ੍ਰਮਾਣ ਪੱਤਰ ਦਰਜ ਕਰੋ",
+    "Kannada": "ನಿಮ್ಮ ಪ್ರವೇಶ ವಿವರಗಳನ್ನು ನಮೂದಿಸಿ"
+  },
+  "Enter Username": {
+    "Hindi": "उपयोगकर्ता नाम दर्ज करें",
+    "Punjabi": "ਉਪਭੋਗਤਾ ਨਾਮ ਦਰਜ ਕਰੋ",
+    "Kannada": "ಬಳಕೆದಾರ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+  },
+  "Enter Password": {
+    "Hindi": "पासवर्ड दर्ज करें",
+    "Punjabi": "ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ",
+    "Kannada": "ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ"
+  },
+  "Login": {
+    "Hindi": "लॉगिन",
+    "Punjabi": "ਲੌਗਇਨ",
+    "Kannada": "ಲಾಗಿನ್"
+  },
+  "Welcome": {
+    "Hindi": "स्वागत है",
+    "Punjabi": "ਸਵਾਗਤ ਹੈ",
+    "Kannada": "ಸ್ವಾಗತ"
+  },
+  "Aman": {
+    "Hindi": "अमन",
+    "Punjabi": "ਅਮਨ",
+    "Kannada": "ಅಮನ"
+  },
+  "Feed": {
+    "Hindi": "फ़ीड",
+    "Punjabi": "ਫੀਡ",
+    "Kannada": "ಫೀಡ್"
+  },
+  "Alumni Network": {
+    "Hindi": "पूर्व छात्र नेटवर्क",
+    "Punjabi": "ਐਲਮੂਨਾਈ ਨੈੱਟਵਰਕ",
+    "Kannada": "ಹಳೆಯ ವಿದ್ಯಾರ್ಥಿಗಳ ಜಾಲ"
+  },
+  "Videos": {
+    "Hindi": "वीडियो",
+    "Punjabi": "ਵੀਡੀਓ",
+    "Kannada": "ವೀಡಿಯೊಗಳು"
+  }
+}
